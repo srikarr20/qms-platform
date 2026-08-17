@@ -1,0 +1,32 @@
+QMS-QST-001D — Linear tomography reconstruction
+qubits: 2
+measurements: 36
+
+Linear system diagnostics
+-------------------------
+matrix shape: (36, 16)
+rank: 16
+condition number: 3.000000e+00
+least-squares residual: 2.548776e-31
+
+Reconstructed density matrix
+----------------------------
+[[ 0.5+0.j  0. +0.j -0. -0.j  0.5-0.j]
+ [ 0. -0.j  0. +0.j  0. -0.j  0. -0.j]
+ [-0. +0.j  0. +0.j  0. +0.j -0. +0.j]
+ [ 0.5+0.j  0. +0.j -0. -0.j  0.5+0.j]]
+
+Density-matrix diagnostics
+--------------------------
+trace: (1+0j)
+Hermitian error: 0.000000e+00
+minimum eigenvalue: -4.185729e-16
+purity: 1.000000000000
+eigenvalues: [-0. -0.  0.  1.]
+
+Reference comparison
+--------------------
+Bell-state fidelity: 1.000000000000
+Frobenius error: 8.583984e-16
+
+Linear tomography validation: PASS

@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Runtime / validation artifacts
+artifacts/
+
+# Generated numerical results
+*.npz
+*.npy
+
+# Generated plots/images
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Logs / temporary files
+*.log
+*.tmp
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# Local environment/config
+.env
+.env.*
+adapters/repo_audit.json
+adapters/repo_audit.txt

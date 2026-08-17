@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qms-platform"
+version = "0.1.0"
+description = "Modality-aware measurement twin platform for reconstruction, observability, dynamics, and replay"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
+
+[tool.setuptools]
+packages = [
+    "qms_platform",
+    "qms_core",
+    "twin",
+    "dpi",
+    "adapters",
+]
+
+[tool.setuptools.package-data]
+"*" = ["*.json"]

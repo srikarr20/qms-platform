@@ -1,0 +1,160 @@
+{
+  "experiment": "QMS-REAL-022",
+  "dataset": "Glasgow Ghost Imaging MM set 1",
+  "source_level": "raw 512x512 ASC detector frames",
+  "method": "unchanged cross-objective state-classifier transfer",
+  "windows": [
+    {
+      "window_index": 0,
+      "frame_start": 1,
+      "frame_end": 100,
+      "cosine_to_final": 0.9556027380720646,
+      "js_divergence_to_final": 0.012224556633172057,
+      "smoothed_cosine": 0.9556027380720646,
+      "smoothed_js": 0.012224556633172057,
+      "delta_smoothed_cosine": 0.0,
+      "delta_smoothed_js": 0.0,
+      "state": "initial"
+    },
+    {
+      "window_index": 1,
+      "frame_start": 101,
+      "frame_end": 200,
+      "cosine_to_final": 0.9858065182030605,
+      "js_divergence_to_final": 0.0037145654061053,
+      "smoothed_cosine": 0.9707046281375626,
+      "smoothed_js": 0.00796956101963868,
+      "delta_smoothed_cosine": 0.015101890065498003,
+      "delta_smoothed_js": -0.004254995613533378,
+      "state": "converging"
+    },
+    {
+      "window_index": 2,
+      "frame_start": 201,
+      "frame_end": 300,
+      "cosine_to_final": 0.9936177586401632,
+      "js_divergence_to_final": 0.0016456886982663395,
+      "smoothed_cosine": 0.9783423383050961,
+      "smoothed_js": 0.005861603579181233,
+      "delta_smoothed_cosine": 0.007637710167533451,
+      "delta_smoothed_js": -0.0021079574404574463,
+      "state": "converging"
+    },
+    {
+      "window_index": 3,
+      "frame_start": 301,
+      "frame_end": 400,
+      "cosine_to_final": 0.9970326902413699,
+      "js_divergence_to_final": 0.0007561006946818021,
+      "smoothed_cosine": 0.9921523223615312,
+      "smoothed_js": 0.002038784933017814,
+      "delta_smoothed_cosine": 0.013809984056435076,
+      "delta_smoothed_js": -0.003822818646163419,
+      "state": "converging"
+    },
+    {
+      "window_index": 4,
+      "frame_start": 401,
+      "frame_end": 500,
+      "cosine_to_final": 0.998407545673142,
+      "js_divergence_to_final": 0.0004012435403111561,
+      "smoothed_cosine": 0.9963526648515583,
+      "smoothed_js": 0.0009343443110864325,
+      "delta_smoothed_cosine": 0.004200342490027098,
+      "delta_smoothed_js": -0.0011044406219313818,
+      "state": "converging"
+    },
+    {
+      "window_index": 5,
+      "frame_start": 501,
+      "frame_end": 600,
+      "cosine_to_final": 0.9991863092253294,
+      "js_divergence_to_final": 0.00020677894516744685,
+      "smoothed_cosine": 0.9982088483799471,
+      "smoothed_js": 0.00045470772672013497,
+      "delta_smoothed_cosine": 0.0018561835283887884,
+      "delta_smoothed_js": -0.0004796365843662975,
+      "state": "converging"
+    },
+    {
+      "window_index": 6,
+      "frame_start": 601,
+      "frame_end": 700,
+      "cosine_to_final": 0.9993814881182242,
+      "js_divergence_to_final": 0.00015378289050448844,
+      "smoothed_cosine": 0.9989917810055652,
+      "smoothed_js": 0.0002539351253276971,
+      "delta_smoothed_cosine": 0.0007829326256181268,
+      "delta_smoothed_js": -0.00020077260139243785,
+      "state": "converging"
+    },
+    {
+      "window_index": 7,
+      "frame_start": 701,
+      "frame_end": 800,
+      "cosine_to_final": 0.9993829152497591,
+      "js_divergence_to_final": 0.00015276218147020982,
+      "smoothed_cosine": 0.9993169041977709,
+      "smoothed_js": 0.00017110800571404838,
+      "delta_smoothed_cosine": 0.00032512319220567854,
+      "delta_smoothed_js": -8.282711961364874e-05,
+      "state": "converging"
+    },
+    {
+      "window_index": 8,
+      "frame_start": 801,
+      "frame_end": 900,
+      "cosine_to_final": 0.9991363865510879,
+      "js_divergence_to_final": 0.0002164949814309797,
+      "smoothed_cosine": 0.9993002633063571,
+      "smoothed_js": 0.0001743466844685593,
+      "delta_smoothed_cosine": -1.6640891413732817e-05,
+      "delta_smoothed_js": 3.2386787545109284e-06,
+      "state": "drifting"
+    },
+    {
+      "window_index": 9,
+      "frame_start": 901,
+      "frame_end": 1000,
+      "cosine_to_final": 0.9987604261006044,
+      "js_divergence_to_final": 0.00031174250573432535,
+      "smoothed_cosine": 0.9990932426338172,
+      "smoothed_js": 0.00022699988954517163,
+      "delta_smoothed_cosine": -0.00020702067253997036,
+      "delta_smoothed_js": 5.265320507661232e-05,
+      "state": "drifting"
+    }
+  ],
+  "summary": {
+    "raw_frames": 1000,
+    "n_windows": 10,
+    "window_frames": 100,
+    "smoothing_windows": 3,
+    "state_counts": {
+      "initial": 1,
+      "converging": 7,
+      "drifting": 2
+    },
+    "first_detected_drift": {
+      "window_index": 8,
+      "frame_start": 801,
+      "frame_end": 900
+    },
+    "state_transitions": [
+      {
+        "window_index": 8,
+        "frame_start": 801,
+        "from": "converging",
+        "to": "drifting"
+      }
+    ],
+    "maximum_cosine_window": 7,
+    "minimum_js_window": 7,
+    "cosine_start": 0.9556027380720646,
+    "cosine_end": 0.9987604261006044,
+    "js_start": 0.012224556633172057,
+    "js_end": 0.00031174250573432535,
+    "interpretation": "The same 100-frame convergence diagnostics, three-window smoothing, and state classification rule used for the diffraction datasets are applied unchanged to Ghost Imaging MM."
+  },
+  "caution": "Only 1000 raw frames are available, producing 10 windows at the fixed 100-frame resolution. State-transition conclusions are therefore less statistically supported than the 4070-frame diffraction acquisitions."
+}

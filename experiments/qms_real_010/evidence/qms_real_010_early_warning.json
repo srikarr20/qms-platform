@@ -1,0 +1,344 @@
+{
+  "experiment": "QMS-REAL-010",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "drift_reference_frame": 3034,
+  "drift_reference_window": 31,
+  "pre_drift_slopes": [
+    {
+      "lookback_windows": 3,
+      "window_start_index": 28,
+      "window_end_index": 30,
+      "frame_start": 2801,
+      "frame_end": 3100,
+      "metric_slopes": {
+        "effective_dimension": 0.0005938967826236259,
+        "first_pc_fraction": -0.0006136756451071214,
+        "radial_std": -0.10221536799475991,
+        "radial_p99": -0.006788683947898053,
+        "cosine_to_final": -0.0004799487378711414,
+        "js_divergence_to_final": 8.941254325597741e-05
+      }
+    },
+    {
+      "lookback_windows": 5,
+      "window_start_index": 26,
+      "window_end_index": 30,
+      "frame_start": 2601,
+      "frame_end": 3100,
+      "metric_slopes": {
+        "effective_dimension": 0.0007619546484518042,
+        "first_pc_fraction": -0.0007793680171732365,
+        "radial_std": -0.13987933500073638,
+        "radial_p99": -0.32483010972359616,
+        "cosine_to_final": -0.00035993564247169263,
+        "js_divergence_to_final": -3.059917923736856e-06
+      }
+    },
+    {
+      "lookback_windows": 8,
+      "window_start_index": 23,
+      "window_end_index": 30,
+      "frame_start": 2301,
+      "frame_end": 3100,
+      "metric_slopes": {
+        "effective_dimension": 0.0010842801261615115,
+        "first_pc_fraction": -0.001075249766464222,
+        "radial_std": -0.14157182614591057,
+        "radial_p99": -0.2871547621379123,
+        "cosine_to_final": -0.00020097115748394303,
+        "js_divergence_to_final": -0.00018176632079084954
+      }
+    }
+  ],
+  "rolling_five_window_slopes": [
+    {
+      "window_index": 5,
+      "frame_start": 501,
+      "effective_dimension_slope": 0.005174197066959631,
+      "first_pc_fraction_slope": -0.003023130255243553,
+      "cosine_slope": 0.039781018519405374,
+      "js_slope": -0.03543744524599771
+    },
+    {
+      "window_index": 6,
+      "frame_start": 601,
+      "effective_dimension_slope": 0.009184551808742118,
+      "first_pc_fraction_slope": -0.005416966066272571,
+      "cosine_slope": 0.025034897696755907,
+      "js_slope": -0.025220908261671046
+    },
+    {
+      "window_index": 7,
+      "frame_start": 701,
+      "effective_dimension_slope": 0.010405827968773759,
+      "first_pc_fraction_slope": -0.0063240750539386445,
+      "cosine_slope": 0.015799285346807516,
+      "js_slope": -0.018709402163580052
+    },
+    {
+      "window_index": 8,
+      "frame_start": 801,
+      "effective_dimension_slope": 0.006619410428419655,
+      "first_pc_fraction_slope": -0.004142752036817725,
+      "cosine_slope": 0.011944148804984435,
+      "js_slope": -0.014301314779845432
+    },
+    {
+      "window_index": 9,
+      "frame_start": 901,
+      "effective_dimension_slope": 0.005050929340409896,
+      "first_pc_fraction_slope": -0.0032597034930365223,
+      "cosine_slope": 0.008259474292034458,
+      "js_slope": -0.010926727748669323
+    },
+    {
+      "window_index": 10,
+      "frame_start": 1001,
+      "effective_dimension_slope": 0.003793162715799857,
+      "first_pc_fraction_slope": -0.0025290741325223556,
+      "cosine_slope": 0.0059847629334833655,
+      "js_slope": -0.009012173182789431
+    },
+    {
+      "window_index": 11,
+      "frame_start": 1101,
+      "effective_dimension_slope": 0.004948831447158316,
+      "first_pc_fraction_slope": -0.0034864574307337604,
+      "cosine_slope": 0.004929492284483883,
+      "js_slope": -0.00783121260413355
+    },
+    {
+      "window_index": 12,
+      "frame_start": 1201,
+      "effective_dimension_slope": 0.007638417927814975,
+      "first_pc_fraction_slope": -0.0055159693029837465,
+      "cosine_slope": 0.004286151185549643,
+      "js_slope": -0.006473157695039892
+    },
+    {
+      "window_index": 13,
+      "frame_start": 1301,
+      "effective_dimension_slope": 0.007622181145882644,
+      "first_pc_fraction_slope": -0.005751269948398127,
+      "cosine_slope": 0.0037476265547555262,
+      "js_slope": -0.005152967353289714
+    },
+    {
+      "window_index": 14,
+      "frame_start": 1401,
+      "effective_dimension_slope": 0.006264669582507065,
+      "first_pc_fraction_slope": -0.004847829444185039,
+      "cosine_slope": 0.0030840672004073754,
+      "js_slope": -0.0039381213979129154
+    },
+    {
+      "window_index": 15,
+      "frame_start": 1501,
+      "effective_dimension_slope": 0.003630760102681495,
+      "first_pc_fraction_slope": -0.002959750296367383,
+      "cosine_slope": 0.0027310524170830876,
+      "js_slope": -0.0032584781464476517
+    },
+    {
+      "window_index": 16,
+      "frame_start": 1601,
+      "effective_dimension_slope": 0.0021432599559088853,
+      "first_pc_fraction_slope": -0.0018132368155800596,
+      "cosine_slope": 0.0025099902892788996,
+      "js_slope": -0.0027414670075043084
+    },
+    {
+      "window_index": 17,
+      "frame_start": 1701,
+      "effective_dimension_slope": 0.0016234960723142554,
+      "first_pc_fraction_slope": -0.0014218579595050892,
+      "cosine_slope": 0.00221650819440336,
+      "js_slope": -0.002396330300368631
+    },
+    {
+      "window_index": 18,
+      "frame_start": 1801,
+      "effective_dimension_slope": 0.0021937648014085805,
+      "first_pc_fraction_slope": -0.001961721055850745,
+      "cosine_slope": 0.0018494852989911917,
+      "js_slope": -0.0020558881123788155
+    },
+    {
+      "window_index": 19,
+      "frame_start": 1901,
+      "effective_dimension_slope": 0.0020516128848442933,
+      "first_pc_fraction_slope": -0.0018717744077358584,
+      "cosine_slope": 0.0016017343899618433,
+      "js_slope": -0.001611564167579216
+    },
+    {
+      "window_index": 20,
+      "frame_start": 2001,
+      "effective_dimension_slope": 0.001860712369270818,
+      "first_pc_fraction_slope": -0.0017220001883153418,
+      "cosine_slope": 0.0013499869008507651,
+      "js_slope": -0.0014428775398773325
+    },
+    {
+      "window_index": 21,
+      "frame_start": 2101,
+      "effective_dimension_slope": 0.001132432885040375,
+      "first_pc_fraction_slope": -0.0010633812808205868,
+      "cosine_slope": 0.0011304818352958418,
+      "js_slope": -0.0012852558680056766
+    },
+    {
+      "window_index": 22,
+      "frame_start": 2201,
+      "effective_dimension_slope": 0.0002809563105116019,
+      "first_pc_fraction_slope": -0.0002676585087712541,
+      "cosine_slope": 0.0010431790382352424,
+      "js_slope": -0.0012052748111314228
+    },
+    {
+      "window_index": 23,
+      "frame_start": 2301,
+      "effective_dimension_slope": 0.00022803120433412732,
+      "first_pc_fraction_slope": -0.0002201120106958798,
+      "cosine_slope": 0.000923440829558512,
+      "js_slope": -0.0010864925333097584
+    },
+    {
+      "window_index": 24,
+      "frame_start": 2401,
+      "effective_dimension_slope": -0.00044161520603138923,
+      "first_pc_fraction_slope": 0.00041846523287989394,
+      "cosine_slope": 0.0008035830149193654,
+      "js_slope": -0.0010560676522678829
+    },
+    {
+      "window_index": 25,
+      "frame_start": 2501,
+      "effective_dimension_slope": -0.0002812506143425813,
+      "first_pc_fraction_slope": 0.00026758622758900666,
+      "cosine_slope": 0.0006020426717352024,
+      "js_slope": -0.0010278221281281082
+    },
+    {
+      "window_index": 26,
+      "frame_start": 2601,
+      "effective_dimension_slope": 0.00040644732834972197,
+      "first_pc_fraction_slope": -0.0003967852580428483,
+      "cosine_slope": 0.0003400372605511485,
+      "js_slope": -0.0008798294625308427
+    },
+    {
+      "window_index": 27,
+      "frame_start": 2701,
+      "effective_dimension_slope": 0.0008338498003610538,
+      "first_pc_fraction_slope": -0.0008125350832158519,
+      "cosine_slope": 0.00013424334519514366,
+      "js_slope": -0.0006750443375766155
+    },
+    {
+      "window_index": 28,
+      "frame_start": 2801,
+      "effective_dimension_slope": 0.0014295929415343049,
+      "first_pc_fraction_slope": -0.0013895977541344342,
+      "cosine_slope": -4.201805721820346e-05,
+      "js_slope": -0.0003785721131975108
+    },
+    {
+      "window_index": 29,
+      "frame_start": 2901,
+      "effective_dimension_slope": 0.00105539576712035,
+      "first_pc_fraction_slope": -0.0010454642964667017,
+      "cosine_slope": -0.00012614352658255903,
+      "js_slope": -0.0001901224118470124
+    },
+    {
+      "window_index": 30,
+      "frame_start": 3001,
+      "effective_dimension_slope": 0.0008234122946430135,
+      "first_pc_fraction_slope": -0.0008367653287797799,
+      "cosine_slope": -0.0002342248217760301,
+      "js_slope": -9.64000027440402e-05
+    },
+    {
+      "window_index": 31,
+      "frame_start": 3101,
+      "effective_dimension_slope": 0.0007619546484518042,
+      "first_pc_fraction_slope": -0.0007793680171732365,
+      "cosine_slope": -0.00035993564247169263,
+      "js_slope": -3.059917923736856e-06
+    },
+    {
+      "window_index": 32,
+      "frame_start": 3201,
+      "effective_dimension_slope": 0.00060733861564126,
+      "first_pc_fraction_slope": -0.0006242232745500635,
+      "cosine_slope": -0.00046556462620611633,
+      "js_slope": 6.99795004267603e-05
+    },
+    {
+      "window_index": 33,
+      "frame_start": 3301,
+      "effective_dimension_slope": 0.0005556676213941102,
+      "first_pc_fraction_slope": -0.0005811610195671213,
+      "cosine_slope": -0.0005277790899964746,
+      "js_slope": 0.00012361145350088843
+    },
+    {
+      "window_index": 34,
+      "frame_start": 3401,
+      "effective_dimension_slope": 0.0008871917035405348,
+      "first_pc_fraction_slope": -0.0009516145493100625,
+      "cosine_slope": -0.0006328929513160116,
+      "js_slope": 0.000193978895471942
+    },
+    {
+      "window_index": 35,
+      "frame_start": 3501,
+      "effective_dimension_slope": 0.0011223450298455176,
+      "first_pc_fraction_slope": -0.0012089538102122445,
+      "cosine_slope": -0.0007434430727333889,
+      "js_slope": 0.0002681655522658543
+    },
+    {
+      "window_index": 36,
+      "frame_start": 3601,
+      "effective_dimension_slope": 0.0012813497904115199,
+      "first_pc_fraction_slope": -0.0014012975926013089,
+      "cosine_slope": -0.000931390876555309,
+      "js_slope": 0.000371817289946685
+    },
+    {
+      "window_index": 37,
+      "frame_start": 3701,
+      "effective_dimension_slope": 0.0011616146351920004,
+      "first_pc_fraction_slope": -0.0013002630567524422,
+      "cosine_slope": -0.0010316130138938397,
+      "js_slope": 0.00042651988516265865
+    },
+    {
+      "window_index": 38,
+      "frame_start": 3801,
+      "effective_dimension_slope": 0.0009754027597395468,
+      "first_pc_fraction_slope": -0.0011193246272154262,
+      "cosine_slope": -0.0010185567819796203,
+      "js_slope": 0.00043719377382405816
+    },
+    {
+      "window_index": 39,
+      "frame_start": 3901,
+      "effective_dimension_slope": 0.0009898912077154073,
+      "first_pc_fraction_slope": -0.0011484537472782961,
+      "cosine_slope": -0.001007953383578037,
+      "js_slope": 0.0004393795091767642
+    },
+    {
+      "window_index": 40,
+      "frame_start": 4001,
+      "effective_dimension_slope": 0.000560370781581323,
+      "first_pc_fraction_slope": -0.0006590846815676217,
+      "cosine_slope": -0.0009427718592123986,
+      "js_slope": 0.0004099731290456048
+    }
+  ],
+  "interpretation_note": "This experiment tests whether representation and distribution metrics show systematic directional changes before the operational drift transition. It is exploratory and does not yet establish predictive lead time."
+}

@@ -1,0 +1,93 @@
+{
+  "experiment": "QMS-REAL-021",
+  "method": "multi-dataset transfer summary",
+  "summary": {
+    "n_datasets": 3,
+    "datasets": [
+      {
+        "dataset": "Heralded Diffraction SM",
+        "raw_frames": 4070,
+        "n_windows": 41,
+        "cosine_start": 0.770097624648956,
+        "cosine_end": 0.9869989587075536,
+        "cosine_improvement": 0.21690133405859757,
+        "js_start": 0.23258131834582219,
+        "js_end": 0.006501435564601331,
+        "js_reduction": 0.22607988278122085,
+        "maximum_cosine_window": 24,
+        "minimum_js_window": 28,
+        "first_drift": {
+          "window_index": 30,
+          "frame_start": 3001,
+          "frame_end": 3100
+        },
+        "normalized_drift_position": 0.7495085995085995,
+        "state_counts": {
+          "initial": 1,
+          "converging": 25,
+          "stable_or_mixed": 4,
+          "drifting": 11
+        }
+      },
+      {
+        "dataset": "Ghost Diffraction SM",
+        "raw_frames": 4070,
+        "n_windows": 41,
+        "cosine_start": 0.7681934455356938,
+        "cosine_end": 0.9873718974083084,
+        "cosine_improvement": 0.21917845187261464,
+        "js_start": 0.2606850444389265,
+        "js_end": 0.007156009277245114,
+        "js_reduction": 0.25352903516168135,
+        "maximum_cosine_window": 26,
+        "minimum_js_window": 29,
+        "first_drift": {
+          "window_index": 32,
+          "frame_start": 3201,
+          "frame_end": 3300
+        },
+        "normalized_drift_position": 0.7986486486486486,
+        "state_counts": {
+          "initial": 1,
+          "converging": 27,
+          "stable_or_mixed": 4,
+          "drifting": 9
+        }
+      },
+      {
+        "dataset": "Heralded Imaging MM set 1",
+        "raw_frames": 1000,
+        "n_windows": 10,
+        "cosine_start": 0.9328867676014115,
+        "cosine_end": 0.9978747806642468,
+        "cosine_improvement": 0.0649880130628353,
+        "js_start": 0.019095820828448386,
+        "js_end": 0.00047922861479290924,
+        "js_reduction": 0.018616592213655477,
+        "maximum_cosine_window": 6,
+        "minimum_js_window": 6,
+        "first_drift": {
+          "window_index": 8,
+          "frame_start": 801,
+          "frame_end": 900
+        },
+        "normalized_drift_position": 0.8505,
+        "state_counts": {
+          "initial": 1,
+          "converging": 7,
+          "drifting": 2
+        }
+      }
+    ],
+    "normalized_drift_positions": [
+      0.7495085995085995,
+      0.7986486486486486,
+      0.8505
+    ],
+    "normalized_drift_position_min": 0.7495085995085995,
+    "normalized_drift_position_max": 0.8505,
+    "normalized_drift_position_mean": 0.799552416052416,
+    "interpretation": "This experiment aggregates fixed QMS distribution-level convergence and state classification results across three real Glasgow acquisition conditions. Relative drift position is reported as the midpoint of the first drifting window divided by total raw frame count."
+  },
+  "caution": "The datasets are from the same experimental platform and have different acquisition lengths. The imaging dataset provides only 10 windows. Normalized drift timing is descriptive and should not be interpreted as a universal detector-failure threshold."
+}

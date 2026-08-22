@@ -1,0 +1,89 @@
+{
+  "definition": "Label-free reference-relative measurement health score. Uses only raw-IQ geometry and 0 Hz bootstrap statistics. QNDFid is not used to construct the score.",
+  "reference_condition_hz": 0,
+  "metrics": {
+    "effective_dimension": 1.0,
+    "first_pc_fraction": -1.0,
+    "radial_std": 1.0,
+    "radial_p99": 1.0
+  },
+  "conditions": [
+    {
+      "frequency_hz": 0,
+      "QNDFid": 0.91445,
+      "component_z_scores": {
+        "effective_dimension": -0.05363085990296258,
+        "first_pc_fraction": -0.053340667863820516,
+        "radial_std": 0.009466021339823568,
+        "radial_p99": 0.06164329216607056
+      },
+      "degradation_index": -0.008965553565222242,
+      "health_score": 100.0
+    },
+    {
+      "frequency_hz": 10,
+      "QNDFid": 0.90829,
+      "component_z_scores": {
+        "effective_dimension": 4.1623280564319165,
+        "first_pc_fraction": 4.157655045577531,
+        "radial_std": 6.248731758131058,
+        "radial_p99": 7.746952262769587
+      },
+      "degradation_index": 5.578916780727523,
+      "health_score": 79.99895041369396
+    },
+    {
+      "frequency_hz": 50,
+      "QNDFid": 0.89846,
+      "component_z_scores": {
+        "effective_dimension": 20.04258311279436,
+        "first_pc_fraction": 19.92844167630747,
+        "radial_std": 13.134807451341203,
+        "radial_p99": 9.956329353398981
+      },
+      "degradation_index": 15.765540398460505,
+      "health_score": 53.22608363318351
+    },
+    {
+      "frequency_hz": 250,
+      "QNDFid": 0.84371,
+      "component_z_scores": {
+        "effective_dimension": 51.38319204272159,
+        "first_pc_fraction": 50.65533607521454,
+        "radial_std": 33.20628998148349,
+        "radial_p99": 21.543542220311156
+      },
+      "degradation_index": 39.19709007993269,
+      "health_score": 20.848595477592216
+    },
+    {
+      "frequency_hz": 500,
+      "QNDFid": 0.7832399999999999,
+      "component_z_scores": {
+        "effective_dimension": 74.70543474049447,
+        "first_pc_fraction": 73.20518394433434,
+        "radial_std": 50.349962077397954,
+        "radial_p99": 32.141272300141
+      },
+      "degradation_index": 57.60046326559194,
+      "health_score": 9.985675892513719
+    },
+    {
+      "frequency_hz": 1000,
+      "QNDFid": 0.69235,
+      "component_z_scores": {
+        "effective_dimension": 112.03015950735814,
+        "first_pc_fraction": 108.79371174473842,
+        "radial_std": 74.26145911200962,
+        "radial_p99": 46.04746650435672
+      },
+      "degradation_index": 85.28319921711574,
+      "health_score": 3.299735181768519
+    }
+  ],
+  "validation": {
+    "health_score_QNDFid_pearson": 0.8614373308580221,
+    "degradation_QNDFid_pearson": -0.9886925635569589
+  },
+  "caution": "Score scaling is provisional and dataset-specific. This experiment tests whether a label-free reference-relative health index tracks experimental degradation; it does not establish a universal calibration."
+}

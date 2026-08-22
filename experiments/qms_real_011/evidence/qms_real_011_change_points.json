@@ -1,0 +1,69 @@
+{
+  "experiment": "QMS-REAL-011",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "drift_reference_frame": 3034,
+  "method": "Two-segment least-squares linear change-point search with at least five windows on each side.",
+  "metrics": {
+    "effective_dimension": {
+      "split": 13,
+      "error": 0.0003879654665839574,
+      "slope_before": 0.006406385296226574,
+      "slope_after": 0.0007979707264331953,
+      "change_frame": 1301,
+      "lead_frames_vs_drift": 1733,
+      "before_mean": 1.9142768433248958,
+      "after_mean": 1.9678168454117526
+    },
+    "first_pc_fraction": {
+      "split": 12,
+      "error": 0.00019068416083541909,
+      "slope_before": -0.004099471525235063,
+      "slope_after": -0.0008224548513173164,
+      "change_frame": 1201,
+      "lead_frames_vs_drift": 1833,
+      "before_mean": 0.6070893156410979,
+      "after_mean": 0.5640779075566313
+    },
+    "radial_std": {
+      "split": 7,
+      "error": 7.161447584794457,
+      "slope_before": -0.6430354295888018,
+      "slope_after": -0.04686812550483047,
+      "change_frame": 701,
+      "lead_frames_vs_drift": 2333,
+      "before_mean": 78.83921475156909,
+      "after_mean": 77.84090044091279
+    },
+    "radial_p99": {
+      "split": 20,
+      "error": 64.67534200895658,
+      "slope_before": -0.5465916393421715,
+      "slope_after": 0.06604984359172737,
+      "change_frame": 2001,
+      "lead_frames_vs_drift": 1033,
+      "before_mean": 314.1778859882149,
+      "after_mean": 316.33266541273997
+    },
+    "cosine_to_final": {
+      "split": 5,
+      "error": 0.004489108661695877,
+      "slope_before": 0.039781018519405374,
+      "slope_after": 0.0007861231136485476,
+      "change_frame": 501,
+      "lead_frames_vs_drift": 2533,
+      "before_mean": 0.8703304982330439,
+      "after_mean": 0.9873981786565678
+    },
+    "js_divergence_to_final": {
+      "split": 7,
+      "error": 0.0036506584916996894,
+      "slope_before": -0.02738477002152099,
+      "slope_after": -0.0009583513832085804,
+      "change_frame": 701,
+      "lead_frames_vs_drift": 2333,
+      "before_mean": 0.12441709658828366,
+      "after_mean": 0.011477920114483911
+    }
+  },
+  "caution": "Change points are retrospective. Positive lead time does not by itself establish prospective predictive capability."
+}

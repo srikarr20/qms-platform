@@ -1,0 +1,107 @@
+{
+  "dataset": "ISTA All-Optical SCQ Readout Fig. 4a",
+  "experimental_conditions": 6,
+  "conditions": [
+    {
+      "frequency_hz": 0,
+      "n_ground": 50000,
+      "n_excited": 50000,
+      "centroid_separation": 0.0001611669972945103,
+      "pooled_rms_spread": 5.389388455083787e-05,
+      "normalized_separation": 2.990450561092551,
+      "mahalanobis_separation": 3.5479025342954986,
+      "effective_dimension": 1.1946426545563373,
+      "Pgg": 0.98452,
+      "Pee": 0.84438,
+      "QNDFid": 0.91445
+    },
+    {
+      "frequency_hz": 10,
+      "n_ground": 50000,
+      "n_excited": 50000,
+      "centroid_separation": 0.0001609031299109245,
+      "pooled_rms_spread": 5.602390572766792e-05,
+      "normalized_separation": 2.8720441358207736,
+      "mahalanobis_separation": 3.3827498542424164,
+      "effective_dimension": 1.1985214268694062,
+      "Pgg": 0.9806,
+      "Pee": 0.83598,
+      "QNDFid": 0.90829
+    },
+    {
+      "frequency_hz": 50,
+      "n_ground": 50000,
+      "n_excited": 50000,
+      "centroid_separation": 0.0001548813583715524,
+      "pooled_rms_spread": 5.904172707884514e-05,
+      "normalized_separation": 2.623252503517075,
+      "mahalanobis_separation": 3.05932647897765,
+      "effective_dimension": 1.213131600938806,
+      "Pgg": 0.96448,
+      "Pee": 0.83244,
+      "QNDFid": 0.89846
+    },
+    {
+      "frequency_hz": 250,
+      "n_ground": 50000,
+      "n_excited": 50000,
+      "centroid_separation": 0.00013625535287916418,
+      "pooled_rms_spread": 7.001581454016749e-05,
+      "normalized_separation": 1.9460653821429958,
+      "mahalanobis_separation": 2.193936591554026,
+      "effective_dimension": 1.2419656310146496,
+      "Pgg": 0.9074,
+      "Pee": 0.78002,
+      "QNDFid": 0.84371
+    },
+    {
+      "frequency_hz": 500,
+      "n_ground": 50000,
+      "n_excited": 50000,
+      "centroid_separation": 0.00011676627483391286,
+      "pooled_rms_spread": 7.863162737813256e-05,
+      "normalized_separation": 1.4849784841968758,
+      "mahalanobis_separation": 1.6434456843585208,
+      "effective_dimension": 1.2634225927758986,
+      "Pgg": 0.84466,
+      "Pee": 0.72182,
+      "QNDFid": 0.7832399999999999
+    },
+    {
+      "frequency_hz": 1000,
+      "n_ground": 50000,
+      "n_excited": 50000,
+      "centroid_separation": 9.175063723003894e-05,
+      "pooled_rms_spread": 8.599020978190616e-05,
+      "normalized_separation": 1.0669893405626378,
+      "mahalanobis_separation": 1.1712393543758952,
+      "effective_dimension": 1.2977621373235684,
+      "Pgg": 0.76156,
+      "Pee": 0.62314,
+      "QNDFid": 0.69235
+    }
+  ],
+  "correlations": {
+    "centroid_separation": {
+      "pearson_with_QNDFid": 0.9978530772211139,
+      "spearman_with_QNDFid": 1.0
+    },
+    "pooled_rms_spread": {
+      "pearson_with_QNDFid": -0.9786654175300743,
+      "spearman_with_QNDFid": -1.0
+    },
+    "normalized_separation": {
+      "pearson_with_QNDFid": 0.9706967485541245,
+      "spearman_with_QNDFid": 1.0
+    },
+    "mahalanobis_separation": {
+      "pearson_with_QNDFid": 0.9643107878076096,
+      "spearman_with_QNDFid": 1.0
+    },
+    "effective_dimension": {
+      "pearson_with_QNDFid": -0.9881027554998411,
+      "spearman_with_QNDFid": -1.0
+    }
+  },
+  "caution": "Only six experimental conditions are available. Correlations are exploratory and QNDFid is a derived validation target from the same experimental files."
+}

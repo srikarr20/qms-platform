@@ -1,0 +1,57 @@
+{
+  "experiment": "QMS-REAL-018",
+  "dataset_a": "Glasgow Heralded Diffraction SM",
+  "dataset_b": "Ghost Diffraction SM",
+  "normalization": "per-dataset min-max scaling",
+  "summary": {
+    "matched_windows": 41,
+    "metric_comparisons": {
+      "effective_dimension": {
+        "raw_pearson": 0.320486963019297,
+        "normalized_pearson": 0.3204869630192971,
+        "normalized_rmse": 0.3367389923565877,
+        "heralded_start": 1.885184354559191,
+        "heralded_end": 1.9768969218736452,
+        "ghost_start": 1.8703895514216078,
+        "ghost_end": 1.9874280499530543
+      },
+      "first_pc_fraction": {
+        "raw_pearson": 0.2621684438001382,
+        "normalized_pearson": 0.2621684438001381,
+        "normalized_rmse": 0.3394050596614197,
+        "heralded_start": 0.6233938817885004,
+        "heralded_end": 0.5540521427577618,
+        "ghost_start": 0.6316206336716458,
+        "ghost_end": 0.539767255555036
+      },
+      "cosine_to_final": {
+        "raw_pearson": 0.9968958131643147,
+        "normalized_pearson": 0.9968958131643159,
+        "normalized_rmse": 0.019361220355382562,
+        "heralded_start": 0.770097624648956,
+        "heralded_end": 0.9869989587075536,
+        "ghost_start": 0.7681934455356938,
+        "ghost_end": 0.9873718974083084
+      },
+      "js_divergence_to_final": {
+        "raw_pearson": 0.9969648389505859,
+        "normalized_pearson": 0.9969648389505854,
+        "normalized_rmse": 0.024367232524009116,
+        "heralded_start": 0.23258131834582219,
+        "heralded_end": 0.006501435564601331,
+        "ghost_start": 0.2606850444389265,
+        "ghost_end": 0.007156009277245114
+      }
+    },
+    "best_region_comparison": {
+      "heralded_max_cosine_window": 24,
+      "ghost_max_cosine_window": 26,
+      "max_cosine_window_difference": 2,
+      "heralded_min_js_window": 28,
+      "ghost_min_js_window": 29,
+      "min_js_window_difference": 1
+    },
+    "interpretation": "High cross-condition correlations after normalization indicate reproducible temporal measurement-state evolution across independent Glasgow acquisition conditions."
+  },
+  "caution": "These are related acquisitions from the same experimental platform. Strong consistency supports cross-condition transfer, not yet cross-laboratory or universal detector generality."
+}

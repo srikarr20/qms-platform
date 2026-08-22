@@ -159,6 +159,12 @@ Zenodo, 2026.
 
 [![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22057334.svg)](https://doi.org/10.5281/zenodo.22057334)
 
+### Current software release
+
+QMS Platform v0.3.2 — Representation Diagnostics and Real-Measurement Validation
+
+**Software DOI:** 10.5281/zenodo.22060410
+
 ### Related research release
 
 The integrated Quantum-Research snapshot corresponding to this work is archived at:

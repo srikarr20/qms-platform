@@ -1,0 +1,13 @@
+{
+  "state_count": 3,
+  "versions": [
+    1,
+    2,
+    3
+  ],
+  "states": [
+    "states/state_000001.json",
+    "states/state_000002.json",
+    "states/state_000003.json"
+  ]
+}

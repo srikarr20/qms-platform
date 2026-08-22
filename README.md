@@ -81,3 +81,23 @@ Real data: detector ingestion demonstrated; spatial predictability supported; jo
 ## License
 
 License not yet specified.
+
+## Paper
+
+The QMS Platform framework and initial validation are described in:
+
+**Srikar R.**
+
+*QMS Platform: A Quantum Measurement Observability and Reconstruction-Assurance Framework with Initial Validation.*
+
+Zenodo, 2026.
+
+**DOI:** https://doi.org/10.5281/zenodo.22057334
+
+[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22057334.svg)](https://doi.org/10.5281/zenodo.22057334)
+
+### Related research release
+
+The integrated Quantum-Research snapshot corresponding to this work is archived at:
+
+**DOI:** https://doi.org/10.5281/zenodo.22057237

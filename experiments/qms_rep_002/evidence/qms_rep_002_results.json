@@ -1,0 +1,47 @@
+[
+  {
+    "count_scale": 10.0,
+    "valid_trials": 500,
+    "effective_dimension": 18.992675348187433,
+    "variance_explained_first_2": 0.16911011130628378,
+    "variance_explained_first_5": 0.3504203259496864,
+    "mean_similarity_to_ideal": 0.9995135326654349,
+    "std_similarity_to_ideal": 0.00014550560767968208
+  },
+  {
+    "count_scale": 3.0,
+    "valid_trials": 500,
+    "effective_dimension": 18.311242475667672,
+    "variance_explained_first_2": 0.18440812786850339,
+    "variance_explained_first_5": 0.3755036584097874,
+    "mean_similarity_to_ideal": 0.9983203936134203,
+    "std_similarity_to_ideal": 0.000539994529290685
+  },
+  {
+    "count_scale": 1.0,
+    "valid_trials": 500,
+    "effective_dimension": 18.48033433123895,
+    "variance_explained_first_2": 0.17873593795643872,
+    "variance_explained_first_5": 0.3694852397297277,
+    "mean_similarity_to_ideal": 0.9950684456717948,
+    "std_similarity_to_ideal": 0.0015102255940540636
+  },
+  {
+    "count_scale": 0.3,
+    "valid_trials": 500,
+    "effective_dimension": 18.373772522203833,
+    "variance_explained_first_2": 0.1850421368120236,
+    "variance_explained_first_5": 0.37024118519525334,
+    "mean_similarity_to_ideal": 0.9833356716716593,
+    "std_similarity_to_ideal": 0.005126667494603599
+  },
+  {
+    "count_scale": 0.1,
+    "valid_trials": 500,
+    "effective_dimension": 18.112071247148496,
+    "variance_explained_first_2": 0.18767120721528477,
+    "variance_explained_first_5": 0.3778802132499503,
+    "mean_similarity_to_ideal": 0.9515703606170497,
+    "std_similarity_to_ideal": 0.015222012198665142
+  }
+]

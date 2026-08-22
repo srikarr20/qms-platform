@@ -1,0 +1,47 @@
+[
+  {
+    "noise": 0.0,
+    "effective_dimension": 1.6728249294435298,
+    "variance_explained_first_2": 0.9999670448687837,
+    "energy_correlation": 0.8793462011205044,
+    "energy_slope": 0.2007512436554638,
+    "variance_correlation": -0.12429058384732937,
+    "variance_slope": -0.01898104271027555
+  },
+  {
+    "noise": 0.01,
+    "effective_dimension": 1.6775201489321288,
+    "variance_explained_first_2": 0.9993540034802771,
+    "energy_correlation": 0.8729866702797053,
+    "energy_slope": 0.20077726111673738,
+    "variance_correlation": -0.12227462860661256,
+    "variance_slope": -0.018557629839377105
+  },
+  {
+    "noise": 0.05,
+    "effective_dimension": 1.740863907856148,
+    "variance_explained_first_2": 0.9853723157552053,
+    "energy_correlation": 0.7926612398935082,
+    "energy_slope": 0.2015105526563801,
+    "variance_correlation": -0.10763273808106898,
+    "variance_slope": -0.016411970271462444
+  },
+  {
+    "noise": 0.1,
+    "effective_dimension": 1.9156611609427328,
+    "variance_explained_first_2": 0.9458823994150276,
+    "energy_correlation": 0.648486730271657,
+    "energy_slope": 0.2038429158936645,
+    "variance_correlation": -0.07749285254033658,
+    "variance_slope": -0.01271287762184642
+  },
+  {
+    "noise": 0.2,
+    "effective_dimension": 2.492217081849904,
+    "variance_explained_first_2": 0.8326485945741988,
+    "energy_correlation": 0.438863317075511,
+    "energy_slope": 0.21322680507733563,
+    "variance_correlation": -0.008619141311489184,
+    "variance_slope": -0.0019246316902059462
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "experiment": "QMS-REAL-020",
+  "dataset": "Glasgow Heralded Imaging MM set 1",
+  "source_level": "raw 512x512 ASC detector frames",
+  "method": "unchanged cross-objective state-classifier transfer",
+  "windows": [
+    {
+      "window_index": 0,
+      "frame_start": 1,
+      "frame_end": 100,
+      "cosine_to_final": 0.9328867676014115,
+      "js_divergence_to_final": 0.019095820828448386,
+      "smoothed_cosine": 0.9328867676014115,
+      "smoothed_js": 0.019095820828448386,
+      "delta_smoothed_cosine": 0.0,
+      "delta_smoothed_js": 0.0,
+      "state": "initial"
+    },
+    {
+      "window_index": 1,
+      "frame_start": 101,
+      "frame_end": 200,
+      "cosine_to_final": 0.975234398668922,
+      "js_divergence_to_final": 0.0062222781498531676,
+      "smoothed_cosine": 0.9540605831351667,
+      "smoothed_js": 0.012659049489150778,
+      "delta_smoothed_cosine": 0.02117381553375519,
+      "delta_smoothed_js": -0.006436771339297608,
+      "state": "converging"
+    },
+    {
+      "window_index": 2,
+      "frame_start": 201,
+      "frame_end": 300,
+      "cosine_to_final": 0.989260629179484,
+      "js_divergence_to_final": 0.0025689168114758076,
+      "smoothed_cosine": 0.9657939318166058,
+      "smoothed_js": 0.009295671929925788,
+      "delta_smoothed_cosine": 0.011733348681439049,
+      "delta_smoothed_js": -0.00336337755922499,
+      "state": "converging"
+    },
+    {
+      "window_index": 3,
+      "frame_start": 301,
+      "frame_end": 400,
+      "cosine_to_final": 0.995143036863336,
+      "js_divergence_to_final": 0.001198539527860796,
+      "smoothed_cosine": 0.9865460215705807,
+      "smoothed_js": 0.0033299114963965906,
+      "delta_smoothed_cosine": 0.02075208975397491,
+      "delta_smoothed_js": -0.005965760433529197,
+      "state": "converging"
+    },
+    {
+      "window_index": 4,
+      "frame_start": 401,
+      "frame_end": 500,
+      "cosine_to_final": 0.9975411087954583,
+      "js_divergence_to_final": 0.0006179841871344826,
+      "smoothed_cosine": 0.9939815916127595,
+      "smoothed_js": 0.0014618135088236954,
+      "delta_smoothed_cosine": 0.007435570042178763,
+      "delta_smoothed_js": -0.0018680979875728952,
+      "state": "converging"
+    },
+    {
+      "window_index": 5,
+      "frame_start": 501,
+      "frame_end": 600,
+      "cosine_to_final": 0.998869024624266,
+      "js_divergence_to_final": 0.00028989494749933356,
+      "smoothed_cosine": 0.9971843900943534,
+      "smoothed_js": 0.0007021395541648707,
+      "delta_smoothed_cosine": 0.0032027984815939936,
+      "delta_smoothed_js": -0.0007596739546588246,
+      "state": "converging"
+    },
+    {
+      "window_index": 6,
+      "frame_start": 601,
+      "frame_end": 700,
+      "cosine_to_final": 0.9992200703234774,
+      "js_divergence_to_final": 0.0001973928943048875,
+      "smoothed_cosine": 0.9985434012477339,
+      "smoothed_js": 0.00036842400964623456,
+      "delta_smoothed_cosine": 0.0013590111533804405,
+      "delta_smoothed_js": -0.0003337155445186362,
+      "state": "converging"
+    },
+    {
+      "window_index": 7,
+      "frame_start": 701,
+      "frame_end": 800,
+      "cosine_to_final": 0.999021726403043,
+      "js_divergence_to_final": 0.00023605023075453697,
+      "smoothed_cosine": 0.999036940450262,
+      "smoothed_js": 0.00024111269085291936,
+      "delta_smoothed_cosine": 0.0004935392025281482,
+      "delta_smoothed_js": -0.0001273113187933152,
+      "state": "converging"
+    },
+    {
+      "window_index": 8,
+      "frame_start": 801,
+      "frame_end": 900,
+      "cosine_to_final": 0.9985846204406857,
+      "js_divergence_to_final": 0.0003257820273443238,
+      "smoothed_cosine": 0.9989421390557354,
+      "smoothed_js": 0.0002530750508012494,
+      "delta_smoothed_cosine": -9.48013945266668e-05,
+      "delta_smoothed_js": 1.1962359948330031e-05,
+      "state": "drifting"
+    },
+    {
+      "window_index": 9,
+      "frame_start": 901,
+      "frame_end": 1000,
+      "cosine_to_final": 0.9978747806642468,
+      "js_divergence_to_final": 0.00047922861479290924,
+      "smoothed_cosine": 0.9984937091693252,
+      "smoothed_js": 0.00034702029096392333,
+      "delta_smoothed_cosine": -0.0004484298864101399,
+      "delta_smoothed_js": 9.394524016267394e-05,
+      "state": "drifting"
+    }
+  ],
+  "summary": {
+    "raw_frames": 1000,
+    "n_windows": 10,
+    "window_frames": 100,
+    "smoothing_windows": 3,
+    "state_counts": {
+      "initial": 1,
+      "converging": 7,
+      "drifting": 2
+    },
+    "first_detected_drift": {
+      "window_index": 8,
+      "frame_start": 801,
+      "frame_end": 900
+    },
+    "state_transitions": [
+      {
+        "window_index": 8,
+        "frame_start": 801,
+        "from": "converging",
+        "to": "drifting"
+      }
+    ],
+    "maximum_cosine_window": 6,
+    "minimum_js_window": 6,
+    "cosine_start": 0.9328867676014115,
+    "cosine_end": 0.9978747806642468,
+    "js_start": 0.019095820828448386,
+    "js_end": 0.00047922861479290924,
+    "interpretation": "The same 100-frame convergence diagnostics, three-window smoothing, and state classification rule used for the diffraction datasets are applied unchanged to Heralded Imaging MM."
+  },
+  "caution": "Only 1000 raw frames are available, producing 10 windows at the fixed 100-frame resolution. State-transition conclusions are therefore less statistically supported than the 4070-frame diffraction acquisitions."
+}

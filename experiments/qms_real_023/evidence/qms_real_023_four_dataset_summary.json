@@ -1,0 +1,137 @@
+{
+  "experiment": "QMS-REAL-023",
+  "method": "four-dataset aggregate transfer analysis",
+  "summary": {
+    "n_datasets": 4,
+    "families": {
+      "diffraction": 2,
+      "imaging": 2
+    },
+    "datasets": [
+      {
+        "dataset": "Heralded Diffraction SM",
+        "family": "diffraction",
+        "raw_frames": 4070,
+        "n_windows": 41,
+        "state_counts": {
+          "initial": 1,
+          "converging": 25,
+          "stable_or_mixed": 4,
+          "drifting": 11
+        },
+        "cosine_start": 0.770097624648956,
+        "cosine_end": 0.9869989587075536,
+        "js_start": 0.23258131834582219,
+        "js_end": 0.006501435564601331,
+        "maximum_cosine_window": 24,
+        "maximum_cosine_relative_position": 0.6020884520884521,
+        "minimum_js_window": 28,
+        "minimum_js_relative_position": 0.7003685503685504,
+        "first_drift_window": 30,
+        "normalized_drift_position": 0.7495085995085995
+      },
+      {
+        "dataset": "Ghost Diffraction SM",
+        "family": "diffraction",
+        "raw_frames": 4070,
+        "n_windows": 41,
+        "state_counts": {
+          "initial": 1,
+          "converging": 27,
+          "stable_or_mixed": 4,
+          "drifting": 9
+        },
+        "cosine_start": 0.7681934455356938,
+        "cosine_end": 0.9873718974083084,
+        "js_start": 0.2606850444389265,
+        "js_end": 0.007156009277245114,
+        "maximum_cosine_window": 26,
+        "maximum_cosine_relative_position": 0.6512285012285012,
+        "minimum_js_window": 29,
+        "minimum_js_relative_position": 0.7249385749385749,
+        "first_drift_window": 32,
+        "normalized_drift_position": 0.7986486486486486
+      },
+      {
+        "dataset": "Heralded Imaging MM set 1",
+        "family": "imaging",
+        "raw_frames": 1000,
+        "n_windows": 10,
+        "state_counts": {
+          "initial": 1,
+          "converging": 7,
+          "drifting": 2
+        },
+        "cosine_start": 0.9328867676014115,
+        "cosine_end": 0.9978747806642468,
+        "js_start": 0.019095820828448386,
+        "js_end": 0.00047922861479290924,
+        "maximum_cosine_window": 6,
+        "maximum_cosine_relative_position": 0.6505,
+        "minimum_js_window": 6,
+        "minimum_js_relative_position": 0.6505,
+        "first_drift_window": 8,
+        "normalized_drift_position": 0.8505
+      },
+      {
+        "dataset": "Ghost Imaging MM set 1",
+        "family": "imaging",
+        "raw_frames": 1000,
+        "n_windows": 10,
+        "state_counts": {
+          "initial": 1,
+          "converging": 7,
+          "drifting": 2
+        },
+        "cosine_start": 0.9556027380720646,
+        "cosine_end": 0.9987604261006044,
+        "js_start": 0.012224556633172057,
+        "js_end": 0.00031174250573432535,
+        "maximum_cosine_window": 7,
+        "maximum_cosine_relative_position": 0.7505,
+        "minimum_js_window": 7,
+        "minimum_js_relative_position": 0.7505,
+        "first_drift_window": 8,
+        "normalized_drift_position": 0.8505
+      }
+    ],
+    "all_normalized_drift_positions": [
+      0.7495085995085995,
+      0.7986486486486486,
+      0.8505,
+      0.8505
+    ],
+    "all_drift_position_stats": {
+      "mean": 0.812289312039312,
+      "std": 0.041974989316435465,
+      "min": 0.7495085995085995,
+      "max": 0.8505
+    },
+    "diffraction_drift_position_stats": {
+      "mean": 0.774078624078624,
+      "std": 0.02457002457002455,
+      "min": 0.7495085995085995,
+      "max": 0.7986486486486486
+    },
+    "imaging_drift_position_stats": {
+      "mean": 0.8505,
+      "std": 0.0,
+      "min": 0.8505,
+      "max": 0.8505
+    },
+    "maximum_cosine_relative_position_stats": {
+      "mean": 0.6635792383292383,
+      "std": 0.053990607479773634,
+      "min": 0.6020884520884521,
+      "max": 0.7505
+    },
+    "minimum_js_relative_position_stats": {
+      "mean": 0.7065767813267814,
+      "std": 0.036910540970229215,
+      "min": 0.6505,
+      "max": 0.7505
+    },
+    "interpretation": "This experiment aggregates four real Glasgow acquisitions spanning diffraction and imaging. All datasets use the same distribution-level convergence diagnostics and unchanged state classification rule. Relative positions are descriptive acquisition coordinates rather than universal thresholds."
+  },
+  "caution": "All four acquisitions originate from the same Glasgow experimental platform. Imaging sequences contain only 10 fixed windows each. Consistent relative timing supports cross-condition transfer but does not establish universal detector behavior."
+}

@@ -1,0 +1,403 @@
+{
+  "experiment": "QMS-REAL-013",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "method": "frozen-reference causal monitoring",
+  "windows": [
+    {
+      "window_index": 0,
+      "frame_start": 1,
+      "frame_end": 100,
+      "cosine_to_baseline": 0.9236396053941753,
+      "js_to_baseline": 0.08323198311643781,
+      "robust_js_z": 4.725407547580326,
+      "state": "baseline"
+    },
+    {
+      "window_index": 1,
+      "frame_start": 101,
+      "frame_end": 200,
+      "cosine_to_baseline": 0.978168132594602,
+      "js_to_baseline": 0.03166955551289785,
+      "robust_js_z": 0.517202007335309,
+      "state": "baseline"
+    },
+    {
+      "window_index": 2,
+      "frame_start": 201,
+      "frame_end": 300,
+      "cosine_to_baseline": 0.984677288262802,
+      "js_to_baseline": 0.01706794648340558,
+      "robust_js_z": -0.6744907594765952,
+      "state": "baseline"
+    },
+    {
+      "window_index": 3,
+      "frame_start": 301,
+      "frame_end": 400,
+      "cosine_to_baseline": 0.9791466742159056,
+      "js_to_baseline": 0.015620214044403244,
+      "robust_js_z": -0.7926457020143239,
+      "state": "baseline"
+    },
+    {
+      "window_index": 4,
+      "frame_start": 401,
+      "frame_end": 500,
+      "cosine_to_baseline": 0.9721705964482975,
+      "js_to_baseline": 0.025332367178204557,
+      "robust_js_z": 0.0,
+      "state": "baseline"
+    },
+    {
+      "window_index": 5,
+      "frame_start": 501,
+      "frame_end": 600,
+      "cosine_to_baseline": 0.9595642360789794,
+      "js_to_baseline": 0.04286615419356711,
+      "robust_js_z": 1.4309989480491248,
+      "state": "nominal"
+    },
+    {
+      "window_index": 6,
+      "frame_start": 601,
+      "frame_end": 700,
+      "cosine_to_baseline": 0.9500908938153622,
+      "js_to_baseline": 0.054505350927552064,
+      "robust_js_z": 2.3809179967906253,
+      "state": "nominal"
+    },
+    {
+      "window_index": 7,
+      "frame_start": 701,
+      "frame_end": 800,
+      "cosine_to_baseline": 0.9371872865491977,
+      "js_to_baseline": 0.06443066480414687,
+      "robust_js_z": 3.19096055656509,
+      "state": "warning"
+    },
+    {
+      "window_index": 8,
+      "frame_start": 801,
+      "frame_end": 900,
+      "cosine_to_baseline": 0.9326844731604691,
+      "js_to_baseline": 0.07242291905774081,
+      "robust_js_z": 3.8432387791426437,
+      "state": "warning"
+    },
+    {
+      "window_index": 9,
+      "frame_start": 901,
+      "frame_end": 1000,
+      "cosine_to_baseline": 0.9267626095519461,
+      "js_to_baseline": 0.07957314615816347,
+      "robust_js_z": 4.426795967903533,
+      "state": "warning"
+    },
+    {
+      "window_index": 10,
+      "frame_start": 1001,
+      "frame_end": 1100,
+      "cosine_to_baseline": 0.9192850574437678,
+      "js_to_baseline": 0.08732691567815604,
+      "robust_js_z": 5.0596105456557945,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 11,
+      "frame_start": 1101,
+      "frame_end": 1200,
+      "cosine_to_baseline": 0.9175795459824366,
+      "js_to_baseline": 0.09236848368709537,
+      "robust_js_z": 5.471072057706169,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 12,
+      "frame_start": 1201,
+      "frame_end": 1300,
+      "cosine_to_baseline": 0.9131896661064745,
+      "js_to_baseline": 0.09645883636207973,
+      "robust_js_z": 5.804901273831817,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 13,
+      "frame_start": 1301,
+      "frame_end": 1400,
+      "cosine_to_baseline": 0.9118726374436157,
+      "js_to_baseline": 0.09889865536592538,
+      "robust_js_z": 6.004024168667619,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 14,
+      "frame_start": 1401,
+      "frame_end": 1500,
+      "cosine_to_baseline": 0.9087485634231327,
+      "js_to_baseline": 0.10341334877023622,
+      "robust_js_z": 6.3724854432726215,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 15,
+      "frame_start": 1501,
+      "frame_end": 1600,
+      "cosine_to_baseline": 0.9067351465465865,
+      "js_to_baseline": 0.1050370474605386,
+      "robust_js_z": 6.505001659862663,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 16,
+      "frame_start": 1601,
+      "frame_end": 1700,
+      "cosine_to_baseline": 0.9044686014616393,
+      "js_to_baseline": 0.10693531020056932,
+      "robust_js_z": 6.659926091288959,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 17,
+      "frame_start": 1701,
+      "frame_end": 1800,
+      "cosine_to_baseline": 0.9028684214417366,
+      "js_to_baseline": 0.10901567553080946,
+      "robust_js_z": 6.829712606690518,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 18,
+      "frame_start": 1801,
+      "frame_end": 1900,
+      "cosine_to_baseline": 0.9006211265229167,
+      "js_to_baseline": 0.11116435411509341,
+      "robust_js_z": 7.005074426194315,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 19,
+      "frame_start": 1901,
+      "frame_end": 2000,
+      "cosine_to_baseline": 0.8988742545357247,
+      "js_to_baseline": 0.11199053901916806,
+      "robust_js_z": 7.07250251389659,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 20,
+      "frame_start": 2001,
+      "frame_end": 2100,
+      "cosine_to_baseline": 0.8971228432212028,
+      "js_to_baseline": 0.11302514735645644,
+      "robust_js_z": 7.156940829532872,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 21,
+      "frame_start": 2101,
+      "frame_end": 2200,
+      "cosine_to_baseline": 0.8948935291362276,
+      "js_to_baseline": 0.1151661507911981,
+      "robust_js_z": 7.331676250933879,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 22,
+      "frame_start": 2201,
+      "frame_end": 2300,
+      "cosine_to_baseline": 0.89289917239564,
+      "js_to_baseline": 0.11659821683126237,
+      "robust_js_z": 7.448552599156503,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 23,
+      "frame_start": 2301,
+      "frame_end": 2400,
+      "cosine_to_baseline": 0.8886978386796478,
+      "js_to_baseline": 0.11959094387670052,
+      "robust_js_z": 7.692800419097963,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 24,
+      "frame_start": 2401,
+      "frame_end": 2500,
+      "cosine_to_baseline": 0.8855263406552412,
+      "js_to_baseline": 0.12192985308840787,
+      "robust_js_z": 7.883687682562672,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 25,
+      "frame_start": 2501,
+      "frame_end": 2600,
+      "cosine_to_baseline": 0.8828228315245079,
+      "js_to_baseline": 0.12359522878605696,
+      "robust_js_z": 8.019605318003002,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 26,
+      "frame_start": 2601,
+      "frame_end": 2700,
+      "cosine_to_baseline": 0.8810343839534279,
+      "js_to_baseline": 0.12444201670484967,
+      "robust_js_z": 8.08871489598244,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 27,
+      "frame_start": 2701,
+      "frame_end": 2800,
+      "cosine_to_baseline": 0.879200451239151,
+      "js_to_baseline": 0.12494555528794629,
+      "robust_js_z": 8.129810592085175,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 28,
+      "frame_start": 2801,
+      "frame_end": 2900,
+      "cosine_to_baseline": 0.8767071108682779,
+      "js_to_baseline": 0.12576439267726017,
+      "robust_js_z": 8.19663902120347,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 29,
+      "frame_start": 2901,
+      "frame_end": 3000,
+      "cosine_to_baseline": 0.8737692866992092,
+      "js_to_baseline": 0.12721815189753322,
+      "robust_js_z": 8.315285832249181,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 30,
+      "frame_start": 3001,
+      "frame_end": 3100,
+      "cosine_to_baseline": 0.8717727634578192,
+      "js_to_baseline": 0.12830563334631986,
+      "robust_js_z": 8.404039323316065,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 31,
+      "frame_start": 3101,
+      "frame_end": 3200,
+      "cosine_to_baseline": 0.8689745965787683,
+      "js_to_baseline": 0.1301220162827284,
+      "robust_js_z": 8.552281233006061,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 32,
+      "frame_start": 3201,
+      "frame_end": 3300,
+      "cosine_to_baseline": 0.866575055494595,
+      "js_to_baseline": 0.13150350171550004,
+      "robust_js_z": 8.665029505772766,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 33,
+      "frame_start": 3301,
+      "frame_end": 3400,
+      "cosine_to_baseline": 0.864119561372621,
+      "js_to_baseline": 0.13231898125156902,
+      "robust_js_z": 8.731583887735308,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 34,
+      "frame_start": 3401,
+      "frame_end": 3500,
+      "cosine_to_baseline": 0.8617121912696057,
+      "js_to_baseline": 0.1337772479165511,
+      "robust_js_z": 8.850598568462072,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 35,
+      "frame_start": 3501,
+      "frame_end": 3600,
+      "cosine_to_baseline": 0.8577189638353928,
+      "js_to_baseline": 0.13557059587420184,
+      "robust_js_z": 8.99696050605352,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 36,
+      "frame_start": 3601,
+      "frame_end": 3700,
+      "cosine_to_baseline": 0.8557574131503932,
+      "js_to_baseline": 0.13612284444273812,
+      "robust_js_z": 9.042031609058515,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 37,
+      "frame_start": 3701,
+      "frame_end": 3800,
+      "cosine_to_baseline": 0.8535677921715229,
+      "js_to_baseline": 0.13713690918123933,
+      "robust_js_z": 9.124793283577404,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 38,
+      "frame_start": 3801,
+      "frame_end": 3900,
+      "cosine_to_baseline": 0.8513639335432616,
+      "js_to_baseline": 0.13811278472954958,
+      "robust_js_z": 9.2044381932501,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 39,
+      "frame_start": 3901,
+      "frame_end": 4000,
+      "cosine_to_baseline": 0.8491997838983946,
+      "js_to_baseline": 0.13914160754509358,
+      "robust_js_z": 9.2884043304846,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 40,
+      "frame_start": 4001,
+      "frame_end": 4070,
+      "cosine_to_baseline": 0.8474892713448262,
+      "js_to_baseline": 0.14017399838748976,
+      "robust_js_z": 9.372661667941138,
+      "state": "drift_alert"
+    }
+  ],
+  "summary": {
+    "baseline_windows": 5,
+    "baseline_frame_end": 500,
+    "n_windows": 41,
+    "n_warning_windows": 3,
+    "n_alert_windows": 31,
+    "first_warning": {
+      "window_index": 7,
+      "frame_start": 701,
+      "frame_end": 800,
+      "cosine_to_baseline": 0.9371872865491977,
+      "js_to_baseline": 0.06443066480414687,
+      "robust_js_z": 3.19096055656509,
+      "state": "warning"
+    },
+    "first_drift_alert": {
+      "window_index": 10,
+      "frame_start": 1001,
+      "frame_end": 1100,
+      "cosine_to_baseline": 0.9192850574437678,
+      "js_to_baseline": 0.08732691567815604,
+      "robust_js_z": 5.0596105456557945,
+      "state": "drift_alert"
+    },
+    "interpretation": "Reference distribution is frozen using only the first five acquisition windows. All later comparisons are causal."
+  },
+  "caution": "The initial acquisition period may itself represent measurement convergence rather than a known-good stationary operating state. Therefore an alert indicates departure from the early reference, not necessarily hardware degradation."
+}

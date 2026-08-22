@@ -1,0 +1,426 @@
+{
+  "experiment": "QMS-REAL-014",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "method": "causal stabilization detection followed by frozen-reference monitoring",
+  "windows": [
+    {
+      "window_index": 0,
+      "frame_start": 1,
+      "frame_end": 100,
+      "phase": "converging",
+      "state": "reference_building"
+    },
+    {
+      "window_index": 1,
+      "frame_start": 101,
+      "frame_end": 200,
+      "phase": "converging",
+      "state": "reference_building"
+    },
+    {
+      "window_index": 2,
+      "frame_start": 201,
+      "frame_end": 300,
+      "phase": "converging",
+      "state": "reference_building"
+    },
+    {
+      "window_index": 3,
+      "frame_start": 301,
+      "frame_end": 400,
+      "phase": "converging",
+      "state": "reference_building"
+    },
+    {
+      "window_index": 4,
+      "frame_start": 401,
+      "frame_end": 500,
+      "phase": "converging",
+      "state": "reference_building"
+    },
+    {
+      "window_index": 5,
+      "frame_start": 501,
+      "frame_end": 600,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9595642360789794,
+      "js_to_rolling_reference": 0.04286615419356711,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 6,
+      "frame_start": 601,
+      "frame_end": 700,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9731900230421947,
+      "js_to_rolling_reference": 0.029333706576809226,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 7,
+      "frame_start": 701,
+      "frame_end": 800,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9733702672682235,
+      "js_to_rolling_reference": 0.02420934830044871,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 8,
+      "frame_start": 801,
+      "frame_end": 900,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9808713470431594,
+      "js_to_rolling_reference": 0.019052840880627475,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 9,
+      "frame_start": 901,
+      "frame_end": 1000,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9860321106703673,
+      "js_to_rolling_reference": 0.01576822701509421,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 10,
+      "frame_start": 1001,
+      "frame_end": 1100,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9870740409050895,
+      "js_to_rolling_reference": 0.014446565027607576,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 11,
+      "frame_start": 1101,
+      "frame_end": 1200,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9913971718904135,
+      "js_to_rolling_reference": 0.010945888149905755,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 12,
+      "frame_start": 1201,
+      "frame_end": 1300,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9931954306966179,
+      "js_to_rolling_reference": 0.008256074840542311,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 13,
+      "frame_start": 1301,
+      "frame_end": 1400,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9949243094590726,
+      "js_to_rolling_reference": 0.006451073150303901,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 14,
+      "frame_start": 1401,
+      "frame_end": 1500,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9953989155591112,
+      "js_to_rolling_reference": 0.006829532746877105,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 15,
+      "frame_start": 1501,
+      "frame_end": 1600,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9951145109971173,
+      "js_to_rolling_reference": 0.005481220365724075,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 16,
+      "frame_start": 1601,
+      "frame_end": 1700,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9960352580505658,
+      "js_to_rolling_reference": 0.004526612695102461,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 17,
+      "frame_start": 1701,
+      "frame_end": 1800,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.996192986130858,
+      "js_to_rolling_reference": 0.004294063176965503,
+      "stable_run": 0,
+      "state": "converging"
+    },
+    {
+      "window_index": 18,
+      "frame_start": 1801,
+      "frame_end": 1900,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9967691850451439,
+      "js_to_rolling_reference": 0.0035551073837450094,
+      "stable_run": 1,
+      "state": "stability_candidate"
+    },
+    {
+      "window_index": 19,
+      "frame_start": 1901,
+      "frame_end": 2000,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9971638126149566,
+      "js_to_rolling_reference": 0.003089583313432798,
+      "stable_run": 2,
+      "state": "stability_candidate"
+    },
+    {
+      "window_index": 20,
+      "frame_start": 2001,
+      "frame_end": 2100,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9974379194932929,
+      "js_to_rolling_reference": 0.0029780272893683074,
+      "stable_run": 3,
+      "state": "stability_candidate"
+    },
+    {
+      "window_index": 21,
+      "frame_start": 2101,
+      "frame_end": 2200,
+      "phase": "convergence_monitoring",
+      "cosine_to_rolling_reference": 0.9975005499493644,
+      "js_to_rolling_reference": 0.0031603536970840496,
+      "stable_run": 4,
+      "state": "baseline_locked",
+      "baseline_lock_frame": 2200
+    },
+    {
+      "window_index": 22,
+      "frame_start": 2201,
+      "frame_end": 2300,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9980409498284487,
+      "js_to_locked_reference": 0.002436171923533693,
+      "robust_js_z": 2.8911500902472858,
+      "state": "nominal"
+    },
+    {
+      "window_index": 23,
+      "frame_start": 2301,
+      "frame_end": 2400,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9954388093181736,
+      "js_to_locked_reference": 0.004906059360029238,
+      "robust_js_z": 7.370850616862201,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 24,
+      "frame_start": 2401,
+      "frame_end": 2500,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9929744758530311,
+      "js_to_locked_reference": 0.007308812896608983,
+      "robust_js_z": 11.728788603871978,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 25,
+      "frame_start": 2501,
+      "frame_end": 2600,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9913544077768258,
+      "js_to_locked_reference": 0.008997414740222054,
+      "robust_js_z": 14.791450673528622,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 26,
+      "frame_start": 2601,
+      "frame_end": 2700,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9904459954212297,
+      "js_to_locked_reference": 0.009991490897196177,
+      "robust_js_z": 16.594433035433656,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 27,
+      "frame_start": 2701,
+      "frame_end": 2800,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9895713511742329,
+      "js_to_locked_reference": 0.01060932972475225,
+      "robust_js_z": 17.715023747491834,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 28,
+      "frame_start": 2801,
+      "frame_end": 2900,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9882560667230876,
+      "js_to_locked_reference": 0.011553181290574418,
+      "robust_js_z": 19.426912432775044,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 29,
+      "frame_start": 2901,
+      "frame_end": 3000,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9869461564181305,
+      "js_to_locked_reference": 0.01262040711730048,
+      "robust_js_z": 21.36256829601762,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 30,
+      "frame_start": 3001,
+      "frame_end": 3100,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9858318300595456,
+      "js_to_locked_reference": 0.013435961668563099,
+      "robust_js_z": 22.84176127412277,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 31,
+      "frame_start": 3101,
+      "frame_end": 3200,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9845420628071448,
+      "js_to_locked_reference": 0.01448193989073826,
+      "robust_js_z": 24.73887979194242,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 32,
+      "frame_start": 3201,
+      "frame_end": 3300,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9832606179324633,
+      "js_to_locked_reference": 0.015499708629874397,
+      "robust_js_z": 26.58483402018426,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 33,
+      "frame_start": 3301,
+      "frame_end": 3400,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9816613956087714,
+      "js_to_locked_reference": 0.016554601396784954,
+      "robust_js_z": 28.498121084859775,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 34,
+      "frame_start": 3401,
+      "frame_end": 3500,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.98012916515981,
+      "js_to_locked_reference": 0.0174907874340426,
+      "robust_js_z": 30.196106597131994,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 35,
+      "frame_start": 3501,
+      "frame_end": 3600,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9779460216367242,
+      "js_to_locked_reference": 0.01865688426908014,
+      "robust_js_z": 32.31108743747891,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 36,
+      "frame_start": 3601,
+      "frame_end": 3700,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9766658783871763,
+      "js_to_locked_reference": 0.01927248081170686,
+      "robust_js_z": 33.42761125773043,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 37,
+      "frame_start": 3701,
+      "frame_end": 3800,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9755874708120398,
+      "js_to_locked_reference": 0.01982055842099295,
+      "robust_js_z": 34.4216741930148,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 38,
+      "frame_start": 3801,
+      "frame_end": 3900,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.974152149339777,
+      "js_to_locked_reference": 0.020403551308316503,
+      "robust_js_z": 35.47906389659645,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 39,
+      "frame_start": 3901,
+      "frame_end": 4000,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9727868075615402,
+      "js_to_locked_reference": 0.021033655470999307,
+      "robust_js_z": 36.62190057315262,
+      "state": "drift_alert"
+    },
+    {
+      "window_index": 40,
+      "frame_start": 4001,
+      "frame_end": 4070,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9716961605100374,
+      "js_to_locked_reference": 0.021532976014988138,
+      "robust_js_z": 37.52753152248453,
+      "state": "drift_alert"
+    }
+  ],
+  "summary": {
+    "rolling_reference_windows": 5,
+    "stability_confirm_windows": 4,
+    "max_js_to_rolling": 0.004,
+    "min_cosine_to_rolling": 0.995,
+    "baseline_lock_window": 21,
+    "baseline_lock_frame": 2200,
+    "n_warning_windows": 0,
+    "n_alert_windows": 18,
+    "first_warning": null,
+    "first_drift_alert": {
+      "window_index": 23,
+      "frame_start": 2301,
+      "frame_end": 2400,
+      "phase": "locked_monitoring",
+      "cosine_to_locked_reference": 0.9954388093181736,
+      "js_to_locked_reference": 0.004906059360029238,
+      "robust_js_z": 7.370850616862201,
+      "state": "drift_alert"
+    },
+    "interpretation": "Baseline is locked only after a sustained causally detected stable period. Later measurements are compared against that fixed reference."
+  },
+  "caution": "Thresholds remain provisional and are evaluated on a single detector sequence."
+}

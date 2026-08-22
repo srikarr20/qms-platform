@@ -1,0 +1,140 @@
+{
+  "dataset": "ISTA All-Optical SCQ Readout Fig. 4a",
+  "label_usage": "QMS diagnostics use combined IQ cloud only; g/e labels are not used in metric computation.",
+  "experimental_conditions": 6,
+  "conditions": [
+    {
+      "frequency_hz": 0,
+      "n_samples": 100000,
+      "QNDFid": 0.91445,
+      "effective_dimension": 1.1946426545563373,
+      "first_pc_fraction": 0.9105303862446122,
+      "anisotropy": 0.8210607724892245,
+      "cov_trace": 9.398345029661502e-09,
+      "cov_determinant": 7.195695474761262e-18,
+      "radial_mean": 9.242301703407298e-05,
+      "radial_std": 2.926152710523957e-05,
+      "radial_p90": 0.00013018692681267824,
+      "radial_p99": 0.0001603588475816971,
+      "entropy_2d": 7.412201552944741
+    },
+    {
+      "frequency_hz": 10,
+      "n_samples": 100000,
+      "QNDFid": 0.90829,
+      "effective_dimension": 1.1985214268694062,
+      "first_pc_fraction": 0.9088773574924077,
+      "anisotropy": 0.8177547149848154,
+      "cov_trace": 9.611228429049866e-09,
+      "cov_determinant": 7.650492401048923e-18,
+      "radial_mean": 9.34148607962156e-05,
+      "radial_std": 2.9745522338483878e-05,
+      "radial_p90": 0.00013153594777032984,
+      "radial_p99": 0.00016272207659760892,
+      "entropy_2d": 7.376824359744948
+    },
+    {
+      "frequency_hz": 50,
+      "n_samples": 100000,
+      "QNDFid": 0.89846,
+      "effective_dimension": 1.213131600938806,
+      "first_pc_fraction": 0.9026865262687458,
+      "anisotropy": 0.8053730525374916,
+      "cov_trace": 9.48307915999876e-09,
+      "cov_determinant": 7.899665231693344e-18,
+      "radial_mean": 9.255336065504009e-05,
+      "radial_std": 3.027969221549688e-05,
+      "radial_p90": 0.00013147814487730764,
+      "radial_p99": 0.0001634014590489375,
+      "entropy_2d": 7.4299618473823825
+    },
+    {
+      "frequency_hz": 250,
+      "n_samples": 100000,
+      "QNDFid": 0.84371,
+      "effective_dimension": 1.2419656310146496,
+      "first_pc_fraction": 0.8906246664703096,
+      "anisotropy": 0.781249332940619,
+      "cov_trace": 9.543690019679712e-09,
+      "cov_determinant": 8.872515348839073e-18,
+      "radial_mean": 9.235810721073803e-05,
+      "radial_std": 3.183668662454273e-05,
+      "radial_p90": 0.00013331562374096606,
+      "radial_p99": 0.0001669645217397643,
+      "entropy_2d": 7.541452690304294
+    },
+    {
+      "frequency_hz": 500,
+      "n_samples": 100000,
+      "QNDFid": 0.7832399999999999,
+      "effective_dimension": 1.2634225927758986,
+      "first_pc_fraction": 0.8817727109182033,
+      "anisotropy": 0.7635454218364066,
+      "cov_trace": 9.591619474975456e-09,
+      "cov_determinant": 9.590875805489895e-18,
+      "radial_mean": 9.214934953999301e-05,
+      "radial_std": 3.316656355634229e-05,
+      "radial_p90": 0.00013515588876009046,
+      "radial_p99": 0.00017022331892322856,
+      "entropy_2d": 7.462053894861546
+    },
+    {
+      "frequency_hz": 1000,
+      "n_samples": 100000,
+      "QNDFid": 0.69235,
+      "effective_dimension": 1.2977621373235684,
+      "first_pc_fraction": 0.8678024141746283,
+      "anisotropy": 0.7356048283492566,
+      "cov_trace": 9.498956025926044e-09,
+      "cov_determinant": 1.0351329485658575e-17,
+      "radial_mean": 9.095251487141042e-05,
+      "radial_std": 3.502143736244489e-05,
+      "radial_p90": 0.0001364465500426367,
+      "radial_p99": 0.00017449946732142716,
+      "entropy_2d": 7.269515736057499
+    }
+  ],
+  "correlations": {
+    "effective_dimension": {
+      "pearson_with_QNDFid": -0.9881027554998411,
+      "spearman_with_QNDFid": -1.0
+    },
+    "first_pc_fraction": {
+      "pearson_with_QNDFid": 0.9869426255010318,
+      "spearman_with_QNDFid": 1.0
+    },
+    "anisotropy": {
+      "pearson_with_QNDFid": 0.9869426255010317,
+      "spearman_with_QNDFid": 1.0
+    },
+    "cov_trace": {
+      "pearson_with_QNDFid": -0.17023625665760767,
+      "spearman_with_QNDFid": -0.2571428571428572
+    },
+    "cov_determinant": {
+      "pearson_with_QNDFid": -0.9742378987812157,
+      "spearman_with_QNDFid": -1.0
+    },
+    "radial_mean": {
+      "pearson_with_QNDFid": 0.8801971674073874,
+      "spearman_with_QNDFid": 0.8285714285714287
+    },
+    "radial_std": {
+      "pearson_with_QNDFid": -0.9907186976408727,
+      "spearman_with_QNDFid": -1.0
+    },
+    "radial_p90": {
+      "pearson_with_QNDFid": -0.9713773338127569,
+      "spearman_with_QNDFid": -0.942857142857143
+    },
+    "radial_p99": {
+      "pearson_with_QNDFid": -0.9846545009110883,
+      "spearman_with_QNDFid": -1.0
+    },
+    "entropy_2d": {
+      "pearson_with_QNDFid": 0.4351853422337591,
+      "spearman_with_QNDFid": -0.028571428571428574
+    }
+  },
+  "caution": "Only six experimental operating conditions are available. QNDFid is used only as a validation target and correlations remain exploratory."
+}

@@ -1,0 +1,9 @@
+{
+  "n_records": 1500,
+  "overall_effective_dimension": 18.693598273354283,
+  "similarity_fidelity_correlation": -0.0073491868116751635,
+  "similarity_min_eigenvalue_correlation": 0.8738895859085176,
+  "mean_similarity": 0.9855103638034504,
+  "mean_fidelity": 1.0,
+  "mean_min_eigenvalue": -0.06520775131975619
+}

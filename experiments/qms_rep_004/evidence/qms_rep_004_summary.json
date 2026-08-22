@@ -1,0 +1,53 @@
+{
+  "overall": {
+    "n_records": 10800,
+    "similarity_min_eigenvalue_correlation": 0.6068431553448511,
+    "mean_similarity": 0.9898733877921994,
+    "mean_min_eigenvalue": -0.044414808976567355,
+    "nonphysical_fraction": 0.8414814814814815
+  },
+  "per_state": {
+    "bell_phi_plus": {
+      "n_records": 1800,
+      "similarity_min_eigenvalue_correlation": 0.7051118450404903,
+      "mean_similarity": 0.9881518534088268,
+      "mean_min_eigenvalue": -0.04359186511884887,
+      "nonphysical_fraction": 0.8477777777777777
+    },
+    "random_1": {
+      "n_records": 1800,
+      "similarity_min_eigenvalue_correlation": 0.528936722459902,
+      "mean_similarity": 0.9909655207179862,
+      "mean_min_eigenvalue": -0.04320267403147629,
+      "nonphysical_fraction": 0.8338888888888889
+    },
+    "random_2": {
+      "n_records": 1800,
+      "similarity_min_eigenvalue_correlation": 0.5961634009894167,
+      "mean_similarity": 0.9900333325375211,
+      "mean_min_eigenvalue": -0.045498331838339914,
+      "nonphysical_fraction": 0.8427777777777777
+    },
+    "random_3": {
+      "n_records": 1800,
+      "similarity_min_eigenvalue_correlation": 0.6818213164143807,
+      "mean_similarity": 0.9887530615058907,
+      "mean_min_eigenvalue": -0.04474124003438626,
+      "nonphysical_fraction": 0.8477777777777777
+    },
+    "random_4": {
+      "n_records": 1800,
+      "similarity_min_eigenvalue_correlation": 0.5869787470256971,
+      "mean_similarity": 0.9904901851211534,
+      "mean_min_eigenvalue": -0.044956550219694004,
+      "nonphysical_fraction": 0.8433333333333334
+    },
+    "random_5": {
+      "n_records": 1800,
+      "similarity_min_eigenvalue_correlation": 0.5536399518370809,
+      "mean_similarity": 0.9908463734618177,
+      "mean_min_eigenvalue": -0.04449819261665875,
+      "nonphysical_fraction": 0.8333333333333334
+    }
+  }
+}

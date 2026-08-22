@@ -1,0 +1,150 @@
+{
+  "experiment": "QMS-REAL-009",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "results": [
+    {
+      "window_size": 50,
+      "smoothing": 2,
+      "n_windows": 82,
+      "first_drift_window": 57,
+      "first_drift_frame": 2851,
+      "maximum_cosine_frame": 2301,
+      "minimum_js_frame": 2751,
+      "state_counts": {
+        "converging": 49,
+        "drifting": 25,
+        "initial": 1,
+        "stable_or_mixed": 7
+      }
+    },
+    {
+      "window_size": 50,
+      "smoothing": 3,
+      "n_windows": 82,
+      "first_drift_window": 58,
+      "first_drift_frame": 2901,
+      "maximum_cosine_frame": 2301,
+      "minimum_js_frame": 2751,
+      "state_counts": {
+        "converging": 49,
+        "drifting": 24,
+        "initial": 1,
+        "stable_or_mixed": 8
+      }
+    },
+    {
+      "window_size": 50,
+      "smoothing": 5,
+      "n_windows": 82,
+      "first_drift_window": 59,
+      "first_drift_frame": 2951,
+      "maximum_cosine_frame": 2301,
+      "minimum_js_frame": 2751,
+      "state_counts": {
+        "converging": 51,
+        "drifting": 23,
+        "initial": 1,
+        "stable_or_mixed": 7
+      }
+    },
+    {
+      "window_size": 100,
+      "smoothing": 2,
+      "n_windows": 41,
+      "first_drift_window": 29,
+      "first_drift_frame": 2901,
+      "maximum_cosine_frame": 2401,
+      "minimum_js_frame": 2801,
+      "state_counts": {
+        "converging": 24,
+        "drifting": 12,
+        "initial": 1,
+        "stable_or_mixed": 4
+      }
+    },
+    {
+      "window_size": 100,
+      "smoothing": 3,
+      "n_windows": 41,
+      "first_drift_window": 30,
+      "first_drift_frame": 3001,
+      "maximum_cosine_frame": 2401,
+      "minimum_js_frame": 2801,
+      "state_counts": {
+        "converging": 25,
+        "drifting": 11,
+        "initial": 1,
+        "stable_or_mixed": 4
+      }
+    },
+    {
+      "window_size": 100,
+      "smoothing": 5,
+      "n_windows": 41,
+      "first_drift_window": 31,
+      "first_drift_frame": 3101,
+      "maximum_cosine_frame": 2401,
+      "minimum_js_frame": 2801,
+      "state_counts": {
+        "converging": 27,
+        "drifting": 10,
+        "initial": 1,
+        "stable_or_mixed": 3
+      }
+    },
+    {
+      "window_size": 200,
+      "smoothing": 2,
+      "n_windows": 21,
+      "first_drift_window": 15,
+      "first_drift_frame": 3001,
+      "maximum_cosine_frame": 2401,
+      "minimum_js_frame": 2801,
+      "state_counts": {
+        "converging": 12,
+        "drifting": 6,
+        "initial": 1,
+        "stable_or_mixed": 2
+      }
+    },
+    {
+      "window_size": 200,
+      "smoothing": 3,
+      "n_windows": 21,
+      "first_drift_window": 16,
+      "first_drift_frame": 3201,
+      "maximum_cosine_frame": 2401,
+      "minimum_js_frame": 2801,
+      "state_counts": {
+        "converging": 13,
+        "drifting": 5,
+        "initial": 1,
+        "stable_or_mixed": 2
+      }
+    },
+    {
+      "window_size": 200,
+      "smoothing": 5,
+      "n_windows": 21,
+      "first_drift_window": 17,
+      "first_drift_frame": 3401,
+      "maximum_cosine_frame": 2401,
+      "minimum_js_frame": 2801,
+      "state_counts": {
+        "converging": 14,
+        "drifting": 4,
+        "initial": 1,
+        "stable_or_mixed": 2
+      }
+    }
+  ],
+  "summary": {
+    "configurations": 9,
+    "detected_drift_configurations": 9,
+    "first_drift_frame_mean": 3034.3333333333335,
+    "first_drift_frame_std": 164.9915822768611,
+    "first_drift_frame_min": 2851,
+    "first_drift_frame_max": 3401,
+    "interpretation": "Robustness is supported if drift onset remains in approximately the same acquisition region across window-size and smoothing choices."
+  }
+}

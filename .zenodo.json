@@ -27,5 +27,6 @@
       "relation": "isSupplementTo",
       "resource_type": "publication-article"
     }
-  ]
+  ],
+  "license": "Apache-2.0"
 }

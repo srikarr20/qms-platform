@@ -143,7 +143,7 @@ Real data: detector ingestion demonstrated; spatial predictability supported; jo
 
 ## License
 
-License not yet specified.
+Licensed under the Apache License 2.0. See `LICENSE`.
 
 ## Paper
 

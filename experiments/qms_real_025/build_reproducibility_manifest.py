@@ -81,7 +81,7 @@ EXPERIMENTS = [
         "id": "QMS-REAL-005",
         "directory": "qms_real_005",
         "script": "measurement_health_score.py",
-        "evidence": None,
+        "evidence": "evidence/qms_real_005_health_score.json",
         "dataset":
             "ISTA AllOpticalSCQreadout_data / Fig_4a IQ blobs",
         "source_type":

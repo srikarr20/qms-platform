@@ -76,15 +76,15 @@
       "id": "QMS-REAL-005",
       "directory": "qms_real_005",
       "script": "measurement_health_score.py",
-      "evidence": null,
+      "evidence": "evidence/qms_real_005_health_score.json",
       "dataset": "ISTA AllOpticalSCQreadout_data / Fig_4a IQ blobs",
       "source_type": "real superconducting-qubit IQ measurements",
       "evidence_class": "provisional_heuristic",
       "status": "completed",
       "script_exists": true,
-      "evidence_exists": null,
+      "evidence_exists": true,
       "script_path": "experiments/qms_real_005/measurement_health_score.py",
-      "evidence_path": null
+      "evidence_path": "experiments/qms_real_005/evidence/qms_real_005_health_score.json"
     },
     {
       "id": "QMS-REAL-006",

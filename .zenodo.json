@@ -1,20 +1,31 @@
 {
-  "title": "QMS Platform: Quantum Measurement Observability and Reconstruction Assurance",
-  "description": "Paper-linked research software release of QMS, a quantum measurement observability and reconstruction-assurance framework with initial validation on two-qubit photonic tomography. Demonstrated capabilities include raw-count normalization, state reconstruction, physicality diagnostics, maximum-likelihood estimation, controlled degradation, measurement-context criticality, state-conditioned null-space observability, random-state validation, and noisy pseudoinverse error decomposition. Broader detector-family and real experimental validation are ongoing.",
+  "title": "QMS Platform: Representation Diagnostics and Real-Measurement Validation",
+  "description": "QMS Platform v0.3.1 extends the quantum measurement observability and reconstruction-assurance framework with representation diagnostics and expanded real-measurement validation. The release includes QMS-REP-001 through QMS-REP-004 and QMS-REAL-001 through QMS-REAL-025, with validation on superconducting-qubit IQ measurements and raw Glasgow single-photon detector acquisitions. Across four Glasgow conditions spanning heralded/ghost and diffraction/imaging experiments, unchanged distribution-level convergence and state-classification logic transfers without dataset-specific retuning. Negative causal-drift experiments are retained explicitly; prospective causal early-warning capability, universal detector-health calibration, universal drift timing, universal representation geometry, and cross-laboratory transfer are not established.",
   "creators": [
     {
-      "name": "R, Srikar",
+      "name": "Srikar, R.",
       "orcid": "0009-0002-9398-0847",
       "affiliation": "Independent Research"
     }
   ],
+  "version": "0.3.1",
+  "access_right": "open",
+  "upload_type": "software",
+  "language": "eng",
   "keywords": [
     "quantum measurement",
-    "quantum state tomography",
-    "observability",
+    "measurement observability",
     "reconstruction assurance",
-    "quantum photonics"
+    "representation diagnostics",
+    "single-photon detection",
+    "superconducting qubits",
+    "quantum state tomography"
   ],
-  "access_right": "open",
-  "upload_type": "software"
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.22057334",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    }
+  ]
 }

@@ -46,3 +46,4 @@ artifacts/
 .env.*
 adapters/repo_audit.json
 adapters/repo_audit.txt
+QMS_Pyxel_External_Validation.zip

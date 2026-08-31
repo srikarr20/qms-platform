@@ -4,7 +4,7 @@ import os
 import numpy as np
 import pytest
 
-from adapters.glasgow_event_adapter import (
+from integrations.glasgow import (
     GlasgowCumulativeArchive,
 )
 

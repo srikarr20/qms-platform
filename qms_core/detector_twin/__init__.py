@@ -2,8 +2,8 @@
 QMS detector-twin primitives.
 
 Generic detector diagnostics are kept independent of
-Pyxel. Pyxel-specific inversion is exposed through the
-pyxel_cti module.
+Pyxel. Provider-specific detector integrations are kept outside
+qms_core under the integrations package.
 
 Current validation supports controlled computational
 detector-twin behavior and does not establish calibrated

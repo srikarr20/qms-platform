@@ -25,7 +25,7 @@ def test_pyxel_blind_cti_recovery():
         load_pixel,
     )
 
-    from qms_core.detector_twin.pyxel_cti import (
+    from integrations.pyxel import (
         estimate_parallel_cti_density,
     )
 

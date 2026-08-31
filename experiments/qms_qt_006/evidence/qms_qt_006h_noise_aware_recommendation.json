@@ -1,0 +1,218 @@
+{
+  "experiment": "QMS-QT-006H",
+  "title": "Noise-aware measurement recommendation from finite-window model discriminability",
+  "starting_channel": "x1",
+  "target_change": {
+    "gamma1": 0.12
+  },
+  "measurement_noise_sigma": 0.001,
+  "representative_start_state": [
+    0.7,
+    -0.2,
+    0.5,
+    0.45
+  ],
+  "ranking": [
+    {
+      "addition": "p2",
+      "channels": [
+        "x1",
+        "p2"
+      ],
+      "worst_case_noise_normalized_score": 312.0187561882807,
+      "closest_wrong_family": "g_only",
+      "closest_wrong_params": {
+        "g": 0.172
+      },
+      "mean_noise_normalized_score": 314.85477822556453,
+      "family_scores": [
+        {
+          "family": "g_only",
+          "best_mse": 0.0003120187561882807,
+          "noise_normalized_mse": 312.0187561882807,
+          "best_params": {
+            "g": 0.172
+          }
+        },
+        {
+          "family": "omega2_only",
+          "best_mse": 0.00031769080026284837,
+          "noise_normalized_mse": 317.69080026284837,
+          "best_params": {
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "gamma2_only",
+          "best_mse": 0.00031769080026284837,
+          "noise_normalized_mse": 317.69080026284837,
+          "best_params": {
+            "gamma2": 0.06
+          }
+        },
+        {
+          "family": "g_gamma2",
+          "best_mse": 0.0003120187561882807,
+          "noise_normalized_mse": 312.0187561882807,
+          "best_params": {
+            "g": 0.172,
+            "gamma2": 0.06
+          }
+        },
+        {
+          "family": "g_omega2",
+          "best_mse": 0.0003120187561882807,
+          "noise_normalized_mse": 312.0187561882807,
+          "best_params": {
+            "g": 0.172,
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "omega2_gamma2",
+          "best_mse": 0.00031769080026284837,
+          "noise_normalized_mse": 317.69080026284837,
+          "best_params": {
+            "omega2": 1.2,
+            "gamma2": 0.06
+          }
+        }
+      ]
+    },
+    {
+      "addition": "x2",
+      "channels": [
+        "x1",
+        "x2"
+      ],
+      "worst_case_noise_normalized_score": 305.6288700820342,
+      "closest_wrong_family": "g_gamma2",
+      "closest_wrong_params": {
+        "g": 0.172,
+        "gamma2": 0.064
+      },
+      "mean_noise_normalized_score": 309.0720938402989,
+      "family_scores": [
+        {
+          "family": "g_only",
+          "best_mse": 0.00030752374779944013,
+          "noise_normalized_mse": 307.5237477994402,
+          "best_params": {
+            "g": 0.172
+          }
+        },
+        {
+          "family": "omega2_only",
+          "best_mse": 0.00031501207022976215,
+          "noise_normalized_mse": 315.0120702297622,
+          "best_params": {
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "gamma2_only",
+          "best_mse": 0.0003093720635655583,
+          "noise_normalized_mse": 309.3720635655583,
+          "best_params": {
+            "gamma2": 0.064
+          }
+        },
+        {
+          "family": "g_gamma2",
+          "best_mse": 0.0003056288700820342,
+          "noise_normalized_mse": 305.6288700820342,
+          "best_params": {
+            "g": 0.172,
+            "gamma2": 0.064
+          }
+        },
+        {
+          "family": "g_omega2",
+          "best_mse": 0.00030752374779944013,
+          "noise_normalized_mse": 307.5237477994402,
+          "best_params": {
+            "g": 0.172,
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "omega2_gamma2",
+          "best_mse": 0.0003093720635655583,
+          "noise_normalized_mse": 309.3720635655583,
+          "best_params": {
+            "omega2": 1.2,
+            "gamma2": 0.064
+          }
+        }
+      ]
+    },
+    {
+      "addition": "p1",
+      "channels": [
+        "x1",
+        "p1"
+      ],
+      "worst_case_noise_normalized_score": 33.659924471107665,
+      "closest_wrong_family": "omega2_gamma2",
+      "closest_wrong_params": {
+        "omega2": 1.18,
+        "gamma2": 0.1
+      },
+      "mean_noise_normalized_score": 49.66098005438517,
+      "family_scores": [
+        {
+          "family": "g_only",
+          "best_mse": 6.914275420378612e-05,
+          "noise_normalized_mse": 69.14275420378613,
+          "best_params": {
+            "g": 0.14800000000000002
+          }
+        },
+        {
+          "family": "omega2_only",
+          "best_mse": 7.15149245397426e-05,
+          "noise_normalized_mse": 71.5149245397426,
+          "best_params": {
+            "omega2": 1.19
+          }
+        },
+        {
+          "family": "gamma2_only",
+          "best_mse": 3.5418129255462885e-05,
+          "noise_normalized_mse": 35.41812925546289,
+          "best_params": {
+            "gamma2": 0.1
+          }
+        },
+        {
+          "family": "g_gamma2",
+          "best_mse": 3.526748315811333e-05,
+          "noise_normalized_mse": 35.26748315811333,
+          "best_params": {
+            "g": 0.188,
+            "gamma2": 0.1
+          }
+        },
+        {
+          "family": "g_omega2",
+          "best_mse": 5.296266469809847e-05,
+          "noise_normalized_mse": 52.96266469809847,
+          "best_params": {
+            "g": 0.08,
+            "omega2": 1.1400000000000001
+          }
+        },
+        {
+          "family": "omega2_gamma2",
+          "best_mse": 3.365992447110766e-05,
+          "noise_normalized_mse": 33.659924471107665,
+          "best_params": {
+            "omega2": 1.18,
+            "gamma2": 0.1
+          }
+        }
+      ]
+    }
+  ],
+  "scientific_boundary": "Finite deterministic computational measurement-design test. The score depends on the representative state, known target ambiguity, finite window, noise scale and candidate model library. It is not a universal measurement-value metric."
+}

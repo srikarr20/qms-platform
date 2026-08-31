@@ -1,0 +1,173 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-012",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "window_size": 100,
+  "state_count": 35,
+  "transition_pair_count": 33,
+  "target_pair": {
+    "transition_1": [
+      602,
+      701
+    ],
+    "transition_2": [
+      702,
+      801
+    ],
+    "reversal_cosine": 0.6265389555074912,
+    "direct_cosine": -0.6265389555074912,
+    "reverse_projection_fraction": 0.6670216969845555,
+    "magnitude_weighted_reversal": 0.8493207042358186
+  },
+  "target_reversal_cosine_percentile": 87.87878787878788,
+  "target_weighted_reversal_percentile": 72.72727272727273,
+  "reversal_cosine_distribution": {
+    "mean": 0.49979220549423387,
+    "median": 0.4955901658024708,
+    "p90": 0.6316711305368806,
+    "p95": 0.6465036591985115,
+    "max": 0.6993048579193224
+  },
+  "top_reversals": [
+    {
+      "transition_1": [
+        2302,
+        2401
+      ],
+      "transition_2": [
+        2402,
+        2501
+      ],
+      "reversal_cosine": 0.6993048579193224,
+      "direct_cosine": -0.6993048579193224,
+      "reverse_projection_fraction": 0.760126767625769,
+      "magnitude_weighted_reversal": 0.88296229662134
+    },
+    {
+      "transition_1": [
+        1402,
+        1501
+      ],
+      "transition_2": [
+        1502,
+        1601
+      ],
+      "reversal_cosine": 0.6596110071768242,
+      "direct_cosine": -0.6596110071768242,
+      "reverse_projection_fraction": 0.6627915662950417,
+      "magnitude_weighted_reversal": 0.8860102098894669
+    },
+    {
+      "transition_1": [
+        902,
+        1001
+      ],
+      "transition_2": [
+        1002,
+        1101
+      ],
+      "reversal_cosine": 0.6377654272129697,
+      "direct_cosine": -0.6377654272129697,
+      "reverse_projection_fraction": 0.6146554040450131,
+      "magnitude_weighted_reversal": 0.851901236227656
+    },
+    {
+      "transition_1": [
+        3202,
+        3301
+      ],
+      "transition_2": [
+        3302,
+        3401
+      ],
+      "reversal_cosine": 0.632954174294228,
+      "direct_cosine": -0.632954174294228,
+      "reverse_projection_fraction": 0.5700009691225423,
+      "magnitude_weighted_reversal": 0.8464162263370105
+    },
+    {
+      "transition_1": [
+        602,
+        701
+      ],
+      "transition_2": [
+        702,
+        801
+      ],
+      "reversal_cosine": 0.6265389555074912,
+      "direct_cosine": -0.6265389555074912,
+      "reverse_projection_fraction": 0.6670216969845555,
+      "magnitude_weighted_reversal": 0.8493207042358186
+    },
+    {
+      "transition_1": [
+        3402,
+        3501
+      ],
+      "transition_2": [
+        3502,
+        3601
+      ],
+      "reversal_cosine": 0.6047532297143707,
+      "direct_cosine": -0.6047532297143707,
+      "reverse_projection_fraction": 0.6424036807527818,
+      "magnitude_weighted_reversal": 0.8452330545845061
+    },
+    {
+      "transition_1": [
+        3102,
+        3201
+      ],
+      "transition_2": [
+        3202,
+        3301
+      ],
+      "reversal_cosine": 0.5742269747587188,
+      "direct_cosine": -0.5742269747587188,
+      "reverse_projection_fraction": 0.6763758611625278,
+      "magnitude_weighted_reversal": 0.8889511213129742
+    },
+    {
+      "transition_1": [
+        3602,
+        3701
+      ],
+      "transition_2": [
+        3702,
+        3801
+      ],
+      "reversal_cosine": 0.5609071900709183,
+      "direct_cosine": -0.5609071900709183,
+      "reverse_projection_fraction": 0.5069160352956347,
+      "magnitude_weighted_reversal": 0.846808727054317
+    },
+    {
+      "transition_1": [
+        2102,
+        2201
+      ],
+      "transition_2": [
+        2202,
+        2301
+      ],
+      "reversal_cosine": 0.5549087450850934,
+      "direct_cosine": -0.5549087450850934,
+      "reverse_projection_fraction": 0.5553174415940096,
+      "magnitude_weighted_reversal": 0.8548834145785312
+    },
+    {
+      "transition_1": [
+        2802,
+        2901
+      ],
+      "transition_2": [
+        2902,
+        3001
+      ],
+      "reversal_cosine": 0.5480107147824395,
+      "direct_cosine": -0.5480107147824395,
+      "reverse_projection_fraction": 0.46938090597875226,
+      "magnitude_weighted_reversal": 0.8276157616785208
+    }
+  ],
+  "scientific_boundary": "This analysis compares the 701/801 transition geometry against other consecutive non-overlapping measurement-state transitions in the same Glasgow sequence. It evaluates whether partial reversal is unusual in observable detector space; it does not establish a physical mechanism or causal state transition."
+}

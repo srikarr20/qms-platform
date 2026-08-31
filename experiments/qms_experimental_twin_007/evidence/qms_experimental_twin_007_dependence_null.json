@@ -1,0 +1,72 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-007",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "samples": 40,
+  "spacing": ">=100 detector increments",
+  "lag1_correlation": 0.4565957477456559,
+  "robust_statistics": {
+    "median": 0.003588952594667785,
+    "mad": 0.001968914529288848,
+    "observed_max_robust_z": 34.49080957268054,
+    "observed_top2_robust_z_sum": 63.64464346830108
+  },
+  "null": {
+    "type": "circular-shift residual null preserving temporal ordering",
+    "trials": 10000,
+    "p_max": 0.051594840515948405,
+    "p_top2": 0.024697530246975304
+  },
+  "largest_nonoverlap_innovations": [
+    {
+      "window": 701,
+      "innovation": 0.10427151220050039,
+      "robust_z": 34.49080957268054
+    },
+    {
+      "window": 801,
+      "innovation": 0.0886922788227461,
+      "robust_z": 29.153833895620547
+    },
+    {
+      "window": 1501,
+      "innovation": 0.013112822501225085,
+      "robust_z": 3.262590707149853
+    },
+    {
+      "window": 501,
+      "innovation": 0.012977081362024212,
+      "robust_z": 3.2160898851436874
+    },
+    {
+      "window": 3301,
+      "innovation": 0.01124588380153067,
+      "robust_z": 2.6230337925549088
+    },
+    {
+      "window": 2101,
+      "innovation": 0.010264044550672438,
+      "robust_z": 2.2866852654126486
+    },
+    {
+      "window": 1401,
+      "innovation": 0.008927003346996337,
+      "robust_z": 1.828655257759283
+    },
+    {
+      "window": 2401,
+      "innovation": 0.008316827238081479,
+      "robust_z": 1.6196273182554248
+    },
+    {
+      "window": 3001,
+      "innovation": 0.008285239927338291,
+      "robust_z": 1.6088064578797887
+    },
+    {
+      "window": 2801,
+      "innovation": 0.008060780153962587,
+      "robust_z": 1.5319133064686885
+    }
+  ],
+  "scientific_boundary": "This analysis tests whether the largest innovations remain unusual under a dependence-preserving null. It does not identify their physical cause and does not establish detector degradation, failure, or causality."
+}

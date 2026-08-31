@@ -1,0 +1,17 @@
+{
+  "experiment": "QMS-QT-005B",
+  "title": "Adaptive twin recovery with parameter estimation and state reinitialization",
+  "summary": {
+    "true_g_after": 0.08,
+    "mean_estimated_g": 0.08391999999999998,
+    "mean_absolute_g_error": 0.03803999999999999,
+    "fixed_error": 0.009603680857391703,
+    "parameter_only_error": 0.0071596871849920855,
+    "parameter_plus_reset_error": 0.011077865467267635,
+    "fixed_mode2_error": 0.009524562280574128,
+    "parameter_only_mode2_error": 0.007098693397774962,
+    "parameter_plus_reset_mode2_error": 0.011037878481636645
+  },
+  "trials": 100,
+  "scientific_boundary": "Finite linear Gaussian computational experiment using a known candidate model family and retrospective finite-window reconstruction at the adaptation event. This is not experimental autonomous quantum-field resynchronization."
+}

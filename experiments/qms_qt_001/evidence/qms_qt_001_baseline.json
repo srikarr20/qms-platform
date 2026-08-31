@@ -1,0 +1,195 @@
+{
+  "experiment": "QMS-QT-001",
+  "status": "computational_baseline",
+  "field_model": {
+    "modes": 2,
+    "quadratures": [
+      "x1",
+      "p1",
+      "x2",
+      "p2"
+    ],
+    "state_dimension": 4,
+    "omega1": 1.0,
+    "omega2": 1.2,
+    "gamma1": 0.08,
+    "gamma2": 0.06,
+    "coupling": 0.18,
+    "drive_description": "0.35*cos(0.95*t) applied to p1"
+  },
+  "simulation": {
+    "t_start": 0.0,
+    "t_end": 40.0,
+    "samples": 2001,
+    "solver_success": true,
+    "initial_mean": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "final_mean": [
+      0.9242606616310702,
+      1.7280760080846285,
+      0.21213310535572194,
+      0.6190872353594025
+    ]
+  },
+  "gaussian_physicality": {
+    "all_time_points_physical": true,
+    "minimum_uncertainty_eigenvalue": 0.0
+  },
+  "measurement_configurations": {
+    "all_quadratures": {
+      "measurement_dimension": 4,
+      "observability_shape": [
+        16,
+        4
+      ],
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        2.984041523852629,
+        2.8166768804541102,
+        1.953356124698483,
+        1.8414235227490467
+      ],
+      "condition_number_nonzero": 1.620507985798822,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "measurement_start": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "measurement_end": [
+        0.9242606616310702,
+        1.7280760080846285,
+        0.21213310535572194,
+        0.6190872353594025
+      ]
+    },
+    "x_each_mode": {
+      "measurement_dimension": 2,
+      "observability_shape": [
+        8,
+        4
+      ],
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        2.1622979286074147,
+        1.8110532484500383,
+        1.424703424952794,
+        1.3285918583772927
+      ],
+      "condition_number_nonzero": 1.6275110486138225,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "measurement_start": [
+        0.0,
+        0.0
+      ],
+      "measurement_end": [
+        0.9242606616310702,
+        0.21213310535572194
+      ]
+    },
+    "mode1_only": {
+      "measurement_dimension": 2,
+      "observability_shape": [
+        8,
+        4
+      ],
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        2.0700519972666513,
+        2.0213192656081875,
+        0.3005106633644579,
+        0.21563506737490903
+      ],
+      "condition_number_nonzero": 9.599792939371973,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "measurement_start": [
+        0.0,
+        0.0
+      ],
+      "measurement_end": [
+        0.9242606616310702,
+        1.7280760080846285
+      ]
+    },
+    "single_x1": {
+      "measurement_dimension": 1,
+      "observability_shape": [
+        4,
+        4
+      ],
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        1.4843322693280667,
+        1.3697553977628463,
+        0.15878155058391963,
+        0.12043482000278952
+      ],
+      "condition_number_nonzero": 12.324776748897756,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "measurement_start": [
+        0.0
+      ],
+      "measurement_end": [
+        0.9242606616310702
+      ]
+    },
+    "sum_x_modes": {
+      "measurement_dimension": 1,
+      "observability_shape": [
+        4,
+        4
+      ],
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        2.3136069644729083,
+        2.031328377623771,
+        0.26689482133355114,
+        0.21893375835662807
+      ],
+      "condition_number_nonzero": 10.567611782848953,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "measurement_start": [
+        0.0
+      ],
+      "measurement_end": [
+        1.1363937669867923
+      ]
+    }
+  },
+  "scientific_boundary": "Finite two-mode Gaussian computational model only; not experimental quantum-field tomography or a physical quantum twin."
+}

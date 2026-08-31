@@ -1,0 +1,98 @@
+{
+  "experiment": "QMS-QT-005D",
+  "title": "Measurement-architecture dependence of joint parameter-state identifiability",
+  "true_g": 0.08,
+  "measurement_configurations": {
+    "x1_only": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "x1_x2": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ]
+  },
+  "results": {
+    "x1_only": {
+      "channels": 1,
+      "mean_estimated_g": 0.08266,
+      "median_estimated_g": 0.082,
+      "std_estimated_g": 0.04010392000789948,
+      "mean_absolute_error": 0.03616,
+      "median_absolute_error": 0.04,
+      "fraction_within_0.01": 0.12,
+      "fraction_within_0.02": 0.18,
+      "mean_near_optimal_width": 0.037380000000000004,
+      "most_common_estimates": [
+        {
+          "g": 0.04,
+          "count": 69
+        },
+        {
+          "g": 0.09,
+          "count": 6
+        },
+        {
+          "g": 0.132,
+          "count": 6
+        },
+        {
+          "g": 0.118,
+          "count": 6
+        },
+        {
+          "g": 0.114,
+          "count": 5
+        }
+      ]
+    },
+    "x1_x2": {
+      "channels": 2,
+      "mean_estimated_g": 0.07998999999999999,
+      "median_estimated_g": 0.08,
+      "std_estimated_g": 0.004429435629964607,
+      "mean_absolute_error": 0.003589999999999996,
+      "median_absolute_error": 0.00399999999999999,
+      "fraction_within_0.01": 0.985,
+      "fraction_within_0.02": 1.0,
+      "mean_near_optimal_width": 0.0025599999999999967,
+      "most_common_estimates": [
+        {
+          "g": 0.082,
+          "count": 43
+        },
+        {
+          "g": 0.078,
+          "count": 32
+        },
+        {
+          "g": 0.084,
+          "count": 30
+        },
+        {
+          "g": 0.076,
+          "count": 24
+        },
+        {
+          "g": 0.08,
+          "count": 23
+        }
+      ]
+    }
+  },
+  "scientific_boundary": "Finite linear Gaussian computational measurement-architecture comparison. The additional channel is an abstract external observable in this model and does not represent a demonstrated physical detector implementation."
+}

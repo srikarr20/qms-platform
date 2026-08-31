@@ -1,0 +1,397 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-017",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "design": "prospective frozen-baseline evaluation",
+  "training": {
+    "last_window": 699,
+    "samples": 599,
+    "median_innovation": 0.004130633582039472,
+    "mad": 0.002177076375191371,
+    "p95": 0.013852325044268128,
+    "p99": 0.020908805431909917,
+    "robust_6mad_threshold": 0.023497034185191834,
+    "frozen_threshold": 0.023497034185191834
+  },
+  "test": {
+    "samples": 3369,
+    "flagged_count": 60,
+    "flagged_fraction": 0.017809439002671415
+  },
+  "targets": {
+    "701": {
+      "window": 701,
+      "innovation": 0.10427151220050039,
+      "robust_z_against_frozen_baseline": 31.0251390551615,
+      "flagged": true
+    },
+    "801": {
+      "window": 801,
+      "innovation": 0.0886922788227461,
+      "robust_z_against_frozen_baseline": 26.19845999476293,
+      "flagged": true
+    }
+  },
+  "flagged_events": [
+    {
+      "window": 701,
+      "innovation": 0.10427151220050039,
+      "robust_z_against_frozen_baseline": 31.0251390551615,
+      "flagged": true
+    },
+    {
+      "window": 702,
+      "innovation": 0.09616768677721262,
+      "robust_z_against_frozen_baseline": 28.514452968671478,
+      "flagged": true
+    },
+    {
+      "window": 724,
+      "innovation": 0.046339832347745046,
+      "robust_z_against_frozen_baseline": 13.077039858042072,
+      "flagged": true
+    },
+    {
+      "window": 725,
+      "innovation": 0.04706027883562383,
+      "robust_z_against_frozen_baseline": 13.30024493449645,
+      "flagged": true
+    },
+    {
+      "window": 801,
+      "innovation": 0.0886922788227461,
+      "robust_z_against_frozen_baseline": 26.19845999476293,
+      "flagged": true
+    },
+    {
+      "window": 802,
+      "innovation": 0.09026644606808423,
+      "robust_z_against_frozen_baseline": 26.68616050584765,
+      "flagged": true
+    },
+    {
+      "window": 805,
+      "innovation": 0.024111417096751568,
+      "robust_z_against_frozen_baseline": 6.190344997240136,
+      "flagged": true
+    },
+    {
+      "window": 824,
+      "innovation": 0.06742181131236798,
+      "robust_z_against_frozen_baseline": 19.60855164382781,
+      "flagged": true
+    },
+    {
+      "window": 825,
+      "innovation": 0.067833386157646,
+      "robust_z_against_frozen_baseline": 19.73606367470391,
+      "flagged": true
+    },
+    {
+      "window": 856,
+      "innovation": 0.028592114222025858,
+      "robust_z_against_frozen_baseline": 7.578531852533715,
+      "flagged": true
+    },
+    {
+      "window": 905,
+      "innovation": 0.027996424297575692,
+      "robust_z_against_frozen_baseline": 7.393978221740845,
+      "flagged": true
+    },
+    {
+      "window": 950,
+      "innovation": 0.10935555487322418,
+      "robust_z_against_frozen_baseline": 32.60025136753293,
+      "flagged": true
+    },
+    {
+      "window": 951,
+      "innovation": 0.11510357761486106,
+      "robust_z_against_frozen_baseline": 34.3810746168572,
+      "flagged": true
+    },
+    {
+      "window": 956,
+      "innovation": 0.02592220790211297,
+      "robust_z_against_frozen_baseline": 6.751355019432897,
+      "flagged": true
+    },
+    {
+      "window": 1042,
+      "innovation": 0.02542648420412081,
+      "robust_z_against_frozen_baseline": 6.5977724178487485,
+      "flagged": true
+    },
+    {
+      "window": 1050,
+      "innovation": 0.07407375721513901,
+      "robust_z_against_frozen_baseline": 21.66942378184036,
+      "flagged": true
+    },
+    {
+      "window": 1051,
+      "innovation": 0.08093913689773875,
+      "robust_z_against_frozen_baseline": 23.796420890889802,
+      "flagged": true
+    },
+    {
+      "window": 1085,
+      "innovation": 0.04066864401028872,
+      "robust_z_against_frozen_baseline": 11.32002105408326,
+      "flagged": true
+    },
+    {
+      "window": 1086,
+      "innovation": 0.04159525051670567,
+      "robust_z_against_frozen_baseline": 11.607097581747196,
+      "flagged": true
+    },
+    {
+      "window": 1142,
+      "innovation": 0.0239487330723744,
+      "robust_z_against_frozen_baseline": 6.13994305801225,
+      "flagged": true
+    },
+    {
+      "window": 1379,
+      "innovation": 0.0247665765814337,
+      "robust_z_against_frozen_baseline": 6.393323185528409,
+      "flagged": true
+    },
+    {
+      "window": 1479,
+      "innovation": 0.02430955980331053,
+      "robust_z_against_frozen_baseline": 6.251732565519616,
+      "flagged": true
+    },
+    {
+      "window": 1497,
+      "innovation": 0.04589606703209266,
+      "robust_z_against_frozen_baseline": 12.939554738918753,
+      "flagged": true
+    },
+    {
+      "window": 1498,
+      "innovation": 0.047150534959109446,
+      "robust_z_against_frozen_baseline": 13.32820762885616,
+      "flagged": true
+    },
+    {
+      "window": 1534,
+      "innovation": 0.027935596027822668,
+      "robust_z_against_frozen_baseline": 7.375132715753597,
+      "flagged": true
+    },
+    {
+      "window": 1535,
+      "innovation": 0.031240618485891353,
+      "robust_z_against_frozen_baseline": 8.399078009190534,
+      "flagged": true
+    },
+    {
+      "window": 1597,
+      "innovation": 0.05924971586622057,
+      "robust_z_against_frozen_baseline": 17.076714485150877,
+      "flagged": true
+    },
+    {
+      "window": 1598,
+      "innovation": 0.06134384168958088,
+      "robust_z_against_frozen_baseline": 17.725505925420713,
+      "flagged": true
+    },
+    {
+      "window": 1675,
+      "innovation": 0.03847440846628637,
+      "robust_z_against_frozen_baseline": 10.640214127964471,
+      "flagged": true
+    },
+    {
+      "window": 1676,
+      "innovation": 0.037600184668626746,
+      "robust_z_against_frozen_baseline": 10.369366545419682,
+      "flagged": true
+    },
+    {
+      "window": 1775,
+      "innovation": 0.030157056716400676,
+      "robust_z_against_frozen_baseline": 8.063374398066957,
+      "flagged": true
+    },
+    {
+      "window": 1776,
+      "innovation": 0.02647095715693606,
+      "robust_z_against_frozen_baseline": 6.92136573006555,
+      "flagged": true
+    },
+    {
+      "window": 2315,
+      "innovation": 0.15447366877245142,
+      "robust_z_against_frozen_baseline": 46.578516556950674,
+      "flagged": true
+    },
+    {
+      "window": 2316,
+      "innovation": 0.15438833768238733,
+      "robust_z_against_frozen_baseline": 46.55207971146369,
+      "flagged": true
+    },
+    {
+      "window": 2415,
+      "innovation": 0.1093181743765395,
+      "robust_z_against_frozen_baseline": 32.58867033166034,
+      "flagged": true
+    },
+    {
+      "window": 2416,
+      "innovation": 0.12315339933764326,
+      "robust_z_against_frozen_baseline": 36.87502955078701,
+      "flagged": true
+    },
+    {
+      "window": 2425,
+      "innovation": 0.027928692384325795,
+      "robust_z_against_frozen_baseline": 7.372993863943702,
+      "flagged": true
+    },
+    {
+      "window": 2426,
+      "innovation": 0.02374080687881155,
+      "robust_z_against_frozen_baseline": 6.075524419415358,
+      "flagged": true
+    },
+    {
+      "window": 2432,
+      "innovation": 0.09075075344491434,
+      "robust_z_against_frozen_baseline": 26.836206160717953,
+      "flagged": true
+    },
+    {
+      "window": 2433,
+      "innovation": 0.078476031000826,
+      "robust_z_against_frozen_baseline": 23.033313915860536,
+      "flagged": true
+    },
+    {
+      "window": 2532,
+      "innovation": 0.09039195740099826,
+      "robust_z_against_frozen_baseline": 26.725045790362604,
+      "flagged": true
+    },
+    {
+      "window": 2533,
+      "innovation": 0.07793526558530568,
+      "robust_z_against_frozen_baseline": 22.86577671782314,
+      "flagged": true
+    },
+    {
+      "window": 2761,
+      "innovation": 0.047696893067267494,
+      "robust_z_against_frozen_baseline": 13.497477526557992,
+      "flagged": true
+    },
+    {
+      "window": 2762,
+      "innovation": 0.04369073496778595,
+      "robust_z_against_frozen_baseline": 12.256309945165679,
+      "flagged": true
+    },
+    {
+      "window": 2861,
+      "innovation": 0.044070153559740505,
+      "robust_z_against_frozen_baseline": 12.373859488747708,
+      "flagged": true
+    },
+    {
+      "window": 2862,
+      "innovation": 0.039408507222755906,
+      "robust_z_against_frozen_baseline": 10.929611866535721,
+      "flagged": true
+    },
+    {
+      "window": 3241,
+      "innovation": 0.023543768321709367,
+      "robust_z_against_frozen_baseline": 6.014478933119847,
+      "flagged": true
+    },
+    {
+      "window": 3242,
+      "innovation": 0.023834959645689612,
+      "robust_z_against_frozen_baseline": 6.104694352065435,
+      "flagged": true
+    },
+    {
+      "window": 3292,
+      "innovation": 0.0375169050483767,
+      "robust_z_against_frozen_baseline": 10.343565275904533,
+      "flagged": true
+    },
+    {
+      "window": 3293,
+      "innovation": 0.036192291313941416,
+      "robust_z_against_frozen_baseline": 9.933180167722995,
+      "flagged": true
+    },
+    {
+      "window": 3392,
+      "innovation": 0.04391250679654834,
+      "robust_z_against_frozen_baseline": 12.325018168228963,
+      "flagged": true
+    },
+    {
+      "window": 3393,
+      "innovation": 0.03666415632447136,
+      "robust_z_against_frozen_baseline": 10.079370991779316,
+      "flagged": true
+    },
+    {
+      "window": 3457,
+      "innovation": 0.09409623012968464,
+      "robust_z_against_frozen_baseline": 27.87268477747002,
+      "flagged": true
+    },
+    {
+      "window": 3458,
+      "innovation": 0.09363814050465996,
+      "robust_z_against_frozen_baseline": 27.730761773476154,
+      "flagged": true
+    },
+    {
+      "window": 3544,
+      "innovation": 0.03410123700573301,
+      "robust_z_against_frozen_baseline": 9.28534032869745,
+      "flagged": true
+    },
+    {
+      "window": 3545,
+      "innovation": 0.0309660899170724,
+      "robust_z_against_frozen_baseline": 8.314024960528222,
+      "flagged": true
+    },
+    {
+      "window": 3557,
+      "innovation": 0.08216872216487811,
+      "robust_z_against_frozen_baseline": 24.177364761359737,
+      "flagged": true
+    },
+    {
+      "window": 3558,
+      "innovation": 0.07695210984009761,
+      "robust_z_against_frozen_baseline": 22.561180391839457,
+      "flagged": true
+    },
+    {
+      "window": 3644,
+      "innovation": 0.05611133368724763,
+      "robust_z_against_frozen_baseline": 16.10439683771088,
+      "flagged": true
+    },
+    {
+      "window": 3645,
+      "innovation": 0.059674042444642014,
+      "robust_z_against_frozen_baseline": 17.208177193307097,
+      "flagged": true
+    }
+  ],
+  "scientific_boundary": "The surprise threshold is calibrated exclusively on measurements preceding window 701 and then frozen. Subsequent flags therefore represent prospective measurement-space deviations relative to that baseline. They do not establish detector failure, degradation, hardware health, quantum-field dynamics, or physical cause."
+}

@@ -1,0 +1,88 @@
+{
+  "history": [
+    {
+      "time": "t00",
+      "predicted": null,
+      "cti": 100000001.75639752,
+      "noise": 0.0001001751228608572,
+      "pixel_fit_residual": 5.081526806557815e-10,
+      "image_residual_std": 12.432116888693253,
+      "cti_innovation_relative": null,
+      "noise_innovation_relative": null,
+      "trigger_reestimate": true,
+      "mode": "INITIALIZE"
+    },
+    {
+      "time": "t01",
+      "predicted": null,
+      "cti": 499999962.5062581,
+      "noise": 0.0001997220572785066,
+      "pixel_fit_residual": 1.0852575027126223e-08,
+      "image_residual_std": 21.60668280787375,
+      "cti_innovation_relative": null,
+      "noise_innovation_relative": null,
+      "trigger_reestimate": true,
+      "mode": "INITIALIZE"
+    },
+    {
+      "time": "t02",
+      "predicted": {
+        "cti": 899999923.2561185,
+        "noise": 0.00029926899169615596
+      },
+      "cti": 1000000057.2949046,
+      "noise": 0.0002998646882657597,
+      "pixel_fit_residual": 1.659369196996546e-08,
+      "image_residual_std": 30.085346372895174,
+      "cti_innovation_relative": 0.10000012830928824,
+      "noise_innovation_relative": 0.001986551244325908,
+      "trigger_reestimate": false,
+      "mode": "ASSIMILATE"
+    },
+    {
+      "time": "t03",
+      "predicted": {
+        "cti": 1500000152.0835512,
+        "noise": 0.00040000731925301283
+      },
+      "cti": 4999999795.26113,
+      "noise": 0.000500360296226467,
+      "pixel_fit_residual": 5.957692396304427e-08,
+      "image_residual_std": 46.511207348695585,
+      "cti_innovation_relative": 0.6999999572989558,
+      "noise_innovation_relative": 0.20056143089345688,
+      "trigger_reestimate": true,
+      "mode": "REESTIMATE_AND_ADAPT"
+    },
+    {
+      "time": "t04",
+      "predicted": {
+        "cti": 8999999533.227356,
+        "noise": 0.0007008559041871744
+      },
+      "cti": 9999999810.07502,
+      "noise": 0.0006990284828602767,
+      "pixel_fit_residual": 5.558727732778965e-08,
+      "image_residual_std": 62.650810530042676,
+      "cti_innovation_relative": 0.10000002958401676,
+      "noise_innovation_relative": 0.002614230137547824,
+      "trigger_reestimate": false,
+      "mode": "ASSIMILATE"
+    },
+    {
+      "time": "t05",
+      "predicted": {
+        "cti": 14999999824.888908,
+        "noise": 0.0008976966694940864
+      },
+      "cti": 19999997512.74741,
+      "noise": 0.0009975733312328789,
+      "pixel_fit_residual": 7.359304125953556e-07,
+      "image_residual_std": 86.66842771312989,
+      "cti_innovation_relative": 0.24999991548357195,
+      "noise_innovation_relative": 0.10011961889093118,
+      "trigger_reestimate": true,
+      "mode": "REESTIMATE_AND_ADAPT"
+    }
+  ]
+}

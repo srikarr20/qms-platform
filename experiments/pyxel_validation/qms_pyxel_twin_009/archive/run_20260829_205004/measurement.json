@@ -1,0 +1,14 @@
+{
+  "measurement_id": "run_20260829_205004",
+  "pixel_shape": [
+    450,
+    450
+  ],
+  "image_shape": [
+    450,
+    450
+  ],
+  "pixel_dtype": "float64",
+  "image_dtype": "uint16",
+  "source": "/Users/rallabandisailesh/Desktop/HCIPy_Development/dpi-pyxel-validation/qms_pyxel_twin_003/results/t05/run_20260829_205004"
+}

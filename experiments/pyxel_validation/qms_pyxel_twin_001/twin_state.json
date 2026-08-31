@@ -1,0 +1,61 @@
+{
+  "twin": "QMS-PYXEL-TWIN-001",
+  "status": "DIVERGED",
+  "measurement_state": {
+    "image_rmse_from_baseline": 0.2385760225138279,
+    "pixel_rmse_from_baseline": 1.4506005081930642,
+    "image_changed_fraction": 0.04871111111111111,
+    "image_directionality": 7.148587639101957,
+    "first_divergent_stage": "PIXEL"
+  },
+  "inference": {
+    "mechanism": "CTI",
+    "parameter": "trap_density_cm3",
+    "estimated_value": 1000000000.0,
+    "winner_score": 1.3676239294407386,
+    "runner_up_margin": 0.2922022840917122
+  },
+  "top_candidates": [
+    {
+      "mechanism": "CTI",
+      "parameter": "trap_density_cm3",
+      "value": 1000000000.0,
+      "score": 1.3676239294407386,
+      "image_error": 0.20643954066655273,
+      "pixel_error": 1.161184388774186
+    },
+    {
+      "mechanism": "CTI",
+      "parameter": "trap_density_cm3",
+      "value": 100000000.0,
+      "score": 1.6598262135324509,
+      "image_error": 0.2381513161473521,
+      "pixel_error": 1.4216748973850988
+    },
+    {
+      "mechanism": "CTI",
+      "parameter": "trap_density_cm3",
+      "value": 10000000000.0,
+      "score": 1.6914924124124275,
+      "image_error": 0.23233649501010437,
+      "pixel_error": 1.4591559174023232
+    },
+    {
+      "mechanism": "CTI",
+      "parameter": "trap_density_cm3",
+      "value": 100000000000.0,
+      "score": 32.523807920335386,
+      "image_error": 3.7577383531672606,
+      "pixel_error": 28.766069567168127
+    },
+    {
+      "mechanism": "OUTPUT_NODE_NOISE",
+      "parameter": "std_deviation",
+      "value": 0.0005,
+      "score": 50.84324148552945,
+      "image_error": 49.392640977336384,
+      "pixel_error": 1.4506005081930642
+    }
+  ],
+  "scientific_boundary": "Computational detector-twin prototype. Inference is restricted to a finite library of previously simulated Pyxel mechanisms and parameter values. This is not real detector validation."
+}

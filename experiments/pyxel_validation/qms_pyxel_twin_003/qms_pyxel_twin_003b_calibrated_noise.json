@@ -1,0 +1,77 @@
+{
+  "experiment": "QMS-PYXEL-TWIN-003B",
+  "title": "Time-evolving twin with calibrated nonlinear noise inference",
+  "states": 6,
+  "old_mean_absolute_noise_relative_error": 0.11393542893172136,
+  "calibrated_mean_absolute_noise_relative_error": 0.0013545206964007581,
+  "calibrated_max_absolute_noise_relative_error": 0.0024266687671211425,
+  "results": [
+    {
+      "time": "t00",
+      "true_cti_density": 100000000.0,
+      "estimated_cti_density": 100000001.75639752,
+      "cti_relative_error": 1.7563975155353545e-08,
+      "true_output_noise": 0.0001,
+      "old_estimated_output_noise": 0.0001337237209284928,
+      "calibrated_estimated_output_noise": 0.0001001751228608572,
+      "calibrated_noise_relative_error": 0.0017512286085719368,
+      "image_residual_std_after_cti": 12.432116888693253
+    },
+    {
+      "time": "t01",
+      "true_cti_density": 500000000.0,
+      "estimated_cti_density": 499999962.5062581,
+      "cti_relative_error": -7.498748385906219e-08,
+      "true_output_noise": 0.0002,
+      "old_estimated_output_noise": 0.00023240820914564866,
+      "calibrated_estimated_output_noise": 0.0001997220572785066,
+      "calibrated_noise_relative_error": -0.0013897136074671136,
+      "image_residual_std_after_cti": 21.60668280787375
+    },
+    {
+      "time": "t02",
+      "true_cti_density": 1000000000.0,
+      "estimated_cti_density": 1000000057.2949046,
+      "cti_relative_error": 5.7294904589653013e-08,
+      "true_output_noise": 0.0003,
+      "old_estimated_output_noise": 0.00032360735491998344,
+      "calibrated_estimated_output_noise": 0.0002998646882657597,
+      "calibrated_noise_relative_error": -0.00045103911413422207,
+      "image_residual_std_after_cti": 30.085346372895174
+    },
+    {
+      "time": "t03",
+      "true_cti_density": 5000000000.0,
+      "estimated_cti_density": 4999999795.26113,
+      "cti_relative_error": -4.094777393341064e-08,
+      "true_output_noise": 0.0005,
+      "old_estimated_output_noise": 0.0005002890310017012,
+      "calibrated_estimated_output_noise": 0.000500360296226467,
+      "calibrated_noise_relative_error": 0.0007205924529339949,
+      "image_residual_std_after_cti": 46.511207348695585
+    },
+    {
+      "time": "t04",
+      "true_cti_density": 10000000000.0,
+      "estimated_cti_density": 9999999810.07502,
+      "cti_relative_error": -1.8992498016357423e-08,
+      "true_output_noise": 0.0007,
+      "old_estimated_output_noise": 0.0006738916290984062,
+      "calibrated_estimated_output_noise": 0.0006990284828602767,
+      "calibrated_noise_relative_error": -0.00138788162817614,
+      "image_residual_std_after_cti": 62.650810530042676
+    },
+    {
+      "time": "t05",
+      "true_cti_density": 20000000000.0,
+      "estimated_cti_density": 19999997512.74741,
+      "cti_relative_error": -1.2436262950897216e-07,
+      "true_output_noise": 0.001,
+      "old_estimated_output_noise": 0.0009322325992094197,
+      "calibrated_estimated_output_noise": 0.0009975733312328789,
+      "calibrated_noise_relative_error": -0.0024266687671211425,
+      "image_residual_std_after_cti": 86.66842771312989
+    }
+  ],
+  "scientific_boundary": "Noise inference uses an empirical inverse calibration derived from the same Pyxel CCD configuration and scene. This is configuration-specific computational validation."
+}

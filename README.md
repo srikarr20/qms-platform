@@ -170,3 +170,30 @@ QMS Platform v0.3.2 — Representation Diagnostics and Real-Measurement Validati
 The integrated Quantum-Research snapshot corresponding to this work is archived at:
 
 **DOI:** https://doi.org/10.5281/zenodo.22057237
+
+## QMS + Pyxel Adaptive Measurement Twin
+
+QMS has been extended into a stage-aware, predictive, adaptive measurement-system twin around Pyxel detector models.
+
+The current validation includes:
+
+- pipeline-stage observability across Pyxel representations;
+- controlled CTI and output-node-noise mechanism separation;
+- inverse recovery of supported Pyxel model parameters;
+- hierarchical multi-mechanism decomposition;
+- nonlinear readout-noise calibration;
+- predictive state estimation and innovation-gated adaptation;
+- persistent streaming and external measurement ingestion;
+- causal prospective measurement-state monitoring on real Glasgow single-photon detector data;
+- robustness of dominant alert regions across causal reference and calibration choices.
+
+The strongest current architectural framing is:
+
+> **Pyxel models the detector. QMS adds observability, inference assurance, model–measurement comparison, prediction, innovation monitoring, and selective adaptation around that model.**
+
+Documentation:
+
+- `docs/pyxel_twin/QMS_Pyxel_Adaptive_Measurement_Twin_Report.docx`
+- `docs/pyxel_twin/EVIDENCE_MANIFEST.md`
+
+Scientific limits are documented explicitly in the report and evidence manifest. The current work does not claim calibrated real-detector CTI inference, detector-health scoring, physical degradation diagnosis, ESA hardware validation, or quantum-field reconstruction.

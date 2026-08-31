@@ -1,0 +1,235 @@
+{
+  "experiment": "QMS-QT-006I",
+  "title": "State-distribution-aware recommendation of additional measurement observables",
+  "starting_channel": "x1",
+  "candidate_additions": [
+    "p1",
+    "x2",
+    "p2"
+  ],
+  "target_change": {
+    "gamma1": 0.12
+  },
+  "state_distribution_at_change": {
+    "mean": [
+      -0.054631860517259614,
+      0.009664793630442668,
+      -0.055338651344500264,
+      0.0873832854101738
+    ],
+    "mean_norm": 0.11737228514943555,
+    "covariance": [
+      [
+        1.3161020014913987e-06,
+        5.891051564651463e-09,
+        4.476215092743007e-08,
+        -4.808883402591852e-08
+      ],
+      [
+        5.891051564651355e-09,
+        1.3090983313018437e-06,
+        6.351092556862416e-08,
+        -1.8919996219297618e-07
+      ],
+      [
+        4.476215092743006e-08,
+        6.351092556862419e-08,
+        1.5655366496167606e-06,
+        -3.4026930631412746e-09
+      ],
+      [
+        -4.8088834025918634e-08,
+        -1.8919996219297618e-07,
+        -3.402693063141179e-09,
+        1.5586737980781973e-06
+      ]
+    ],
+    "covariance_trace": 5.7494107804882e-06
+  },
+  "ranking": [
+    {
+      "addition": "p1",
+      "measurement_channels": [
+        "x1",
+        "p1"
+      ],
+      "worst_case_expected_score": 0.5768310929869465,
+      "mean_expected_score": 0.7186867614953684,
+      "closest_wrong_family": "g_omega2",
+      "closest_wrong_parameters": {
+        "g": 0.2,
+        "omega2": 1.26
+      },
+      "family_scores": [
+        {
+          "family": "g_only",
+          "expected_noise_normalized_mismatch": 0.8392269888711607,
+          "closest_parameters": {
+            "g": 0.192
+          }
+        },
+        {
+          "family": "omega2_only",
+          "expected_noise_normalized_mismatch": 0.6309103541432837,
+          "closest_parameters": {
+            "omega2": 1.26
+          }
+        },
+        {
+          "family": "gamma2_only",
+          "expected_noise_normalized_mismatch": 0.84422697513622,
+          "closest_parameters": {
+            "gamma2": 0.07200000000000001
+          }
+        },
+        {
+          "family": "g_gamma2",
+          "expected_noise_normalized_mismatch": 0.8341007728617247,
+          "closest_parameters": {
+            "g": 0.2,
+            "gamma2": 0.044
+          }
+        },
+        {
+          "family": "g_omega2",
+          "expected_noise_normalized_mismatch": 0.5768310929869465,
+          "closest_parameters": {
+            "g": 0.2,
+            "omega2": 1.26
+          }
+        },
+        {
+          "family": "omega2_gamma2",
+          "expected_noise_normalized_mismatch": 0.5868243849728746,
+          "closest_parameters": {
+            "omega2": 1.26,
+            "gamma2": 0.092
+          }
+        }
+      ]
+    },
+    {
+      "addition": "x2",
+      "measurement_channels": [
+        "x1",
+        "x2"
+      ],
+      "worst_case_expected_score": 0.5463088282327949,
+      "mean_expected_score": 3.6667518028105746,
+      "closest_wrong_family": "g_gamma2",
+      "closest_wrong_parameters": {
+        "g": 0.116,
+        "gamma2": 0.088
+      },
+      "family_scores": [
+        {
+          "family": "g_only",
+          "expected_noise_normalized_mismatch": 2.41706332391708,
+          "closest_parameters": {
+            "g": 0.14400000000000002
+          }
+        },
+        {
+          "family": "omega2_only",
+          "expected_noise_normalized_mismatch": 5.573379528379042,
+          "closest_parameters": {
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "gamma2_only",
+          "expected_noise_normalized_mismatch": 5.523347906208725,
+          "closest_parameters": {
+            "gamma2": 0.056
+          }
+        },
+        {
+          "family": "g_gamma2",
+          "expected_noise_normalized_mismatch": 0.5463088282327949,
+          "closest_parameters": {
+            "g": 0.116,
+            "gamma2": 0.088
+          }
+        },
+        {
+          "family": "g_omega2",
+          "expected_noise_normalized_mismatch": 2.41706332391708,
+          "closest_parameters": {
+            "g": 0.14400000000000002,
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "omega2_gamma2",
+          "expected_noise_normalized_mismatch": 5.523347906208725,
+          "closest_parameters": {
+            "omega2": 1.2,
+            "gamma2": 0.056
+          }
+        }
+      ]
+    },
+    {
+      "addition": "p2",
+      "measurement_channels": [
+        "x1",
+        "p2"
+      ],
+      "worst_case_expected_score": 0.47130258114488344,
+      "mean_expected_score": 3.599439119806871,
+      "closest_wrong_family": "g_gamma2",
+      "closest_wrong_parameters": {
+        "g": 0.12,
+        "gamma2": 0.08
+      },
+      "family_scores": [
+        {
+          "family": "g_only",
+          "expected_noise_normalized_mismatch": 2.158822764734339,
+          "closest_parameters": {
+            "g": 0.136
+          }
+        },
+        {
+          "family": "omega2_only",
+          "expected_noise_normalized_mismatch": 5.602562202742555,
+          "closest_parameters": {
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "gamma2_only",
+          "expected_noise_normalized_mismatch": 5.602562202742555,
+          "closest_parameters": {
+            "gamma2": 0.06
+          }
+        },
+        {
+          "family": "g_gamma2",
+          "expected_noise_normalized_mismatch": 0.47130258114488344,
+          "closest_parameters": {
+            "g": 0.12,
+            "gamma2": 0.08
+          }
+        },
+        {
+          "family": "g_omega2",
+          "expected_noise_normalized_mismatch": 2.158822764734339,
+          "closest_parameters": {
+            "g": 0.136,
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "omega2_gamma2",
+          "expected_noise_normalized_mismatch": 5.602562202742555,
+          "closest_parameters": {
+            "omega2": 1.2,
+            "gamma2": 0.06
+          }
+        }
+      ]
+    }
+  ],
+  "scientific_boundary": "Finite linear Gaussian computational measurement-design analysis. The score averages deterministic model mismatch over the nominal state distribution at the change point. It does not use the QT-006F rejection rates as an optimization target and is not a universal measurement utility metric."
+}

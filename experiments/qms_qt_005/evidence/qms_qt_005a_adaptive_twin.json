@@ -1,0 +1,28 @@
+{
+  "experiment": "QMS-QT-005A",
+  "title": "Adaptive resynchronization of a causal virtual quantum twin",
+  "model": {
+    "initial_coupling": 0.18,
+    "true_coupling_after_change": 0.08,
+    "change_step": 600,
+    "adaptation_step": 750,
+    "candidate_grid_min": 0.04,
+    "candidate_grid_max": 0.2,
+    "candidate_count": 81
+  },
+  "trials": 100,
+  "summary": {
+    "true_g_before": 0.18,
+    "true_g_after": 0.08,
+    "mean_estimated_g": 0.08104000000000001,
+    "std_estimated_g": 0.00642793901651221,
+    "mean_absolute_g_error": 0.005199999999999995,
+    "mean_fixed_post_error": 0.009603680857391703,
+    "mean_adaptive_post_error": 0.006616404823625498,
+    "mean_state_error_reduction_fraction": 0.31333664384727067,
+    "mean_fixed_mode2_error": 0.009524562280574128,
+    "mean_adaptive_mode2_error": 0.006567054155249471,
+    "mean_mode2_error_reduction_fraction": 0.31287675127779313
+  },
+  "scientific_boundary": "Finite linear Gaussian computational parameter-adaptation experiment. The coupling estimator uses a bounded candidate grid and known model family. This does not establish general autonomous quantum-system identification or a physical self-correcting quantum-field twin."
+}

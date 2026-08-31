@@ -1,0 +1,199 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-008",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "target_excursions": [
+    701,
+    801
+  ],
+  "local_radius": 5,
+  "metrics": [
+    "total_count",
+    "changed_pixels",
+    "centroid_x",
+    "centroid_y",
+    "radial_spread"
+  ],
+  "results": {
+    "701": [
+      {
+        "increment": 696,
+        "total_count": 3.0,
+        "changed_pixels": 3,
+        "centroid_x": 225.33333333333334,
+        "centroid_y": 191.33333333333334,
+        "radial_spread": 72.21111025627874
+      },
+      {
+        "increment": 697,
+        "total_count": 7.0,
+        "changed_pixels": 7,
+        "centroid_x": 130.71428571428572,
+        "centroid_y": 247.0,
+        "radial_spread": 47.80231400769
+      },
+      {
+        "increment": 698,
+        "total_count": 3.0,
+        "changed_pixels": 3,
+        "centroid_x": 262.6666666666667,
+        "centroid_y": 359.3333333333333,
+        "radial_spread": 123.23599762695602
+      },
+      {
+        "increment": 699,
+        "total_count": 8.0,
+        "changed_pixels": 8,
+        "centroid_x": 135.0,
+        "centroid_y": 189.375,
+        "radial_spread": 132.41878407159612
+      },
+      {
+        "increment": 700,
+        "total_count": 13.0,
+        "changed_pixels": 13,
+        "centroid_x": 339.9230769230769,
+        "centroid_y": 318.0769230769231,
+        "radial_spread": 156.7972346091126
+      },
+      {
+        "increment": 701,
+        "total_count": 78.0,
+        "changed_pixels": 78,
+        "centroid_x": 200.44871794871796,
+        "centroid_y": 447.0897435897436,
+        "radial_spread": 116.05324080289486
+      },
+      {
+        "increment": 702,
+        "total_count": 4.0,
+        "changed_pixels": 4,
+        "centroid_x": 284.75,
+        "centroid_y": 214.75,
+        "radial_spread": 28.343870589600144
+      },
+      {
+        "increment": 703,
+        "total_count": 15.0,
+        "changed_pixels": 15,
+        "centroid_x": 167.06666666666666,
+        "centroid_y": 112.0,
+        "radial_spread": 109.53384053443129
+      },
+      {
+        "increment": 704,
+        "total_count": 17.0,
+        "changed_pixels": 17,
+        "centroid_x": 282.94117647058823,
+        "centroid_y": 244.76470588235293,
+        "radial_spread": 94.54721820650376
+      },
+      {
+        "increment": 705,
+        "total_count": 6.0,
+        "changed_pixels": 6,
+        "centroid_x": 305.3333333333333,
+        "centroid_y": 187.0,
+        "radial_spread": 151.5604023337084
+      },
+      {
+        "increment": 706,
+        "total_count": 10.0,
+        "changed_pixels": 10,
+        "centroid_x": 244.4,
+        "centroid_y": 181.4,
+        "radial_spread": 90.39402635130266
+      }
+    ],
+    "801": [
+      {
+        "increment": 796,
+        "total_count": 22.0,
+        "changed_pixels": 22,
+        "centroid_x": 238.6818181818182,
+        "centroid_y": 242.04545454545453,
+        "radial_spread": 186.413729409603
+      },
+      {
+        "increment": 797,
+        "total_count": 16.0,
+        "changed_pixels": 16,
+        "centroid_x": 147.75,
+        "centroid_y": 224.0,
+        "radial_spread": 153.58039425655866
+      },
+      {
+        "increment": 798,
+        "total_count": 11.0,
+        "changed_pixels": 11,
+        "centroid_x": 277.6363636363636,
+        "centroid_y": 262.8181818181818,
+        "radial_spread": 171.76786179931167
+      },
+      {
+        "increment": 799,
+        "total_count": 3.0,
+        "changed_pixels": 3,
+        "centroid_x": 291.6666666666667,
+        "centroid_y": 257.3333333333333,
+        "radial_spread": 17.919573407620817
+      },
+      {
+        "increment": 800,
+        "total_count": 12.0,
+        "changed_pixels": 12,
+        "centroid_x": 135.66666666666666,
+        "centroid_y": 143.25,
+        "radial_spread": 116.69008693496157
+      },
+      {
+        "increment": 801,
+        "total_count": 22.0,
+        "changed_pixels": 22,
+        "centroid_x": 281.45454545454544,
+        "centroid_y": 185.5909090909091,
+        "radial_spread": 62.07062426538189
+      },
+      {
+        "increment": 802,
+        "total_count": 8.0,
+        "changed_pixels": 8,
+        "centroid_x": 259.75,
+        "centroid_y": 263.75,
+        "radial_spread": 109.19191819910483
+      },
+      {
+        "increment": 803,
+        "total_count": 6.0,
+        "changed_pixels": 6,
+        "centroid_x": 175.16666666666666,
+        "centroid_y": 139.5,
+        "radial_spread": 111.3345808313342
+      },
+      {
+        "increment": 804,
+        "total_count": 43.0,
+        "changed_pixels": 43,
+        "centroid_x": 336.0,
+        "centroid_y": 145.2325581395349,
+        "radial_spread": 108.94757373933795
+      },
+      {
+        "increment": 805,
+        "total_count": 12.0,
+        "changed_pixels": 12,
+        "centroid_x": 284.1666666666667,
+        "centroid_y": 286.1666666666667,
+        "radial_spread": 96.19049387081402
+      },
+      {
+        "increment": 806,
+        "total_count": 2.0,
+        "changed_pixels": 2,
+        "centroid_x": 359.0,
+        "centroid_y": 327.5,
+        "radial_spread": 0.5
+      }
+    ]
+  },
+  "scientific_boundary": "This experiment characterizes detector-measurement changes around two unusually large innovation events. It does not assign a physical degradation mechanism or hardware-failure interpretation."
+}

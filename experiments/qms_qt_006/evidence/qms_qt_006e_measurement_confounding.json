@@ -1,0 +1,126 @@
+{
+  "experiment": "QMS-QT-006E",
+  "title": "Measurement-architecture dependence of unknown-mechanism confounding",
+  "unknown_change": {
+    "gamma1": 0.12
+  },
+  "candidate_library": {
+    "g_only": [
+      "g"
+    ],
+    "omega2_only": [
+      "omega2"
+    ],
+    "gamma2_only": [
+      "gamma2"
+    ],
+    "g_gamma2": [
+      "g",
+      "gamma2"
+    ],
+    "g_omega2": [
+      "g",
+      "omega2"
+    ],
+    "omega2_gamma2": [
+      "omega2",
+      "gamma2"
+    ]
+  },
+  "results": {
+    "x1_x2": {
+      "channels": 2,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "adequacy_threshold": 1.669885683031358e-06,
+      "unknown_rejection_rate": 0.475,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 1.0058475853336049,
+      "median_best_mse_over_threshold": 0.9902919381174751,
+      "mean_winner_margin": 1.1225263659337101
+    },
+    "x1_p1_x2": {
+      "channels": 3,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "adequacy_threshold": 1.5858744326596417e-06,
+      "unknown_rejection_rate": 0.95,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 1.2442130263909035,
+      "median_best_mse_over_threshold": 1.232376035963822,
+      "mean_winner_margin": 0.7463428151915759
+    },
+    "all_quadratures": {
+      "channels": 4,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "adequacy_threshold": 1.629221477657082e-06,
+      "unknown_rejection_rate": 0.955,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 1.205531444651467,
+      "median_best_mse_over_threshold": 1.199349206692121,
+      "mean_winner_margin": 0.7461556563331644
+    }
+  },
+  "scientific_boundary": "Finite linear Gaussian computational measurement-architecture comparison. Additional quadrature channels are abstract observables in this model. Results do not establish physical detector requirements or universal unknown-mechanism rejection."
+}

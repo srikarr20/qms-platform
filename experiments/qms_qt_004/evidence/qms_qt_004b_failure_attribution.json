@@ -1,0 +1,65 @@
+{
+  "experiment": "QMS-QT-004B",
+  "title": "Observable failure attribution from residual structure",
+  "external_diagnostics": [
+    "normalized innovation RMS",
+    "normalized innovation mean absolute value",
+    "normalized innovation lag-1 autocorrelation"
+  ],
+  "attribution_rule": {
+    "nominal": "RMS ratio < 1.20",
+    "measurement_system_change": "RMS ratio >= 3.0 and |post lag-1 autocorrelation| < 0.20",
+    "physical_or_model_change": "RMS ratio >= 1.20 and |post lag-1 autocorrelation| >= 0.20",
+    "otherwise": "ambiguous"
+  },
+  "important_note": "The attribution rule uses only external innovation statistics. Hidden true-state error is retained only for offline validation.",
+  "results": {
+    "baseline": {
+      "trials": 200,
+      "mean_rms_ratio": 0.9934964275474121,
+      "std_rms_ratio": 0.0576572095083166,
+      "mean_post_lag1": -0.004861067166724727,
+      "std_post_lag1": 0.059981692374827277,
+      "classification_counts": {
+        "nominal": 200
+      },
+      "mean_truth_only_post_state_error": 0.0015767929917084116
+    },
+    "physical_change": {
+      "trials": 200,
+      "mean_rms_ratio": 1.3729405028158046,
+      "std_rms_ratio": 0.07245020092040301,
+      "mean_post_lag1": 0.4525554164582779,
+      "std_post_lag1": 0.049197635165724785,
+      "classification_counts": {
+        "nominal": 2,
+        "physical_or_model_change": 198
+      },
+      "mean_truth_only_post_state_error": 0.016718358070874115
+    },
+    "measurement_change": {
+      "trials": 200,
+      "mean_rms_ratio": 9.722017142162917,
+      "std_rms_ratio": 0.6132462165677951,
+      "mean_post_lag1": -0.05100250097163128,
+      "std_post_lag1": 0.051780138916473754,
+      "classification_counts": {
+        "measurement_system_change": 200
+      },
+      "mean_truth_only_post_state_error": 0.003562930213411169
+    }
+  },
+  "confusion_counts": {
+    "baseline": {
+      "nominal": 200
+    },
+    "physical_change": {
+      "nominal": 2,
+      "physical_or_model_change": 198
+    },
+    "measurement_change": {
+      "measurement_system_change": 200
+    }
+  },
+  "scientific_boundary": "Controlled computational finite-mode test. Thresholds are provisional and specific to this simulated environment; no universal failure classifier is established."
+}

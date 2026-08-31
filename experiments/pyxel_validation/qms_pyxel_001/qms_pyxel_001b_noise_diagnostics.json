@@ -1,0 +1,74 @@
+{
+  "experiment": "QMS-PYXEL-001B",
+  "title": "QMS diagnostics of Pyxel output-node-noise degradation",
+  "simulator": {
+    "framework": "Pyxel",
+    "version": "3.0.2",
+    "detector": "CCD"
+  },
+  "controlled_variable": "charge_measurement.output_node_noise.std_deviation",
+  "fixed_input": "qms_pyxel_scene.fits",
+  "results": [
+    {
+      "condition": "noise_0000",
+      "output_node_noise_sigma": 0.0,
+      "image_min": 19.0,
+      "image_max": 10019.0,
+      "image_mean": 94.51942716049383,
+      "image_std": 531.1057001517651,
+      "cosine_similarity_to_baseline": 1.0,
+      "pearson_to_baseline": 1.0,
+      "rmse_to_baseline": 0.0,
+      "normalized_rmse_to_baseline": 0.0,
+      "js_divergence_to_baseline": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    {
+      "condition": "noise_0005",
+      "output_node_noise_sigma": 0.0005,
+      "image_min": 0.0,
+      "image_max": 10084.0,
+      "image_mean": 111.22506172839506,
+      "image_std": 530.7105801382475,
+      "cosine_similarity_to_baseline": 0.9958427534495147,
+      "pearson_to_baseline": 0.9961672261943394,
+      "rmse_to_baseline": 49.395058132380356,
+      "normalized_rmse_to_baseline": 0.004939505813238035,
+      "js_divergence_to_baseline": 0.1008412611648577,
+      "difference_mean": 16.705634567901235,
+      "difference_std": 46.48433651871325
+    },
+    {
+      "condition": "noise_0010",
+      "output_node_noise_sigma": 0.001,
+      "image_min": 0.0,
+      "image_max": 10111.0,
+      "image_mean": 135.5761086419753,
+      "image_std": 532.1037703955902,
+      "cosine_similarity_to_baseline": 0.9845212899470328,
+      "pearson_to_baseline": 0.9865950280090158,
+      "rmse_to_baseline": 96.24566016831392,
+      "normalized_rmse_to_baseline": 0.009624566016831392,
+      "js_divergence_to_baseline": 0.12434118445575605,
+      "difference_mean": 41.05668148148148,
+      "difference_std": 87.04927344304916
+    },
+    {
+      "condition": "noise_0050",
+      "output_node_noise_sigma": 0.005,
+      "image_min": 0.0,
+      "image_max": 11307.0,
+      "image_mean": 337.6324888888889,
+      "image_std": 638.2578751742926,
+      "cosine_similarity_to_baseline": 0.7576505690074448,
+      "pearson_to_baseline": 0.7764520159626993,
+      "rmse_to_baseline": 471.3207100777008,
+      "normalized_rmse_to_baseline": 0.04713207100777008,
+      "js_divergence_to_baseline": 0.14039017557722602,
+      "difference_mean": 243.11306172839505,
+      "difference_std": 403.78119194087503
+    }
+  ],
+  "scientific_boundary": "Controlled Pyxel detector-simulation experiment using a synthetic fixed scene. Results characterize the configured Pyxel CCD pipeline and do not constitute experimental detector validation."
+}

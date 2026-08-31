@@ -1,0 +1,61 @@
+{
+  "experiment": "QMS-QT-004A",
+  "title": "Twin divergence under physical-model and measurement-system perturbations",
+  "baseline_model": {
+    "coupling": 0.18,
+    "measurement_noise_sigma": 0.001
+  },
+  "change_step": 600,
+  "perturbations": {
+    "physical_change": {
+      "true_coupling_after_change": 0.08,
+      "twin_assumed_coupling": 0.18
+    },
+    "measurement_change": {
+      "true_measurement_noise_after_change": 0.01,
+      "twin_assumed_measurement_noise": 0.001
+    }
+  },
+  "aggregate": {
+    "baseline": {
+      "trials": 100,
+      "normalized_residual_pre_rms": 1.0022811704228918,
+      "normalized_residual_post_rms": 0.997489402642908,
+      "residual_pre_rms": 0.0010663530208052429,
+      "residual_post_rms": 0.001061016441275807,
+      "state_error_pre_mean": 0.001619217634888642,
+      "state_error_post_mean": 0.001508426475043019,
+      "mode2_error_pre_mean": 0.0014712643693571541,
+      "mode2_error_post_mean": 0.001346827737258504,
+      "posterior_trace_pre_mean": 3.2437211519729856e-06,
+      "posterior_trace_post_mean": 2.992365685296231e-06
+    },
+    "physical_change": {
+      "trials": 100,
+      "normalized_residual_pre_rms": 0.9991497768949458,
+      "normalized_residual_post_rms": 1.371490547233521,
+      "residual_pre_rms": 0.0010630193624787945,
+      "residual_post_rms": 0.0014588410119403248,
+      "state_error_pre_mean": 0.0016902556727378373,
+      "state_error_post_mean": 0.016574480840802274,
+      "mode2_error_pre_mean": 0.0015492534612877842,
+      "mode2_error_post_mean": 0.016155482447960647,
+      "posterior_trace_pre_mean": 3.2437211519729856e-06,
+      "posterior_trace_post_mean": 2.992365685296231e-06
+    },
+    "measurement_change": {
+      "trials": 100,
+      "normalized_residual_pre_rms": 0.9950691997703143,
+      "normalized_residual_post_rms": 9.700705574649607,
+      "residual_pre_rms": 0.0010586776999973483,
+      "residual_post_rms": 0.010318512743397174,
+      "state_error_pre_mean": 0.0017299569512818807,
+      "state_error_post_mean": 0.003545973193317842,
+      "mode2_error_pre_mean": 0.001591898371346644,
+      "mode2_error_post_mean": 0.001919531708955515,
+      "posterior_trace_pre_mean": 3.2437211519729856e-06,
+      "posterior_trace_post_mean": 2.992365685296231e-06
+    }
+  },
+  "scientific_boundary": "Computational finite-mode perturbation experiment only. This experiment tests whether different mismatch mechanisms produce distinguishable diagnostic signatures; it does not yet implement a validated failure-attribution classifier."
+}

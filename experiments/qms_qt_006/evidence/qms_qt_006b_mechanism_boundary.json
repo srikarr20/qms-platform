@@ -1,0 +1,206 @@
+{
+  "experiment": "QMS-QT-006B",
+  "title": "Detectability boundary for internal dynamical mechanism identification",
+  "measurement_channels": [
+    "x1",
+    "x2"
+  ],
+  "baseline_parameters": {
+    "omega1": 1.0,
+    "omega2": 1.2,
+    "gamma1": 0.08,
+    "gamma2": 0.06,
+    "g": 0.18
+  },
+  "results": [
+    {
+      "true_case": "coupling_change",
+      "parameter": "g",
+      "true_value": 0.17,
+      "identification_rate": 0.76,
+      "prediction_counts": {
+        "coupling_change": 76,
+        "damping_change": 19,
+        "frequency_change": 5
+      },
+      "mean_winner_margin": 0.14689568709241876,
+      "median_winner_margin": 0.10547893301572665,
+      "mean_parameter_error_when_correct": 0.003710526315789477
+    },
+    {
+      "true_case": "coupling_change",
+      "parameter": "g",
+      "true_value": 0.16,
+      "identification_rate": 0.98,
+      "prediction_counts": {
+        "coupling_change": 98,
+        "damping_change": 2
+      },
+      "mean_winner_margin": 0.48851959882911733,
+      "median_winner_margin": 0.4680478796101718,
+      "mean_parameter_error_when_correct": 0.003102040816326531
+    },
+    {
+      "true_case": "coupling_change",
+      "parameter": "g",
+      "true_value": 0.14,
+      "identification_rate": 1.0,
+      "prediction_counts": {
+        "coupling_change": 100
+      },
+      "mean_winner_margin": 1.7993405212830025,
+      "median_winner_margin": 1.777903876054394,
+      "mean_parameter_error_when_correct": 0.003520000000000001
+    },
+    {
+      "true_case": "coupling_change",
+      "parameter": "g",
+      "true_value": 0.12,
+      "identification_rate": 1.0,
+      "prediction_counts": {
+        "coupling_change": 100
+      },
+      "mean_winner_margin": 4.1183461569133435,
+      "median_winner_margin": 4.066168604877863,
+      "mean_parameter_error_when_correct": 0.0033000000000000017
+    },
+    {
+      "true_case": "coupling_change",
+      "parameter": "g",
+      "true_value": 0.1,
+      "identification_rate": 1.0,
+      "prediction_counts": {
+        "coupling_change": 100
+      },
+      "mean_winner_margin": 7.800471009318642,
+      "median_winner_margin": 7.9199856336393575,
+      "mean_parameter_error_when_correct": 0.0032599999999999994
+    },
+    {
+      "true_case": "frequency_change",
+      "parameter": "omega2",
+      "true_value": 1.18,
+      "identification_rate": 1.0,
+      "prediction_counts": {
+        "frequency_change": 100
+      },
+      "mean_winner_margin": 1.77137116802282,
+      "median_winner_margin": 1.6709955885406278,
+      "mean_parameter_error_when_correct": 0.002400000000000122
+    },
+    {
+      "true_case": "frequency_change",
+      "parameter": "omega2",
+      "true_value": 1.16,
+      "identification_rate": 1.0,
+      "prediction_counts": {
+        "frequency_change": 100
+      },
+      "mean_winner_margin": 6.900522558221809,
+      "median_winner_margin": 6.868621489544546,
+      "mean_parameter_error_when_correct": 0.0019500000000001517
+    },
+    {
+      "true_case": "frequency_change",
+      "parameter": "omega2",
+      "true_value": 1.14,
+      "identification_rate": 1.0,
+      "prediction_counts": {
+        "frequency_change": 100
+      },
+      "mean_winner_margin": 16.181155218534236,
+      "median_winner_margin": 16.112101628974848,
+      "mean_parameter_error_when_correct": 0.0022500000000001143
+    },
+    {
+      "true_case": "frequency_change",
+      "parameter": "omega2",
+      "true_value": 1.1,
+      "identification_rate": 1.0,
+      "prediction_counts": {
+        "frequency_change": 100
+      },
+      "mean_winner_margin": 45.996204717713965,
+      "median_winner_margin": 45.82167102710618,
+      "mean_parameter_error_when_correct": 0.0018500000000000005
+    },
+    {
+      "true_case": "frequency_change",
+      "parameter": "omega2",
+      "true_value": 1.08,
+      "identification_rate": 1.0,
+      "prediction_counts": {
+        "frequency_change": 100
+      },
+      "mean_winner_margin": 65.10862733419671,
+      "median_winner_margin": 64.68770733569386,
+      "mean_parameter_error_when_correct": 0.0018999999999999972
+    },
+    {
+      "true_case": "damping_change",
+      "parameter": "gamma2",
+      "true_value": 0.065,
+      "identification_rate": 0.55,
+      "prediction_counts": {
+        "coupling_change": 38,
+        "damping_change": 55,
+        "frequency_change": 7
+      },
+      "mean_winner_margin": 0.060032572981194826,
+      "median_winner_margin": 0.04046162659589891,
+      "mean_parameter_error_when_correct": 0.002745454545454547
+    },
+    {
+      "true_case": "damping_change",
+      "parameter": "gamma2",
+      "true_value": 0.07,
+      "identification_rate": 0.89,
+      "prediction_counts": {
+        "damping_change": 89,
+        "frequency_change": 2,
+        "coupling_change": 9
+      },
+      "mean_winner_margin": 0.1572705838401012,
+      "median_winner_margin": 0.12298139779994059,
+      "mean_parameter_error_when_correct": 0.002561797752808991
+    },
+    {
+      "true_case": "damping_change",
+      "parameter": "gamma2",
+      "true_value": 0.08,
+      "identification_rate": 0.99,
+      "prediction_counts": {
+        "damping_change": 99,
+        "coupling_change": 1
+      },
+      "mean_winner_margin": 0.6110041673553315,
+      "median_winner_margin": 0.5811327198572667,
+      "mean_parameter_error_when_correct": 0.0027676767676767734
+    },
+    {
+      "true_case": "damping_change",
+      "parameter": "gamma2",
+      "true_value": 0.09,
+      "identification_rate": 1.0,
+      "prediction_counts": {
+        "damping_change": 100
+      },
+      "mean_winner_margin": 1.2354769230859306,
+      "median_winner_margin": 1.1809182733192727,
+      "mean_parameter_error_when_correct": 0.0027000000000000014
+    },
+    {
+      "true_case": "damping_change",
+      "parameter": "gamma2",
+      "true_value": 0.1,
+      "identification_rate": 1.0,
+      "prediction_counts": {
+        "damping_change": 100
+      },
+      "mean_winner_margin": 2.2657759455044486,
+      "median_winner_margin": 2.2962101325365247,
+      "mean_parameter_error_when_correct": 0.003080000000000005
+    }
+  ],
+  "scientific_boundary": "Finite linear Gaussian computational mechanism-identification sweep. Candidate parameter families are known in advance. Identification rates apply only to this model, noise level, measurement architecture and finite observation window."
+}

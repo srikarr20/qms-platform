@@ -1,0 +1,249 @@
+{
+  "experiment": "QMS-PYXEL-TWIN-002",
+  "trials": 20,
+  "true_parameters": {
+    "cti_trap_density_cm3": 5000000000.0,
+    "output_node_noise_sigma": 0.0005
+  },
+  "cti_estimation": {
+    "mean": 4999999475.315201,
+    "std": 0.0,
+    "mean_relative_error": -1.0493695983886717e-07,
+    "mean_absolute_relative_error": 1.0493695983886717e-07
+  },
+  "noise_estimation": {
+    "mean": 0.0004998189141629631,
+    "std": 8.817248693182638e-07,
+    "mean_relative_error": -0.00036217167407384676,
+    "mean_absolute_relative_error": 0.001556758602061243
+  },
+  "pixel_reconvergence": {
+    "mean_before": 1.4506005081930637,
+    "mean_after": 1.5267793796987337e-07,
+    "mean_reduction_percent": 99.99998947484596
+  },
+  "all_optimizers_successful": true,
+  "results": [
+    {
+      "trial": "trial_000",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0005004778215055809,
+      "noise_relative_error": 0.0009556430111618604,
+      "image_residual_std": 46.52875895132384,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_001",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0005006552500001285,
+      "noise_relative_error": 0.001310500000256936,
+      "image_residual_std": 46.545254243021404,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_002",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0004987315641849401,
+      "noise_relative_error": -0.0025368716301198916,
+      "image_residual_std": 46.366411725437466,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_003",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0005007566387565449,
+      "noise_relative_error": 0.0015132775130898436,
+      "image_residual_std": 46.55468022116662,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_004",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0004986387121909744,
+      "noise_relative_error": -0.002722575618051195,
+      "image_residual_std": 46.35777939876937,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_005",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0004992741744511879,
+      "noise_relative_error": -0.0014516510976241362,
+      "image_residual_std": 46.41685748186841,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_006",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0005001720794113873,
+      "noise_relative_error": 0.0003441588227745887,
+      "image_residual_std": 46.50033451453418,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_007",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0005008259654771554,
+      "noise_relative_error": 0.0016519309543106854,
+      "image_residual_std": 46.56112543438798,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_008",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0005009622059177688,
+      "noise_relative_error": 0.001924411835537614,
+      "image_residual_std": 46.573791527366204,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_009",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0004987577706085,
+      "noise_relative_error": -0.0024844587829999515,
+      "image_residual_std": 46.36884810186096,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_010",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0005014351528747616,
+      "noise_relative_error": 0.002870305749523225,
+      "image_residual_std": 46.61776077837613,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_011",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0005000406324647808,
+      "noise_relative_error": 8.126492956166131e-05,
+      "image_residual_std": 46.48811406633302,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_012",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0004990844340263444,
+      "noise_relative_error": -0.0018311319473112483,
+      "image_residual_std": 46.39921756634866,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_013",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0004997209663976258,
+      "noise_relative_error": -0.000558067204748389,
+      "image_residual_std": 46.4583951362537,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_014",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0005006471882318288,
+      "noise_relative_error": 0.001294376463657548,
+      "image_residual_std": 46.54450475112023,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_015",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0004989217851211887,
+      "noise_relative_error": -0.0021564297576226205,
+      "image_residual_std": 46.38409631346492,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_016",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0004997120869857164,
+      "noise_relative_error": -0.0005758260285672161,
+      "image_residual_std": 46.457569629111106,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_017",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0004989117915186961,
+      "noise_relative_error": -0.002176416962607888,
+      "image_residual_std": 46.3831672215023,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_018",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.000499708755078046,
+      "noise_relative_error": -0.0005824898439081138,
+      "image_residual_std": 46.45725986607629,
+      "optimizer_success": true
+    },
+    {
+      "trial": "trial_019",
+      "estimated_cti_density": 4999999475.315201,
+      "cti_relative_error": -1.0493695983886718e-07,
+      "pixel_residual_before": 1.4506005081930642,
+      "pixel_residual_after": 1.526779379698734e-07,
+      "estimated_output_noise": 0.0004989433080561049,
+      "noise_relative_error": -0.0021133838877902475,
+      "image_residual_std": 46.38609727216401,
+      "optimizer_success": true
+    }
+  ],
+  "scientific_boundary": "Monte Carlo validation within a controlled Pyxel simulation using the same known CDM mechanism family and detector configuration. This does not constitute experimental hardware validation."
+}

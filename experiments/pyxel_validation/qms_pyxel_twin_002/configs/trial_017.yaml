@@ -1,0 +1,165 @@
+# yaml-language-server: $schema=https://esa.gitlab.io/pyxel/doc/latest/pyxel_schema.json
+
+###############################################################
+# Pyxel detector simulation framework                         #
+#                                                             #
+# Example YAML configuration file                             #
+# Exposure mode combining different detector effect models    #
+###############################################################
+
+##########################################################################################
+# Pyxel configuration file                                                               #
+#                                                                                        #
+# Usage from Python:                                                                     #
+#  >>> import pyxel                                                                      #
+#  >>> cfg = pyxel.load('config.yaml')                                                   #
+#  >>> result = pyxel.run_mode(cfg)                                                      #
+##########################################################################################
+
+##########################################################################################
+# Exposure running mode                                                                  #
+# More information here:                                                                 #
+#   https://esa.gitlab.io/pyxel/doc/stable/background/running_modes/exposure_mode.html   #
+##########################################################################################
+exposure:
+
+  readout:
+    times: [0.1, 0.5, 0.7]
+    non_destructive:  false
+
+  outputs:
+    output_folder: "qms_pyxel_twin_002/results/trial_017"
+    save_data_to_file:
+      - detector.image.array:   ['fits', 'jpg']
+      - detector.pixel.array: ['npy']
+    save_exposure_data:
+      - dataset: ['nc']
+
+# Define detector to use
+ccd_detector:
+
+  geometry:
+
+    row: 450                # pixel
+    col: 450                # pixel
+    total_thickness: 40.    # um
+    pixel_vert_size: 10.    # um
+    pixel_horz_size: 10.    # um
+    pixel_scale: 0.01       # arcsec/pixel
+
+  environment:
+    temperature: 300        # K
+
+  characteristics:
+    quantum_efficiency: 1.                 # -
+    charge_to_volt_conversion: 1.0e-6      # V/e
+    pre_amplification: 10                # V/V
+    adc_voltage_range: [0., 5.]
+    adc_bit_resolution: 16
+    full_well_capacity: 100000               # e
+
+##########################################################################################
+# Define Pipeline                                                                        #
+# More information here: https://esa.gitlab.io/pyxel/doc/stable/background/pipeline.html #
+##########################################################################################
+pipeline:
+
+# Generate and manipulate photon flux within the `Photon` bucket
+# -> Photon [photon]
+  photon_collection:
+    # With this model you can add photons to Detector by loading an image from a file.
+    - name: load_image
+      func: pyxel.models.photon_collection.load_image
+      enabled: true
+      arguments:
+        image_file: qms_pyxel_scene.fits
+        convert_to_photons: true
+        bit_resolution: 16
+        align: "center"
+
+    # Use this model to add shot noise to the Photon array.
+    - name: shot_noise
+      func: pyxel.models.photon_collection.shot_noise
+      enabled: false
+
+    # POPPY (Physical Optics Propagation in PYthon) model wrapper.
+    - name: optical_psf
+      func: pyxel.models.photon_collection.optical_psf
+      enabled: false
+      arguments:
+        fov_arcsec: 5 # FOV in arcseconds
+        wavelength: 600  # wavelength in nm
+        optical_system:
+          - item: CircularAperture
+            radius: 3.0
+
+# Generate and manipulate charge within the `Charge` bucket
+# Photon [photon] -> Charge [e-]
+  charge_generation:
+    # With this model you can create and add charge to Detector via photoelectric effect by converting photons to charge.
+    - name: photoelectrons
+      func: pyxel.models.charge_generation.simple_conversion
+      enabled: true
+
+# Transfer and manipulate charge within the `Pixel` bucket
+# Charge [e-] -> Pixel [e-]
+  charge_collection:
+    # Simple collection model is the simplest model of charge collection and necessary to fill up Pixel array when no other collection model is used.
+    - name: simple_collection
+      func: pyxel.models.charge_collection.simple_collection
+      enabled: true
+
+    # This model can be used to limit the amount of charge in Pixel array due to full well capacity.
+    - name: full_well
+      func: pyxel.models.charge_collection.simple_full_well
+      enabled: false
+
+# Apply Charge Transfer Inefficiency (CTI) effects within the `Pixel` bucket
+# Pixel [e-] -> Pixel [e-]
+  charge_transfer:
+    - name: cdm
+      func: pyxel.models.charge_transfer.cdm
+      enabled: true
+      arguments:
+        direction: parallel
+        trap_release_times: [3.e-2]
+        trap_densities: [5000000000.0]
+        sigma: [1.e-10]
+        beta: 0.3
+        max_electron_volume: 1.62e-10
+        transfer_period: 9.4722e-04
+        charge_injection: false
+
+# Convert pixel charges to voltage signal within the `Signal` bucket
+# Pixel [e-] -> Signal [V]
+  charge_measurement:
+    # Add a DC offset to signal array of detector.
+    - name: dc_offset
+      func: pyxel.models.charge_measurement.dc_offset
+      enabled: false
+      arguments:
+        offset: 0.1
+
+    # Convert the pixels array to the signal array.
+    - name: simple_measurement
+      func: pyxel.models.charge_measurement.simple_measurement
+      enabled: true
+
+    # Add noise to signal array of detector output node using normal random distribution.
+    - name: output_noise
+      func: pyxel.models.charge_measurement.output_node_noise
+      enabled: true
+      arguments:
+        std_deviation: 0.0005
+
+# Amplify and digitize the signal into image data within the `Image` bucket
+# Signal [V] -> Image [ADU]
+  readout_electronics:
+    # Amplify signal using gain from the output amplifier (in V/V) and the signal processor (in V/V).
+    - name: simple_amplifier
+      func: pyxel.models.readout_electronics.simple_amplifier
+      enabled: true
+    # With this model you can convert Signal array into Image mimicking an ideal Analog to Digital Converter (ADC).
+    - name: simple_adc
+      func: pyxel.models.readout_electronics.simple_adc
+      enabled: true

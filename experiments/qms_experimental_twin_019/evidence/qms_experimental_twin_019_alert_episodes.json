@@ -1,0 +1,71 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-019",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "design": "causal prospective alert episode consolidation",
+  "refractory_increments": 100,
+  "raw_prospective_flags": 64,
+  "independent_alert_episodes": 6,
+  "episodes": [
+    {
+      "episode": 1,
+      "start_window": 701,
+      "end_window": 1142,
+      "duration_increments": 441,
+      "raw_flag_count": 20,
+      "peak_window": 951,
+      "peak_innovation": 0.11915791757789113,
+      "peak_frozen_z": 33.700314766155124
+    },
+    {
+      "episode": 2,
+      "start_window": 1379,
+      "end_window": 1776,
+      "duration_increments": 397,
+      "raw_flag_count": 15,
+      "peak_window": 1598,
+      "peak_innovation": 0.049390649690824344,
+      "peak_frozen_z": 13.19709221175721
+    },
+    {
+      "episode": 3,
+      "start_window": 2315,
+      "end_window": 2533,
+      "duration_increments": 218,
+      "raw_flag_count": 10,
+      "peak_window": 2316,
+      "peak_innovation": 0.1676096526162835,
+      "peak_frozen_z": 47.93932306796989
+    },
+    {
+      "episode": 4,
+      "start_window": 2761,
+      "end_window": 2862,
+      "duration_increments": 101,
+      "raw_flag_count": 4,
+      "peak_window": 2761,
+      "peak_innovation": 0.04172522863079605,
+      "peak_frozen_z": 10.94437630748337
+    },
+    {
+      "episode": 5,
+      "start_window": 3241,
+      "end_window": 3645,
+      "duration_increments": 404,
+      "raw_flag_count": 14,
+      "peak_window": 3458,
+      "peak_innovation": 0.0963375927209572,
+      "peak_frozen_z": 26.993871852799895
+    },
+    {
+      "episode": 6,
+      "start_window": 3875,
+      "end_window": 3875,
+      "duration_increments": 0,
+      "raw_flag_count": 1,
+      "peak_window": 3875,
+      "peak_innovation": 0.029636985047097553,
+      "peak_frozen_z": 7.391880187246331
+    }
+  ],
+  "scientific_boundary": "Alerts are consolidated to reduce repeated detections caused by overlapping 100-increment measurement windows. Episodes represent temporally localized unexpected measurement-distribution evolution, not detector faults, degradation mechanisms, or physical causal events."
+}

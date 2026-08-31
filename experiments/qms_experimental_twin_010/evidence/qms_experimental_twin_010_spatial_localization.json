@@ -1,0 +1,724 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-010",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "representation": "normalized 32x32 detector distribution",
+  "targets": [
+    701,
+    801
+  ],
+  "results": {
+    "701": {
+      "previous_window": [
+        502,
+        601
+      ],
+      "current_window": [
+        602,
+        701
+      ],
+      "total_variation_distance": 0.5510262887818742,
+      "cells_for_50_percent_change": 63,
+      "cells_for_80_percent_change": 162,
+      "cells_for_90_percent_change": 217,
+      "top_cells": [
+        {
+          "grid_x": 12,
+          "grid_y": 31,
+          "pixel_x_range": [
+            192,
+            207
+          ],
+          "pixel_y_range": [
+            496,
+            511
+          ],
+          "previous_probability": 0.0,
+          "current_probability": 0.059433962264150944,
+          "signed_change": 0.059433962264150944,
+          "absolute_change": 0.059433962264150944,
+          "fraction_of_total_absolute_change": 0.05393024205391233
+        },
+        {
+          "grid_x": 17,
+          "grid_y": 11,
+          "pixel_x_range": [
+            272,
+            287
+          ],
+          "pixel_y_range": [
+            176,
+            191
+          ],
+          "previous_probability": 0.03556485355648536,
+          "current_probability": 0.008490566037735849,
+          "signed_change": -0.02707428751874951,
+          "absolute_change": 0.02707428751874951,
+          "fraction_of_total_absolute_change": 0.024567146858456845
+        },
+        {
+          "grid_x": 17,
+          "grid_y": 14,
+          "pixel_x_range": [
+            272,
+            287
+          ],
+          "pixel_y_range": [
+            224,
+            239
+          ],
+          "previous_probability": 0.032426778242677826,
+          "current_probability": 0.012264150943396227,
+          "signed_change": -0.0201626272992816,
+          "absolute_change": 0.0201626272992816,
+          "fraction_of_total_absolute_change": 0.018295522110073997
+        },
+        {
+          "grid_x": 16,
+          "grid_y": 8,
+          "pixel_x_range": [
+            256,
+            271
+          ],
+          "pixel_y_range": [
+            128,
+            143
+          ],
+          "previous_probability": 0.006276150627615063,
+          "current_probability": 0.020754716981132074,
+          "signed_change": 0.014478566353517013,
+          "absolute_change": 0.014478566353517013,
+          "fraction_of_total_absolute_change": 0.013137818147954467
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 7,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            112,
+            127
+          ],
+          "previous_probability": 0.0,
+          "current_probability": 0.014150943396226415,
+          "signed_change": 0.014150943396226415,
+          "absolute_change": 0.014150943396226415,
+          "fraction_of_total_absolute_change": 0.012840533822360079
+        },
+        {
+          "grid_x": 16,
+          "grid_y": 22,
+          "pixel_x_range": [
+            256,
+            271
+          ],
+          "pixel_y_range": [
+            352,
+            367
+          ],
+          "previous_probability": 0.006276150627615063,
+          "current_probability": 0.01981132075471698,
+          "signed_change": 0.013535170127101918,
+          "absolute_change": 0.013535170127101918,
+          "fraction_of_total_absolute_change": 0.012281782559797129
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 21,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            336,
+            351
+          ],
+          "previous_probability": 0.0041841004184100415,
+          "current_probability": 0.016981132075471698,
+          "signed_change": 0.012797031657061655,
+          "absolute_change": 0.012797031657061655,
+          "fraction_of_total_absolute_change": 0.011611997392494106
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 18,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            288,
+            303
+          ],
+          "previous_probability": 0.02405857740585774,
+          "current_probability": 0.011320754716981131,
+          "signed_change": -0.01273782268887661,
+          "absolute_change": 0.01273782268887661,
+          "fraction_of_total_absolute_change": 0.011558271309555362
+        },
+        {
+          "grid_x": 19,
+          "grid_y": 14,
+          "pixel_x_range": [
+            304,
+            319
+          ],
+          "pixel_y_range": [
+            224,
+            239
+          ],
+          "previous_probability": 0.012552301255230125,
+          "current_probability": 0.0,
+          "signed_change": -0.012552301255230125,
+          "absolute_change": 0.012552301255230125,
+          "fraction_of_total_absolute_change": 0.01138992958301396
+        },
+        {
+          "grid_x": 11,
+          "grid_y": 20,
+          "pixel_x_range": [
+            176,
+            191
+          ],
+          "pixel_y_range": [
+            320,
+            335
+          ],
+          "previous_probability": 0.013598326359832637,
+          "current_probability": 0.0018867924528301887,
+          "signed_change": -0.011711533907002449,
+          "absolute_change": 0.011711533907002449,
+          "fraction_of_total_absolute_change": 0.010627019205283781
+        },
+        {
+          "grid_x": 15,
+          "grid_y": 11,
+          "pixel_x_range": [
+            240,
+            255
+          ],
+          "pixel_y_range": [
+            176,
+            191
+          ],
+          "previous_probability": 0.011506276150627616,
+          "current_probability": 0.0,
+          "signed_change": -0.011506276150627616,
+          "absolute_change": 0.011506276150627616,
+          "fraction_of_total_absolute_change": 0.010440768784429464
+        },
+        {
+          "grid_x": 17,
+          "grid_y": 12,
+          "pixel_x_range": [
+            272,
+            287
+          ],
+          "pixel_y_range": [
+            192,
+            207
+          ],
+          "previous_probability": 0.010460251046025104,
+          "current_probability": 0.02169811320754717,
+          "signed_change": 0.011237862161522064,
+          "absolute_change": 0.011237862161522064,
+          "fraction_of_total_absolute_change": 0.010197210541773818
+        },
+        {
+          "grid_x": 17,
+          "grid_y": 16,
+          "pixel_x_range": [
+            272,
+            287
+          ],
+          "pixel_y_range": [
+            256,
+            271
+          ],
+          "previous_probability": 0.0031380753138075313,
+          "current_probability": 0.014150943396226415,
+          "signed_change": 0.011012868082418885,
+          "absolute_change": 0.011012868082418885,
+          "fraction_of_total_absolute_change": 0.00999305142660659
+        },
+        {
+          "grid_x": 16,
+          "grid_y": 10,
+          "pixel_x_range": [
+            256,
+            271
+          ],
+          "pixel_y_range": [
+            160,
+            175
+          ],
+          "previous_probability": 0.012552301255230125,
+          "current_probability": 0.0018867924528301887,
+          "signed_change": -0.010665508802399937,
+          "absolute_change": 0.010665508802399937,
+          "fraction_of_total_absolute_change": 0.009677858406699285
+        },
+        {
+          "grid_x": 17,
+          "grid_y": 21,
+          "pixel_x_range": [
+            272,
+            287
+          ],
+          "pixel_y_range": [
+            336,
+            351
+          ],
+          "previous_probability": 0.011506276150627616,
+          "current_probability": 0.02169811320754717,
+          "signed_change": 0.010191837056919553,
+          "absolute_change": 0.010191837056919553,
+          "fraction_of_total_absolute_change": 0.00924804974318932
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 11,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            176,
+            191
+          ],
+          "previous_probability": 0.006276150627615063,
+          "current_probability": 0.01509433962264151,
+          "signed_change": 0.008818188995026448,
+          "absolute_change": 0.008818188995026448,
+          "fraction_of_total_absolute_change": 0.008001604619010437
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 15,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            240,
+            255
+          ],
+          "previous_probability": 0.008368200836820083,
+          "current_probability": 0.016981132075471698,
+          "signed_change": 0.008612931238651615,
+          "absolute_change": 0.008612931238651615,
+          "fraction_of_total_absolute_change": 0.00781535419815612
+        },
+        {
+          "grid_x": 17,
+          "grid_y": 8,
+          "pixel_x_range": [
+            272,
+            287
+          ],
+          "pixel_y_range": [
+            128,
+            143
+          ],
+          "previous_probability": 0.01882845188284519,
+          "current_probability": 0.010377358490566037,
+          "signed_change": -0.008451093392279152,
+          "absolute_change": 0.008451093392279152,
+          "fraction_of_total_absolute_change": 0.007668502904790218
+        },
+        {
+          "grid_x": 11,
+          "grid_y": 21,
+          "pixel_x_range": [
+            176,
+            191
+          ],
+          "pixel_y_range": [
+            336,
+            351
+          ],
+          "previous_probability": 0.008368200836820083,
+          "current_probability": 0.0,
+          "signed_change": -0.008368200836820083,
+          "absolute_change": 0.008368200836820083,
+          "fraction_of_total_absolute_change": 0.007593286388675973
+        },
+        {
+          "grid_x": 16,
+          "grid_y": 18,
+          "pixel_x_range": [
+            256,
+            271
+          ],
+          "pixel_y_range": [
+            288,
+            303
+          ],
+          "previous_probability": 0.02405857740585774,
+          "current_probability": 0.016037735849056604,
+          "signed_change": -0.008020841556801137,
+          "absolute_change": 0.008020841556801137,
+          "fraction_of_total_absolute_change": 0.0072780933687686695
+        }
+      ]
+    },
+    "801": {
+      "previous_window": [
+        602,
+        701
+      ],
+      "current_window": [
+        702,
+        801
+      ],
+      "total_variation_distance": 0.557034291704103,
+      "cells_for_50_percent_change": 64,
+      "cells_for_80_percent_change": 159,
+      "cells_for_90_percent_change": 216,
+      "top_cells": [
+        {
+          "grid_x": 12,
+          "grid_y": 31,
+          "pixel_x_range": [
+            192,
+            207
+          ],
+          "pixel_y_range": [
+            496,
+            511
+          ],
+          "previous_probability": 0.059433962264150944,
+          "current_probability": 0.0,
+          "signed_change": -0.059433962264150944,
+          "absolute_change": 0.059433962264150944,
+          "fraction_of_total_absolute_change": 0.053348566820121644
+        },
+        {
+          "grid_x": 26,
+          "grid_y": 23,
+          "pixel_x_range": [
+            416,
+            431
+          ],
+          "pixel_y_range": [
+            368,
+            383
+          ],
+          "previous_probability": 0.0,
+          "current_probability": 0.04563492063492063,
+          "signed_change": 0.04563492063492063,
+          "absolute_change": 0.04563492063492063,
+          "fraction_of_total_absolute_change": 0.04096239793003797
+        },
+        {
+          "grid_x": 17,
+          "grid_y": 14,
+          "pixel_x_range": [
+            272,
+            287
+          ],
+          "pixel_y_range": [
+            224,
+            239
+          ],
+          "previous_probability": 0.012264150943396227,
+          "current_probability": 0.03373015873015873,
+          "signed_change": 0.0214660077867625,
+          "absolute_change": 0.0214660077867625,
+          "fraction_of_total_absolute_change": 0.01926812056856749
+        },
+        {
+          "grid_x": 16,
+          "grid_y": 22,
+          "pixel_x_range": [
+            256,
+            271
+          ],
+          "pixel_y_range": [
+            352,
+            367
+          ],
+          "previous_probability": 0.01981132075471698,
+          "current_probability": 0.000992063492063492,
+          "signed_change": -0.018819257262653488,
+          "absolute_change": 0.018819257262653488,
+          "fraction_of_total_absolute_change": 0.01689236869518465
+        },
+        {
+          "grid_x": 17,
+          "grid_y": 18,
+          "pixel_x_range": [
+            272,
+            287
+          ],
+          "pixel_y_range": [
+            288,
+            303
+          ],
+          "previous_probability": 0.016981132075471698,
+          "current_probability": 0.03273809523809524,
+          "signed_change": 0.015756963162623542,
+          "absolute_change": 0.015756963162623542,
+          "fraction_of_total_absolute_change": 0.014143620417352737
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 7,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            112,
+            127
+          ],
+          "previous_probability": 0.014150943396226415,
+          "current_probability": 0.0,
+          "signed_change": -0.014150943396226415,
+          "absolute_change": 0.014150943396226415,
+          "fraction_of_total_absolute_change": 0.012702039719076583
+        },
+        {
+          "grid_x": 25,
+          "grid_y": 23,
+          "pixel_x_range": [
+            400,
+            415
+          ],
+          "pixel_y_range": [
+            368,
+            383
+          ],
+          "previous_probability": 0.0,
+          "current_probability": 0.012896825396825396,
+          "signed_change": 0.012896825396825396,
+          "absolute_change": 0.012896825396825396,
+          "fraction_of_total_absolute_change": 0.01157632984979334
+        },
+        {
+          "grid_x": 16,
+          "grid_y": 18,
+          "pixel_x_range": [
+            256,
+            271
+          ],
+          "pixel_y_range": [
+            288,
+            303
+          ],
+          "previous_probability": 0.016037735849056604,
+          "current_probability": 0.028769841269841268,
+          "signed_change": 0.012732105420784665,
+          "absolute_change": 0.012732105420784665,
+          "fraction_of_total_absolute_change": 0.011428475419200912
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 14,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            224,
+            239
+          ],
+          "previous_probability": 0.022641509433962263,
+          "current_probability": 0.010912698412698412,
+          "signed_change": -0.01172881102126385,
+          "absolute_change": 0.01172881102126385,
+          "fraction_of_total_absolute_change": 0.01052790752377432
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 21,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            336,
+            351
+          ],
+          "previous_probability": 0.016981132075471698,
+          "current_probability": 0.005952380952380952,
+          "signed_change": -0.011028751123090746,
+          "absolute_change": 0.011028751123090746,
+          "fraction_of_total_absolute_change": 0.009899526193756511
+        },
+        {
+          "grid_x": 17,
+          "grid_y": 15,
+          "pixel_x_range": [
+            272,
+            287
+          ],
+          "pixel_y_range": [
+            240,
+            255
+          ],
+          "previous_probability": 0.01981132075471698,
+          "current_probability": 0.030753968253968252,
+          "signed_change": 0.010942647499251272,
+          "absolute_change": 0.010942647499251272,
+          "fraction_of_total_absolute_change": 0.009822238650492287
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 22,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            352,
+            367
+          ],
+          "previous_probability": 0.010377358490566037,
+          "current_probability": 0.000992063492063492,
+          "signed_change": -0.009385294998502545,
+          "absolute_change": 0.009385294998502545,
+          "fraction_of_total_absolute_change": 0.008424342215800263
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 12,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            192,
+            207
+          ],
+          "previous_probability": 0.010377358490566037,
+          "current_probability": 0.000992063492063492,
+          "signed_change": -0.009385294998502545,
+          "absolute_change": 0.009385294998502545,
+          "fraction_of_total_absolute_change": 0.008424342215800263
+        },
+        {
+          "grid_x": 16,
+          "grid_y": 11,
+          "pixel_x_range": [
+            256,
+            271
+          ],
+          "pixel_y_range": [
+            176,
+            191
+          ],
+          "previous_probability": 0.014150943396226415,
+          "current_probability": 0.00496031746031746,
+          "signed_change": -0.009190625935908955,
+          "absolute_change": 0.009190625935908955,
+          "fraction_of_total_absolute_change": 0.00824960516146376
+        },
+        {
+          "grid_x": 17,
+          "grid_y": 19,
+          "pixel_x_range": [
+            272,
+            287
+          ],
+          "pixel_y_range": [
+            304,
+            319
+          ],
+          "previous_probability": 0.016981132075471698,
+          "current_probability": 0.007936507936507936,
+          "signed_change": -0.009044624138963762,
+          "absolute_change": 0.009044624138963762,
+          "fraction_of_total_absolute_change": 0.008118552370711381
+        },
+        {
+          "grid_x": 25,
+          "grid_y": 6,
+          "pixel_x_range": [
+            400,
+            415
+          ],
+          "pixel_y_range": [
+            96,
+            111
+          ],
+          "previous_probability": 0.008490566037735849,
+          "current_probability": 0.0,
+          "signed_change": -0.008490566037735849,
+          "absolute_change": 0.008490566037735849,
+          "fraction_of_total_absolute_change": 0.007621223831445949
+        },
+        {
+          "grid_x": 16,
+          "grid_y": 7,
+          "pixel_x_range": [
+            256,
+            271
+          ],
+          "pixel_y_range": [
+            112,
+            127
+          ],
+          "previous_probability": 0.007547169811320755,
+          "current_probability": 0.015873015873015872,
+          "signed_change": 0.008325846061695117,
+          "absolute_change": 0.008325846061695117,
+          "fraction_of_total_absolute_change": 0.007473369400853523
+        },
+        {
+          "grid_x": 18,
+          "grid_y": 15,
+          "pixel_x_range": [
+            288,
+            303
+          ],
+          "pixel_y_range": [
+            240,
+            255
+          ],
+          "previous_probability": 0.016981132075471698,
+          "current_probability": 0.008928571428571428,
+          "signed_change": -0.00805256064690027,
+          "absolute_change": 0.00805256064690027,
+          "fraction_of_total_absolute_change": 0.007228065459188817
+        },
+        {
+          "grid_x": 30,
+          "grid_y": 30,
+          "pixel_x_range": [
+            480,
+            495
+          ],
+          "pixel_y_range": [
+            480,
+            495
+          ],
+          "previous_probability": 0.0,
+          "current_probability": 0.007936507936507936,
+          "signed_change": 0.007936507936507936,
+          "absolute_change": 0.007936507936507936,
+          "fraction_of_total_absolute_change": 0.007123895292180517
+        },
+        {
+          "grid_x": 16,
+          "grid_y": 26,
+          "pixel_x_range": [
+            256,
+            271
+          ],
+          "pixel_y_range": [
+            416,
+            431
+          ],
+          "previous_probability": 0.0,
+          "current_probability": 0.007936507936507936,
+          "signed_change": 0.007936507936507936,
+          "absolute_change": 0.007936507936507936,
+          "fraction_of_total_absolute_change": 0.007123895292180517
+        }
+      ]
+    }
+  },
+  "scientific_boundary": "This analysis localizes spatial redistribution of normalized detector-event probability around large measurement-state innovations. It identifies where the measured distribution changed, not why it changed. No detector fault, physical degradation, or causal mechanism is inferred."
+}

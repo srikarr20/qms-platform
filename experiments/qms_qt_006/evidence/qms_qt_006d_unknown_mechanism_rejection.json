@@ -1,0 +1,93 @@
+{
+  "experiment": "QMS-QT-006D",
+  "implementation": "precomputed candidate observation matrices",
+  "title": "Unknown dynamical mechanism rejection by model adequacy",
+  "candidate_model_library": {
+    "g_only": [
+      "g"
+    ],
+    "omega2_only": [
+      "omega2"
+    ],
+    "gamma2_only": [
+      "gamma2"
+    ],
+    "g_gamma2": [
+      "g",
+      "gamma2"
+    ],
+    "g_omega2": [
+      "g",
+      "omega2"
+    ],
+    "omega2_gamma2": [
+      "omega2",
+      "gamma2"
+    ]
+  },
+  "unknown_test_cases": {
+    "omega1_change": {
+      "omega1": 0.9
+    },
+    "gamma1_change": {
+      "gamma1": 0.12
+    },
+    "omega1_gamma1_change": {
+      "omega1": 0.92,
+      "gamma1": 0.11
+    }
+  },
+  "adequacy_calibration": {
+    "baseline_trials": 500,
+    "quantile": 0.99,
+    "mse_threshold": 1.6369539148457711e-06
+  },
+  "results": {
+    "omega1_change": {
+      "true_changes": {
+        "omega1": 0.9
+      },
+      "trials": 200,
+      "unknown_rejection_rate": 1.0,
+      "forced_prediction_counts": {
+        "g_omega2": 130,
+        "g_gamma2": 33,
+        "g_only": 27,
+        "omega2_gamma2": 6,
+        "gamma2_only": 3,
+        "omega2_only": 1
+      },
+      "mean_best_mse": 3.136304577395875e-05,
+      "mean_best_mse_over_threshold": 19.159394464024164,
+      "mean_winner_margin": 0.003894711590010106
+    },
+    "gamma1_change": {
+      "true_changes": {
+        "gamma1": 0.12
+      },
+      "trials": 200,
+      "unknown_rejection_rate": 0.53,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse": 1.681625665494654e-06,
+      "mean_best_mse_over_threshold": 1.0272895591279316,
+      "mean_winner_margin": 1.152861566278123
+    },
+    "omega1_gamma1_change": {
+      "true_changes": {
+        "omega1": 0.92,
+        "gamma1": 0.11
+      },
+      "trials": 200,
+      "unknown_rejection_rate": 1.0,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse": 1.601742954968356e-05,
+      "mean_best_mse_over_threshold": 9.784899504145583,
+      "mean_winner_margin": 0.04608553712223179
+    }
+  },
+  "scientific_boundary": "Finite linear Gaussian computational out-of-library mechanism test. Rejection performance applies only to the tested mechanisms, candidate library, measurement architecture, noise level and observation window."
+}

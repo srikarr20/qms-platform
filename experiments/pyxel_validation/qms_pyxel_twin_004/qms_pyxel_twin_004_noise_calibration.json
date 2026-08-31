@@ -1,0 +1,113 @@
+{
+  "experiment": "QMS-PYXEL-TWIN-004",
+  "title": "Empirical nonlinear Pyxel output-noise transfer calibration",
+  "mapping": "output_node_noise.std_deviation -> image residual std",
+  "results": [
+    {
+      "condition": "noise_00",
+      "sigma": 1e-05,
+      "residual_std": 1.3512878030086617,
+      "residual_rmse": 1.399908286237546,
+      "changed_fraction": 0.7162765432098765
+    },
+    {
+      "condition": "noise_01",
+      "sigma": 2e-05,
+      "residual_std": 2.6472628421637103,
+      "residual_rmse": 2.6734312349303533,
+      "changed_fraction": 0.8496148148148148
+    },
+    {
+      "condition": "noise_02",
+      "sigma": 5e-05,
+      "residual_std": 6.570664603812644,
+      "residual_rmse": 6.5812430811988065,
+      "changed_fraction": 0.939516049382716
+    },
+    {
+      "condition": "noise_03",
+      "sigma": 0.0001,
+      "residual_std": 12.413660794693829,
+      "residual_rmse": 12.432647185912689,
+      "changed_fraction": 0.97
+    },
+    {
+      "condition": "noise_04",
+      "sigma": 0.0002,
+      "residual_std": 21.63123979618733,
+      "residual_rmse": 21.918291250871377,
+      "changed_fraction": 0.9847506172839506
+    },
+    {
+      "condition": "noise_05",
+      "sigma": 0.0003,
+      "residual_std": 30.096635896024782,
+      "residual_rmse": 31.036746202120074,
+      "changed_fraction": 0.9899753086419754
+    },
+    {
+      "condition": "noise_06",
+      "sigma": 0.0005,
+      "residual_std": 46.481814094853746,
+      "residual_rmse": 49.43719797085871,
+      "changed_fraction": 0.9939506172839506
+    },
+    {
+      "condition": "noise_07",
+      "sigma": 0.0007,
+      "residual_std": 62.72937675683677,
+      "residual_rmse": 68.06882990722164,
+      "changed_fraction": 0.9957234567901234
+    },
+    {
+      "condition": "noise_08",
+      "sigma": 0.001,
+      "residual_std": 86.86319113370509,
+      "residual_rmse": 96.01316440088623,
+      "changed_fraction": 0.9968641975308642
+    },
+    {
+      "condition": "noise_09",
+      "sigma": 0.0015,
+      "residual_std": 126.88336242436087,
+      "residual_rmse": 142.99980606047455,
+      "changed_fraction": 0.9981481481481481
+    },
+    {
+      "condition": "noise_10",
+      "sigma": 0.002,
+      "residual_std": 166.83123204447423,
+      "residual_rmse": 189.85251542925317,
+      "changed_fraction": 0.9985283950617284
+    }
+  ],
+  "inverse_support": {
+    "residual_std": [
+      1.3512878030086617,
+      2.6472628421637103,
+      6.570664603812644,
+      12.413660794693829,
+      21.63123979618733,
+      30.096635896024782,
+      46.481814094853746,
+      62.72937675683677,
+      86.86319113370509,
+      126.88336242436087,
+      166.83123204447423
+    ],
+    "sigma": [
+      1e-05,
+      2e-05,
+      5e-05,
+      0.0001,
+      0.0002,
+      0.0003,
+      0.0005,
+      0.0007,
+      0.001,
+      0.0015,
+      0.002
+    ]
+  },
+  "scientific_boundary": "Calibration is specific to this Pyxel CCD configuration, scene, amplification and ADC chain. It is not a universal detector noise calibration."
+}

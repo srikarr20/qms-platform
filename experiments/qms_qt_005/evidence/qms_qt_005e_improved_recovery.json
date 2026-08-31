@@ -1,0 +1,21 @@
+{
+  "experiment": "QMS-QT-005E",
+  "title": "Adaptive twin recovery under improved measurement architecture",
+  "measurement_channels": [
+    "x1",
+    "x2"
+  ],
+  "summary": {
+    "true_g": 0.08,
+    "mean_estimated_g": 0.07993999999999998,
+    "std_estimated_g": 0.004770366862202524,
+    "mean_absolute_g_error": 0.003859999999999996,
+    "fixed_error": 0.0017285336474624382,
+    "parameter_only_error": 0.000777297196876723,
+    "parameter_plus_state_error": 0.0007772817286002281,
+    "parameter_only_improvement": 0.5493845136057363,
+    "parameter_plus_state_improvement": 0.5493943105392399
+  },
+  "trials": 100,
+  "scientific_boundary": "Finite linear Gaussian computational recovery experiment using two abstract external quadrature observables and a known candidate model family. No physical autonomous quantum-field twin is claimed."
+}

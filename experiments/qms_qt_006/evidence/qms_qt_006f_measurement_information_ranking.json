@@ -1,0 +1,438 @@
+{
+  "experiment": "QMS-QT-006F",
+  "title": "External observable information ranking for unknown-mechanism discrimination",
+  "unknown_change": {
+    "gamma1": 0.12
+  },
+  "candidate_library": {
+    "g_only": [
+      "g"
+    ],
+    "omega2_only": [
+      "omega2"
+    ],
+    "gamma2_only": [
+      "gamma2"
+    ],
+    "g_gamma2": [
+      "g",
+      "gamma2"
+    ],
+    "g_omega2": [
+      "g",
+      "omega2"
+    ],
+    "omega2_gamma2": [
+      "omega2",
+      "gamma2"
+    ]
+  },
+  "results": {
+    "x1_only": {
+      "channels": 1,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "adequacy_threshold": 1.430620542063077e-06,
+      "unknown_rejection_rate": 0.06,
+      "forced_prediction_counts": {
+        "omega2_gamma2": 80,
+        "g_omega2": 116,
+        "g_gamma2": 3,
+        "omega2_only": 1
+      },
+      "mean_best_mse_over_threshold": 0.7966381719130595,
+      "median_best_mse_over_threshold": 0.7799596788493073,
+      "mean_winner_margin": 0.007061762938043995
+    },
+    "x1_x2": {
+      "channels": 2,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "adequacy_threshold": 1.7269259101346735e-06,
+      "unknown_rejection_rate": 0.415,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 0.9737682755385337,
+      "median_best_mse_over_threshold": 0.9667235335933233,
+      "mean_winner_margin": 1.152861566278123
+    },
+    "x1_p1": {
+      "channels": 2,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "adequacy_threshold": 1.3870510856518335e-06,
+      "unknown_rejection_rate": 0.92,
+      "forced_prediction_counts": {
+        "omega2_gamma2": 70,
+        "g_omega2": 129,
+        "omega2_only": 1
+      },
+      "mean_best_mse_over_threshold": 1.1918077392301387,
+      "median_best_mse_over_threshold": 1.1935053228632042,
+      "mean_winner_margin": 0.005228972694648818
+    },
+    "x1_p2": {
+      "channels": 2,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "adequacy_threshold": 1.6323379496944734e-06,
+      "unknown_rejection_rate": 0.39,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 0.9799581470582629,
+      "median_best_mse_over_threshold": 0.9680447925618911,
+      "mean_winner_margin": 1.0404708696527623
+    },
+    "x1_x2_p1": {
+      "channels": 3,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "adequacy_threshold": 1.6692580441969389e-06,
+      "unknown_rejection_rate": 0.88,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 1.1739226859090066,
+      "median_best_mse_over_threshold": 1.1666331211860155,
+      "mean_winner_margin": 0.7310785284749476
+    },
+    "x1_x2_p2": {
+      "channels": 3,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "adequacy_threshold": 1.62640679584905e-06,
+      "unknown_rejection_rate": 0.72,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 1.0924701055935189,
+      "median_best_mse_over_threshold": 1.0788077473749857,
+      "mean_winner_margin": 0.8439402291781998
+    },
+    "all_quadratures": {
+      "channels": 4,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "adequacy_threshold": 1.6652460092114422e-06,
+      "unknown_rejection_rate": 0.92,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 1.1698398545266289,
+      "median_best_mse_over_threshold": 1.1718297195371494,
+      "mean_winner_margin": 0.7563175876362862
+    }
+  },
+  "ranking": [
+    {
+      "configuration": "x1_p1",
+      "channels": 2,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "adequacy_threshold": 1.3870510856518335e-06,
+      "unknown_rejection_rate": 0.92,
+      "forced_prediction_counts": {
+        "omega2_gamma2": 70,
+        "g_omega2": 129,
+        "omega2_only": 1
+      },
+      "mean_best_mse_over_threshold": 1.1918077392301387,
+      "median_best_mse_over_threshold": 1.1935053228632042,
+      "mean_winner_margin": 0.005228972694648818
+    },
+    {
+      "configuration": "all_quadratures",
+      "channels": 4,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "adequacy_threshold": 1.6652460092114422e-06,
+      "unknown_rejection_rate": 0.92,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 1.1698398545266289,
+      "median_best_mse_over_threshold": 1.1718297195371494,
+      "mean_winner_margin": 0.7563175876362862
+    },
+    {
+      "configuration": "x1_x2_p1",
+      "channels": 3,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "adequacy_threshold": 1.6692580441969389e-06,
+      "unknown_rejection_rate": 0.88,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 1.1739226859090066,
+      "median_best_mse_over_threshold": 1.1666331211860155,
+      "mean_winner_margin": 0.7310785284749476
+    },
+    {
+      "configuration": "x1_x2_p2",
+      "channels": 3,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "adequacy_threshold": 1.62640679584905e-06,
+      "unknown_rejection_rate": 0.72,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 1.0924701055935189,
+      "median_best_mse_over_threshold": 1.0788077473749857,
+      "mean_winner_margin": 0.8439402291781998
+    },
+    {
+      "configuration": "x1_x2",
+      "channels": 2,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "adequacy_threshold": 1.7269259101346735e-06,
+      "unknown_rejection_rate": 0.415,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 0.9737682755385337,
+      "median_best_mse_over_threshold": 0.9667235335933233,
+      "mean_winner_margin": 1.152861566278123
+    },
+    {
+      "configuration": "x1_p2",
+      "channels": 2,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "adequacy_threshold": 1.6323379496944734e-06,
+      "unknown_rejection_rate": 0.39,
+      "forced_prediction_counts": {
+        "g_gamma2": 200
+      },
+      "mean_best_mse_over_threshold": 0.9799581470582629,
+      "median_best_mse_over_threshold": 0.9680447925618911,
+      "mean_winner_margin": 1.0404708696527623
+    },
+    {
+      "configuration": "x1_only",
+      "channels": 1,
+      "measurement_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "adequacy_threshold": 1.430620542063077e-06,
+      "unknown_rejection_rate": 0.06,
+      "forced_prediction_counts": {
+        "omega2_gamma2": 80,
+        "g_omega2": 116,
+        "g_gamma2": 3,
+        "omega2_only": 1
+      },
+      "mean_best_mse_over_threshold": 0.7966381719130595,
+      "median_best_mse_over_threshold": 0.7799596788493073,
+      "mean_winner_margin": 0.007061762938043995
+    }
+  ],
+  "scientific_boundary": "Finite linear Gaussian computational measurement-channel ranking. Results apply only to the tested gamma1 change, candidate model library, noise level, observation window and abstract quadrature measurement configurations."
+}

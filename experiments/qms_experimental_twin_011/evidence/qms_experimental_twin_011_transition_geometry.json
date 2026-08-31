@@ -1,0 +1,30 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-011",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "states": {
+    "A": [
+      502,
+      601
+    ],
+    "B": [
+      602,
+      701
+    ],
+    "C": [
+      702,
+      801
+    ]
+  },
+  "transition_geometry": {
+    "cosine_AB_BC": -0.6265389555074912,
+    "cosine_AB_negative_BC": 0.6265389555074912,
+    "norm_AB": 0.09944112893621752,
+    "norm_BC": 0.10586634716012121,
+    "norm_A_to_C": 0.08890715733087433,
+    "reverse_projection_fraction": 0.6670216969845555,
+    "opposite_sign_fraction": 0.7754237288135594,
+    "magnitude_weighted_reversal_fraction": 0.8493207042358186,
+    "state_A_C_cosine": 0.6528707733771449
+  },
+  "scientific_boundary": "This experiment tests whether two consecutive measurement-distribution transitions are geometrically opposed in observable detector space. A reversal does not identify a physical mechanism, detector fault, quantum-field transition, or causal process."
+}

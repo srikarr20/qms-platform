@@ -1,0 +1,227 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-015",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "method": "nearest-transition-magnitude matched comparison",
+  "neighbors": 10,
+  "targets": {
+    "701": {
+      "window": 701,
+      "target_transition_l2": 0.09944112893621752,
+      "target_innovation": 0.10427151220050039,
+      "matched_count": 10,
+      "matched_innovation_mean": 0.013596127478756676,
+      "matched_innovation_median": 0.004473723270141437,
+      "target_to_matched_median_ratio": 23.307546288441717,
+      "matched_empirical_p": 0.09090909090909091,
+      "matched_robust_z": 39.375364055744974,
+      "matched_transitions": [
+        {
+          "window": 3601,
+          "transition_l2": 0.09843386867964682,
+          "innovation": 0.0029003884277419745,
+          "transition_distance": 0.001007260256570705
+        },
+        {
+          "window": 3301,
+          "transition_l2": 0.09731622520339107,
+          "innovation": 0.01124588380153067,
+          "transition_distance": 0.0021249037328264497
+        },
+        {
+          "window": 901,
+          "transition_l2": 0.09636937373495773,
+          "innovation": 0.0031329468848186564,
+          "transition_distance": 0.003071755201259796
+        },
+        {
+          "window": 4001,
+          "transition_l2": 0.09601909202992105,
+          "innovation": 0.004478383939043785,
+          "transition_distance": 0.0034220369062964717
+        },
+        {
+          "window": 2901,
+          "transition_l2": 0.09499383813401736,
+          "innovation": 0.0071954949933155715,
+          "transition_distance": 0.00444729080220016
+        },
+        {
+          "window": 1801,
+          "transition_l2": 0.09455378442302445,
+          "innovation": 0.0026280326348627234,
+          "transition_distance": 0.004887344513193073
+        },
+        {
+          "window": 3701,
+          "transition_l2": 0.09357212081086014,
+          "innovation": 0.004469062601239088,
+          "transition_distance": 0.005869008125357386
+        },
+        {
+          "window": 1101,
+          "transition_l2": 0.10567118445660456,
+          "innovation": 0.007767501763328848,
+          "transition_distance": 0.006230055520387037
+        },
+        {
+          "window": 801,
+          "transition_l2": 0.10586634716012121,
+          "innovation": 0.0886922788227461,
+          "transition_distance": 0.006425218223903684
+        },
+        {
+          "window": 1601,
+          "transition_l2": 0.09274844027999633,
+          "innovation": 0.0034513009189393296,
+          "transition_distance": 0.006692688656221191
+        }
+      ]
+    },
+    "801": {
+      "window": 801,
+      "target_transition_l2": 0.10586634716012121,
+      "target_innovation": 0.0886922788227461,
+      "matched_count": 10,
+      "matched_innovation_mean": 0.015546704305962925,
+      "matched_innovation_median": 0.005836939466179678,
+      "target_to_matched_median_ratio": 15.19499719615833,
+      "matched_empirical_p": 0.18181818181818182,
+      "matched_robust_z": 21.561130643814515,
+      "matched_transitions": [
+        {
+          "window": 1101,
+          "transition_l2": 0.10567118445660456,
+          "innovation": 0.007767501763328848,
+          "transition_distance": 0.00019516270351664644
+        },
+        {
+          "window": 2401,
+          "transition_l2": 0.10620735525578608,
+          "innovation": 0.008316827238081479,
+          "transition_distance": 0.00034100809566486867
+        },
+        {
+          "window": 1001,
+          "transition_l2": 0.1096442456302418,
+          "innovation": 0.0024314995408716484,
+          "transition_distance": 0.003777898470120597
+        },
+        {
+          "window": 701,
+          "transition_l2": 0.09944112893621752,
+          "innovation": 0.10427151220050039,
+          "transition_distance": 0.006425218223903684
+        },
+        {
+          "window": 3601,
+          "transition_l2": 0.09843386867964682,
+          "innovation": 0.0029003884277419745,
+          "transition_distance": 0.007432478480474389
+        },
+        {
+          "window": 3301,
+          "transition_l2": 0.09731622520339107,
+          "innovation": 0.01124588380153067,
+          "transition_distance": 0.008550121956730133
+        },
+        {
+          "window": 901,
+          "transition_l2": 0.09636937373495773,
+          "innovation": 0.0031329468848186564,
+          "transition_distance": 0.00949697342516348
+        },
+        {
+          "window": 2501,
+          "transition_l2": 0.11544472018808169,
+          "innovation": 0.0037266042703962407,
+          "transition_distance": 0.009578373027960482
+        },
+        {
+          "window": 4001,
+          "transition_l2": 0.09601909202992105,
+          "innovation": 0.004478383939043785,
+          "transition_distance": 0.009847255130200155
+        },
+        {
+          "window": 2901,
+          "transition_l2": 0.09499383813401736,
+          "innovation": 0.0071954949933155715,
+          "transition_distance": 0.010872509026103844
+        }
+      ]
+    }
+  },
+  "top_matched_surprises": [
+    {
+      "window": 701,
+      "transition_l2": 0.09944112893621752,
+      "innovation": 0.10427151220050039,
+      "matched_median_innovation": 0.004473723270141437,
+      "surprise_ratio": 23.307546288441717
+    },
+    {
+      "window": 801,
+      "transition_l2": 0.10586634716012121,
+      "innovation": 0.0886922788227461,
+      "matched_median_innovation": 0.005836939466179678,
+      "surprise_ratio": 15.19499719615833
+    },
+    {
+      "window": 2101,
+      "transition_l2": 0.07963630796549287,
+      "innovation": 0.010264044550672438,
+      "matched_median_innovation": 0.0020209323238011973,
+      "surprise_ratio": 5.078866041078836
+    },
+    {
+      "window": 1401,
+      "transition_l2": 0.07795332767103674,
+      "innovation": 0.008927003346996337,
+      "matched_median_innovation": 0.0020209323238011973,
+      "surprise_ratio": 4.417269812482104
+    },
+    {
+      "window": 1501,
+      "transition_l2": 0.09230336536891687,
+      "innovation": 0.013112822501225085,
+      "matched_median_innovation": 0.003292123901878993,
+      "surprise_ratio": 3.9830890003079436
+    },
+    {
+      "window": 3001,
+      "transition_l2": 0.081363908775845,
+      "innovation": 0.008285239927338291,
+      "matched_median_innovation": 0.0022858944175697398,
+      "surprise_ratio": 3.6245068292116422
+    },
+    {
+      "window": 3301,
+      "transition_l2": 0.09731622520339107,
+      "innovation": 0.01124588380153067,
+      "matched_median_innovation": 0.003960181760089209,
+      "surprise_ratio": 2.8397393056215026
+    },
+    {
+      "window": 2801,
+      "transition_l2": 0.08790195365241266,
+      "innovation": 0.008060780153962587,
+      "matched_median_innovation": 0.0032846539917013662,
+      "surprise_ratio": 2.454072841257569
+    },
+    {
+      "window": 1701,
+      "transition_l2": 0.0883469853153498,
+      "innovation": 0.008026560610541458,
+      "matched_median_innovation": 0.0032846539917013662,
+      "surprise_ratio": 2.4436548357362615
+    },
+    {
+      "window": 3801,
+      "transition_l2": 0.0845651639617031,
+      "innovation": 0.004238043464611669,
+      "matched_median_innovation": 0.0022858944175697398,
+      "surprise_ratio": 1.8539979064813354
+    }
+  ],
+  "scientific_boundary": "This analysis asks whether predictive innovation is unusual relative to measurement transitions of similar observable magnitude. It avoids assuming a particular linear relationship. It does not identify physical cause, detector health, degradation, or causality."
+}

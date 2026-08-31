@@ -1,0 +1,946 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-020",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "raw_flag_count": 64,
+  "refractory_values": [
+    10,
+    25,
+    50,
+    75,
+    100,
+    150
+  ],
+  "results": {
+    "10": {
+      "episode_count": 30,
+      "episodes": [
+        {
+          "episode": 1,
+          "start": 701,
+          "end": 702,
+          "flag_count": 2,
+          "peak_window": 701,
+          "peak_innovation": 0.10841498515725233
+        },
+        {
+          "episode": 2,
+          "start": 724,
+          "end": 725,
+          "flag_count": 2,
+          "peak_window": 725,
+          "peak_innovation": 0.05160490406762965
+        },
+        {
+          "episode": 3,
+          "start": 801,
+          "end": 802,
+          "flag_count": 2,
+          "peak_window": 801,
+          "peak_innovation": 0.09731552261615255
+        },
+        {
+          "episode": 4,
+          "start": 824,
+          "end": 825,
+          "flag_count": 2,
+          "peak_window": 825,
+          "peak_innovation": 0.07320900461172127
+        },
+        {
+          "episode": 5,
+          "start": 905,
+          "end": 905,
+          "flag_count": 1,
+          "peak_window": 905,
+          "peak_innovation": 0.03145012980502584
+        },
+        {
+          "episode": 6,
+          "start": 922,
+          "end": 922,
+          "flag_count": 1,
+          "peak_window": 922,
+          "peak_innovation": 0.030647947009229234
+        },
+        {
+          "episode": 7,
+          "start": 950,
+          "end": 956,
+          "flag_count": 4,
+          "peak_window": 951,
+          "peak_innovation": 0.11915791757789113
+        },
+        {
+          "episode": 8,
+          "start": 1042,
+          "end": 1051,
+          "flag_count": 3,
+          "peak_window": 1051,
+          "peak_innovation": 0.08571968195868229
+        },
+        {
+          "episode": 9,
+          "start": 1085,
+          "end": 1086,
+          "flag_count": 2,
+          "peak_window": 1085,
+          "peak_innovation": 0.055630759789734564
+        },
+        {
+          "episode": 10,
+          "start": 1142,
+          "end": 1142,
+          "flag_count": 1,
+          "peak_window": 1142,
+          "peak_innovation": 0.027697372444796493
+        },
+        {
+          "episode": 11,
+          "start": 1379,
+          "end": 1380,
+          "flag_count": 2,
+          "peak_window": 1379,
+          "peak_innovation": 0.0275038146607046
+        },
+        {
+          "episode": 12,
+          "start": 1479,
+          "end": 1480,
+          "flag_count": 2,
+          "peak_window": 1479,
+          "peak_innovation": 0.027893184807746337
+        },
+        {
+          "episode": 13,
+          "start": 1497,
+          "end": 1498,
+          "flag_count": 2,
+          "peak_window": 1498,
+          "peak_innovation": 0.03960004973574482
+        },
+        {
+          "episode": 14,
+          "start": 1525,
+          "end": 1535,
+          "flag_count": 3,
+          "peak_window": 1535,
+          "peak_innovation": 0.0338680929260486
+        },
+        {
+          "episode": 15,
+          "start": 1597,
+          "end": 1598,
+          "flag_count": 2,
+          "peak_window": 1598,
+          "peak_innovation": 0.049390649690824344
+        },
+        {
+          "episode": 16,
+          "start": 1675,
+          "end": 1676,
+          "flag_count": 2,
+          "peak_window": 1676,
+          "peak_innovation": 0.03716149298680206
+        },
+        {
+          "episode": 17,
+          "start": 1775,
+          "end": 1776,
+          "flag_count": 2,
+          "peak_window": 1775,
+          "peak_innovation": 0.03029347190887979
+        },
+        {
+          "episode": 18,
+          "start": 2315,
+          "end": 2316,
+          "flag_count": 2,
+          "peak_window": 2316,
+          "peak_innovation": 0.1676096526162835
+        },
+        {
+          "episode": 19,
+          "start": 2415,
+          "end": 2433,
+          "flag_count": 6,
+          "peak_window": 2416,
+          "peak_innovation": 0.1289808000251296
+        },
+        {
+          "episode": 20,
+          "start": 2532,
+          "end": 2533,
+          "flag_count": 2,
+          "peak_window": 2532,
+          "peak_innovation": 0.09775222204727936
+        },
+        {
+          "episode": 21,
+          "start": 2761,
+          "end": 2762,
+          "flag_count": 2,
+          "peak_window": 2761,
+          "peak_innovation": 0.04172522863079605
+        },
+        {
+          "episode": 22,
+          "start": 2861,
+          "end": 2862,
+          "flag_count": 2,
+          "peak_window": 2861,
+          "peak_innovation": 0.036512334452398945
+        },
+        {
+          "episode": 23,
+          "start": 3241,
+          "end": 3242,
+          "flag_count": 2,
+          "peak_window": 3241,
+          "peak_innovation": 0.02617587688360224
+        },
+        {
+          "episode": 24,
+          "start": 3292,
+          "end": 3293,
+          "flag_count": 2,
+          "peak_window": 3292,
+          "peak_innovation": 0.04075278787709635
+        },
+        {
+          "episode": 25,
+          "start": 3392,
+          "end": 3393,
+          "flag_count": 2,
+          "peak_window": 3392,
+          "peak_innovation": 0.0464323172833774
+        },
+        {
+          "episode": 26,
+          "start": 3457,
+          "end": 3458,
+          "flag_count": 2,
+          "peak_window": 3458,
+          "peak_innovation": 0.0963375927209572
+        },
+        {
+          "episode": 27,
+          "start": 3544,
+          "end": 3545,
+          "flag_count": 2,
+          "peak_window": 3544,
+          "peak_innovation": 0.03689186284343769
+        },
+        {
+          "episode": 28,
+          "start": 3557,
+          "end": 3558,
+          "flag_count": 2,
+          "peak_window": 3557,
+          "peak_innovation": 0.07896313002845615
+        },
+        {
+          "episode": 29,
+          "start": 3644,
+          "end": 3645,
+          "flag_count": 2,
+          "peak_window": 3645,
+          "peak_innovation": 0.05681959527053129
+        },
+        {
+          "episode": 30,
+          "start": 3875,
+          "end": 3875,
+          "flag_count": 1,
+          "peak_window": 3875,
+          "peak_innovation": 0.029636985047097553
+        }
+      ]
+    },
+    "25": {
+      "episode_count": 25,
+      "episodes": [
+        {
+          "episode": 1,
+          "start": 701,
+          "end": 725,
+          "flag_count": 4,
+          "peak_window": 701,
+          "peak_innovation": 0.10841498515725233
+        },
+        {
+          "episode": 2,
+          "start": 801,
+          "end": 825,
+          "flag_count": 4,
+          "peak_window": 801,
+          "peak_innovation": 0.09731552261615255
+        },
+        {
+          "episode": 3,
+          "start": 905,
+          "end": 922,
+          "flag_count": 2,
+          "peak_window": 905,
+          "peak_innovation": 0.03145012980502584
+        },
+        {
+          "episode": 4,
+          "start": 950,
+          "end": 956,
+          "flag_count": 4,
+          "peak_window": 951,
+          "peak_innovation": 0.11915791757789113
+        },
+        {
+          "episode": 5,
+          "start": 1042,
+          "end": 1051,
+          "flag_count": 3,
+          "peak_window": 1051,
+          "peak_innovation": 0.08571968195868229
+        },
+        {
+          "episode": 6,
+          "start": 1085,
+          "end": 1086,
+          "flag_count": 2,
+          "peak_window": 1085,
+          "peak_innovation": 0.055630759789734564
+        },
+        {
+          "episode": 7,
+          "start": 1142,
+          "end": 1142,
+          "flag_count": 1,
+          "peak_window": 1142,
+          "peak_innovation": 0.027697372444796493
+        },
+        {
+          "episode": 8,
+          "start": 1379,
+          "end": 1380,
+          "flag_count": 2,
+          "peak_window": 1379,
+          "peak_innovation": 0.0275038146607046
+        },
+        {
+          "episode": 9,
+          "start": 1479,
+          "end": 1498,
+          "flag_count": 4,
+          "peak_window": 1498,
+          "peak_innovation": 0.03960004973574482
+        },
+        {
+          "episode": 10,
+          "start": 1525,
+          "end": 1535,
+          "flag_count": 3,
+          "peak_window": 1535,
+          "peak_innovation": 0.0338680929260486
+        },
+        {
+          "episode": 11,
+          "start": 1597,
+          "end": 1598,
+          "flag_count": 2,
+          "peak_window": 1598,
+          "peak_innovation": 0.049390649690824344
+        },
+        {
+          "episode": 12,
+          "start": 1675,
+          "end": 1676,
+          "flag_count": 2,
+          "peak_window": 1676,
+          "peak_innovation": 0.03716149298680206
+        },
+        {
+          "episode": 13,
+          "start": 1775,
+          "end": 1776,
+          "flag_count": 2,
+          "peak_window": 1775,
+          "peak_innovation": 0.03029347190887979
+        },
+        {
+          "episode": 14,
+          "start": 2315,
+          "end": 2316,
+          "flag_count": 2,
+          "peak_window": 2316,
+          "peak_innovation": 0.1676096526162835
+        },
+        {
+          "episode": 15,
+          "start": 2415,
+          "end": 2433,
+          "flag_count": 6,
+          "peak_window": 2416,
+          "peak_innovation": 0.1289808000251296
+        },
+        {
+          "episode": 16,
+          "start": 2532,
+          "end": 2533,
+          "flag_count": 2,
+          "peak_window": 2532,
+          "peak_innovation": 0.09775222204727936
+        },
+        {
+          "episode": 17,
+          "start": 2761,
+          "end": 2762,
+          "flag_count": 2,
+          "peak_window": 2761,
+          "peak_innovation": 0.04172522863079605
+        },
+        {
+          "episode": 18,
+          "start": 2861,
+          "end": 2862,
+          "flag_count": 2,
+          "peak_window": 2861,
+          "peak_innovation": 0.036512334452398945
+        },
+        {
+          "episode": 19,
+          "start": 3241,
+          "end": 3242,
+          "flag_count": 2,
+          "peak_window": 3241,
+          "peak_innovation": 0.02617587688360224
+        },
+        {
+          "episode": 20,
+          "start": 3292,
+          "end": 3293,
+          "flag_count": 2,
+          "peak_window": 3292,
+          "peak_innovation": 0.04075278787709635
+        },
+        {
+          "episode": 21,
+          "start": 3392,
+          "end": 3393,
+          "flag_count": 2,
+          "peak_window": 3392,
+          "peak_innovation": 0.0464323172833774
+        },
+        {
+          "episode": 22,
+          "start": 3457,
+          "end": 3458,
+          "flag_count": 2,
+          "peak_window": 3458,
+          "peak_innovation": 0.0963375927209572
+        },
+        {
+          "episode": 23,
+          "start": 3544,
+          "end": 3558,
+          "flag_count": 4,
+          "peak_window": 3557,
+          "peak_innovation": 0.07896313002845615
+        },
+        {
+          "episode": 24,
+          "start": 3644,
+          "end": 3645,
+          "flag_count": 2,
+          "peak_window": 3645,
+          "peak_innovation": 0.05681959527053129
+        },
+        {
+          "episode": 25,
+          "start": 3875,
+          "end": 3875,
+          "flag_count": 1,
+          "peak_window": 3875,
+          "peak_innovation": 0.029636985047097553
+        }
+      ]
+    },
+    "50": {
+      "episode_count": 21,
+      "episodes": [
+        {
+          "episode": 1,
+          "start": 701,
+          "end": 725,
+          "flag_count": 4,
+          "peak_window": 701,
+          "peak_innovation": 0.10841498515725233
+        },
+        {
+          "episode": 2,
+          "start": 801,
+          "end": 825,
+          "flag_count": 4,
+          "peak_window": 801,
+          "peak_innovation": 0.09731552261615255
+        },
+        {
+          "episode": 3,
+          "start": 905,
+          "end": 956,
+          "flag_count": 6,
+          "peak_window": 951,
+          "peak_innovation": 0.11915791757789113
+        },
+        {
+          "episode": 4,
+          "start": 1042,
+          "end": 1086,
+          "flag_count": 5,
+          "peak_window": 1051,
+          "peak_innovation": 0.08571968195868229
+        },
+        {
+          "episode": 5,
+          "start": 1142,
+          "end": 1142,
+          "flag_count": 1,
+          "peak_window": 1142,
+          "peak_innovation": 0.027697372444796493
+        },
+        {
+          "episode": 6,
+          "start": 1379,
+          "end": 1380,
+          "flag_count": 2,
+          "peak_window": 1379,
+          "peak_innovation": 0.0275038146607046
+        },
+        {
+          "episode": 7,
+          "start": 1479,
+          "end": 1535,
+          "flag_count": 7,
+          "peak_window": 1498,
+          "peak_innovation": 0.03960004973574482
+        },
+        {
+          "episode": 8,
+          "start": 1597,
+          "end": 1598,
+          "flag_count": 2,
+          "peak_window": 1598,
+          "peak_innovation": 0.049390649690824344
+        },
+        {
+          "episode": 9,
+          "start": 1675,
+          "end": 1676,
+          "flag_count": 2,
+          "peak_window": 1676,
+          "peak_innovation": 0.03716149298680206
+        },
+        {
+          "episode": 10,
+          "start": 1775,
+          "end": 1776,
+          "flag_count": 2,
+          "peak_window": 1775,
+          "peak_innovation": 0.03029347190887979
+        },
+        {
+          "episode": 11,
+          "start": 2315,
+          "end": 2316,
+          "flag_count": 2,
+          "peak_window": 2316,
+          "peak_innovation": 0.1676096526162835
+        },
+        {
+          "episode": 12,
+          "start": 2415,
+          "end": 2433,
+          "flag_count": 6,
+          "peak_window": 2416,
+          "peak_innovation": 0.1289808000251296
+        },
+        {
+          "episode": 13,
+          "start": 2532,
+          "end": 2533,
+          "flag_count": 2,
+          "peak_window": 2532,
+          "peak_innovation": 0.09775222204727936
+        },
+        {
+          "episode": 14,
+          "start": 2761,
+          "end": 2762,
+          "flag_count": 2,
+          "peak_window": 2761,
+          "peak_innovation": 0.04172522863079605
+        },
+        {
+          "episode": 15,
+          "start": 2861,
+          "end": 2862,
+          "flag_count": 2,
+          "peak_window": 2861,
+          "peak_innovation": 0.036512334452398945
+        },
+        {
+          "episode": 16,
+          "start": 3241,
+          "end": 3293,
+          "flag_count": 4,
+          "peak_window": 3292,
+          "peak_innovation": 0.04075278787709635
+        },
+        {
+          "episode": 17,
+          "start": 3392,
+          "end": 3393,
+          "flag_count": 2,
+          "peak_window": 3392,
+          "peak_innovation": 0.0464323172833774
+        },
+        {
+          "episode": 18,
+          "start": 3457,
+          "end": 3458,
+          "flag_count": 2,
+          "peak_window": 3458,
+          "peak_innovation": 0.0963375927209572
+        },
+        {
+          "episode": 19,
+          "start": 3544,
+          "end": 3558,
+          "flag_count": 4,
+          "peak_window": 3557,
+          "peak_innovation": 0.07896313002845615
+        },
+        {
+          "episode": 20,
+          "start": 3644,
+          "end": 3645,
+          "flag_count": 2,
+          "peak_window": 3645,
+          "peak_innovation": 0.05681959527053129
+        },
+        {
+          "episode": 21,
+          "start": 3875,
+          "end": 3875,
+          "flag_count": 1,
+          "peak_window": 3875,
+          "peak_innovation": 0.029636985047097553
+        }
+      ]
+    },
+    "75": {
+      "episode_count": 18,
+      "episodes": [
+        {
+          "episode": 1,
+          "start": 701,
+          "end": 725,
+          "flag_count": 4,
+          "peak_window": 701,
+          "peak_innovation": 0.10841498515725233
+        },
+        {
+          "episode": 2,
+          "start": 801,
+          "end": 825,
+          "flag_count": 4,
+          "peak_window": 801,
+          "peak_innovation": 0.09731552261615255
+        },
+        {
+          "episode": 3,
+          "start": 905,
+          "end": 956,
+          "flag_count": 6,
+          "peak_window": 951,
+          "peak_innovation": 0.11915791757789113
+        },
+        {
+          "episode": 4,
+          "start": 1042,
+          "end": 1142,
+          "flag_count": 6,
+          "peak_window": 1051,
+          "peak_innovation": 0.08571968195868229
+        },
+        {
+          "episode": 5,
+          "start": 1379,
+          "end": 1380,
+          "flag_count": 2,
+          "peak_window": 1379,
+          "peak_innovation": 0.0275038146607046
+        },
+        {
+          "episode": 6,
+          "start": 1479,
+          "end": 1598,
+          "flag_count": 9,
+          "peak_window": 1598,
+          "peak_innovation": 0.049390649690824344
+        },
+        {
+          "episode": 7,
+          "start": 1675,
+          "end": 1676,
+          "flag_count": 2,
+          "peak_window": 1676,
+          "peak_innovation": 0.03716149298680206
+        },
+        {
+          "episode": 8,
+          "start": 1775,
+          "end": 1776,
+          "flag_count": 2,
+          "peak_window": 1775,
+          "peak_innovation": 0.03029347190887979
+        },
+        {
+          "episode": 9,
+          "start": 2315,
+          "end": 2316,
+          "flag_count": 2,
+          "peak_window": 2316,
+          "peak_innovation": 0.1676096526162835
+        },
+        {
+          "episode": 10,
+          "start": 2415,
+          "end": 2433,
+          "flag_count": 6,
+          "peak_window": 2416,
+          "peak_innovation": 0.1289808000251296
+        },
+        {
+          "episode": 11,
+          "start": 2532,
+          "end": 2533,
+          "flag_count": 2,
+          "peak_window": 2532,
+          "peak_innovation": 0.09775222204727936
+        },
+        {
+          "episode": 12,
+          "start": 2761,
+          "end": 2762,
+          "flag_count": 2,
+          "peak_window": 2761,
+          "peak_innovation": 0.04172522863079605
+        },
+        {
+          "episode": 13,
+          "start": 2861,
+          "end": 2862,
+          "flag_count": 2,
+          "peak_window": 2861,
+          "peak_innovation": 0.036512334452398945
+        },
+        {
+          "episode": 14,
+          "start": 3241,
+          "end": 3293,
+          "flag_count": 4,
+          "peak_window": 3292,
+          "peak_innovation": 0.04075278787709635
+        },
+        {
+          "episode": 15,
+          "start": 3392,
+          "end": 3458,
+          "flag_count": 4,
+          "peak_window": 3458,
+          "peak_innovation": 0.0963375927209572
+        },
+        {
+          "episode": 16,
+          "start": 3544,
+          "end": 3558,
+          "flag_count": 4,
+          "peak_window": 3557,
+          "peak_innovation": 0.07896313002845615
+        },
+        {
+          "episode": 17,
+          "start": 3644,
+          "end": 3645,
+          "flag_count": 2,
+          "peak_window": 3645,
+          "peak_innovation": 0.05681959527053129
+        },
+        {
+          "episode": 18,
+          "start": 3875,
+          "end": 3875,
+          "flag_count": 1,
+          "peak_window": 3875,
+          "peak_innovation": 0.029636985047097553
+        }
+      ]
+    },
+    "100": {
+      "episode_count": 6,
+      "episodes": [
+        {
+          "episode": 1,
+          "start": 701,
+          "end": 1142,
+          "flag_count": 20,
+          "peak_window": 951,
+          "peak_innovation": 0.11915791757789113
+        },
+        {
+          "episode": 2,
+          "start": 1379,
+          "end": 1776,
+          "flag_count": 15,
+          "peak_window": 1598,
+          "peak_innovation": 0.049390649690824344
+        },
+        {
+          "episode": 3,
+          "start": 2315,
+          "end": 2533,
+          "flag_count": 10,
+          "peak_window": 2316,
+          "peak_innovation": 0.1676096526162835
+        },
+        {
+          "episode": 4,
+          "start": 2761,
+          "end": 2862,
+          "flag_count": 4,
+          "peak_window": 2761,
+          "peak_innovation": 0.04172522863079605
+        },
+        {
+          "episode": 5,
+          "start": 3241,
+          "end": 3645,
+          "flag_count": 14,
+          "peak_window": 3458,
+          "peak_innovation": 0.0963375927209572
+        },
+        {
+          "episode": 6,
+          "start": 3875,
+          "end": 3875,
+          "flag_count": 1,
+          "peak_window": 3875,
+          "peak_innovation": 0.029636985047097553
+        }
+      ]
+    },
+    "150": {
+      "episode_count": 6,
+      "episodes": [
+        {
+          "episode": 1,
+          "start": 701,
+          "end": 1142,
+          "flag_count": 20,
+          "peak_window": 951,
+          "peak_innovation": 0.11915791757789113
+        },
+        {
+          "episode": 2,
+          "start": 1379,
+          "end": 1776,
+          "flag_count": 15,
+          "peak_window": 1598,
+          "peak_innovation": 0.049390649690824344
+        },
+        {
+          "episode": 3,
+          "start": 2315,
+          "end": 2533,
+          "flag_count": 10,
+          "peak_window": 2316,
+          "peak_innovation": 0.1676096526162835
+        },
+        {
+          "episode": 4,
+          "start": 2761,
+          "end": 2862,
+          "flag_count": 4,
+          "peak_window": 2761,
+          "peak_innovation": 0.04172522863079605
+        },
+        {
+          "episode": 5,
+          "start": 3241,
+          "end": 3645,
+          "flag_count": 14,
+          "peak_window": 3458,
+          "peak_innovation": 0.0963375927209572
+        },
+        {
+          "episode": 6,
+          "start": 3875,
+          "end": 3875,
+          "flag_count": 1,
+          "peak_window": 3875,
+          "peak_innovation": 0.029636985047097553
+        }
+      ]
+    }
+  },
+  "strongest_raw_flags": [
+    {
+      "window": 2316,
+      "innovation": 0.1676096526162835,
+      "frozen_z": 47.93932306796989
+    },
+    {
+      "window": 2315,
+      "innovation": 0.16455675738924416,
+      "frozen_z": 47.04213743678581
+    },
+    {
+      "window": 2416,
+      "innovation": 0.1289808000251296,
+      "frozen_z": 36.58706597543896
+    },
+    {
+      "window": 951,
+      "innovation": 0.11915791757789113,
+      "frozen_z": 33.700314766155124
+    },
+    {
+      "window": 950,
+      "innovation": 0.1143276991945482,
+      "frozen_z": 32.28080895061519
+    },
+    {
+      "window": 2415,
+      "innovation": 0.10996471643182097,
+      "frozen_z": 30.99861445892317
+    },
+    {
+      "window": 701,
+      "innovation": 0.10841498515725233,
+      "frozen_z": 30.543179035058998
+    },
+    {
+      "window": 702,
+      "innovation": 0.09793632859095903,
+      "frozen_z": 27.463708759720298
+    },
+    {
+      "window": 2532,
+      "innovation": 0.09775222204727936,
+      "frozen_z": 27.409603481513106
+    },
+    {
+      "window": 801,
+      "innovation": 0.09731552261615255,
+      "frozen_z": 27.281266140852647
+    }
+  ],
+  "scientific_boundary": "This analysis tests robustness of event-level alert grouping to the chosen refractory interval. Episode boundaries are algorithmic summaries of overlapping prospective flags and must not be interpreted as physical event durations or independent physical events."
+}

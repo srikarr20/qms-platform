@@ -1,0 +1,376 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-016",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "method": "leave-one-out nearest-transition median predictor with sequence-wide conformal ranking",
+  "samples": 34,
+  "neighbors": 10,
+  "targets": {
+    "701": {
+      "window": 701,
+      "transition_l2": 0.09944112893621752,
+      "observed_innovation": 0.10427151220050039,
+      "loo_expected_innovation": 0.004473723270141437,
+      "surprise_residual": 0.09979778893035895,
+      "surprise_ratio": 23.307546288441717,
+      "sequence_rank": 1,
+      "conformal_p": 0.05714285714285714
+    },
+    "801": {
+      "window": 801,
+      "transition_l2": 0.10586634716012121,
+      "observed_innovation": 0.0886922788227461,
+      "loo_expected_innovation": 0.005836939466179678,
+      "surprise_residual": 0.08285533935656643,
+      "surprise_ratio": 15.19499719615833,
+      "sequence_rank": 2,
+      "conformal_p": 0.08571428571428572
+    }
+  },
+  "joint_701_801": {
+    "combined_residual": 0.18265312828692537,
+    "pairwise_empirical_p": 0.0035587188612099642
+  },
+  "ranked_results": [
+    {
+      "window": 701,
+      "transition_l2": 0.09944112893621752,
+      "observed_innovation": 0.10427151220050039,
+      "loo_expected_innovation": 0.004473723270141437,
+      "surprise_residual": 0.09979778893035895,
+      "surprise_ratio": 23.307546288441717,
+      "sequence_rank": 1,
+      "conformal_p": 0.05714285714285714
+    },
+    {
+      "window": 801,
+      "transition_l2": 0.10586634716012121,
+      "observed_innovation": 0.0886922788227461,
+      "loo_expected_innovation": 0.005836939466179678,
+      "surprise_residual": 0.08285533935656643,
+      "surprise_ratio": 15.19499719615833,
+      "sequence_rank": 2,
+      "conformal_p": 0.08571428571428572
+    },
+    {
+      "window": 1501,
+      "transition_l2": 0.09230336536891687,
+      "observed_innovation": 0.013112822501225085,
+      "loo_expected_innovation": 0.003292123901878993,
+      "surprise_residual": 0.009820698599346093,
+      "surprise_ratio": 3.9830890003079436,
+      "sequence_rank": 3,
+      "conformal_p": 0.11428571428571428
+    },
+    {
+      "window": 2101,
+      "transition_l2": 0.07963630796549287,
+      "observed_innovation": 0.010264044550672438,
+      "loo_expected_innovation": 0.0020209323238011973,
+      "surprise_residual": 0.008243112226871241,
+      "surprise_ratio": 5.078866041078836,
+      "sequence_rank": 4,
+      "conformal_p": 0.14285714285714285
+    },
+    {
+      "window": 3301,
+      "transition_l2": 0.09731622520339107,
+      "observed_innovation": 0.01124588380153067,
+      "loo_expected_innovation": 0.003960181760089209,
+      "surprise_residual": 0.007285702041441461,
+      "surprise_ratio": 2.8397393056215026,
+      "sequence_rank": 5,
+      "conformal_p": 0.17142857142857143
+    },
+    {
+      "window": 1401,
+      "transition_l2": 0.07795332767103674,
+      "observed_innovation": 0.008927003346996337,
+      "loo_expected_innovation": 0.0020209323238011973,
+      "surprise_residual": 0.00690607102319514,
+      "surprise_ratio": 4.417269812482104,
+      "sequence_rank": 6,
+      "conformal_p": 0.2
+    },
+    {
+      "window": 3001,
+      "transition_l2": 0.081363908775845,
+      "observed_innovation": 0.008285239927338291,
+      "loo_expected_innovation": 0.0022858944175697398,
+      "surprise_residual": 0.005999345509768552,
+      "surprise_ratio": 3.6245068292116422,
+      "sequence_rank": 7,
+      "conformal_p": 0.22857142857142856
+    },
+    {
+      "window": 2801,
+      "transition_l2": 0.08790195365241266,
+      "observed_innovation": 0.008060780153962587,
+      "loo_expected_innovation": 0.0032846539917013662,
+      "surprise_residual": 0.004776126162261221,
+      "surprise_ratio": 2.454072841257569,
+      "sequence_rank": 8,
+      "conformal_p": 0.2571428571428571
+    },
+    {
+      "window": 1701,
+      "transition_l2": 0.0883469853153498,
+      "observed_innovation": 0.008026560610541458,
+      "loo_expected_innovation": 0.0032846539917013662,
+      "surprise_residual": 0.004741906618840092,
+      "surprise_ratio": 2.4436548357362615,
+      "sequence_rank": 9,
+      "conformal_p": 0.2857142857142857
+    },
+    {
+      "window": 2901,
+      "transition_l2": 0.09499383813401736,
+      "observed_innovation": 0.0071954949933155715,
+      "loo_expected_innovation": 0.003960181760089209,
+      "surprise_residual": 0.0032353132332263628,
+      "surprise_ratio": 1.8169607935251646,
+      "sequence_rank": 10,
+      "conformal_p": 0.3142857142857143
+    },
+    {
+      "window": 2401,
+      "transition_l2": 0.10620735525578608,
+      "observed_innovation": 0.008316827238081479,
+      "loo_expected_innovation": 0.005836939466179678,
+      "surprise_residual": 0.0024798877719018004,
+      "surprise_ratio": 1.4248609714510037,
+      "sequence_rank": 11,
+      "conformal_p": 0.34285714285714286
+    },
+    {
+      "window": 3801,
+      "transition_l2": 0.0845651639617031,
+      "observed_innovation": 0.004238043464611669,
+      "loo_expected_innovation": 0.0022858944175697398,
+      "surprise_residual": 0.0019521490470419292,
+      "surprise_ratio": 1.8539979064813354,
+      "sequence_rank": 12,
+      "conformal_p": 0.37142857142857144
+    },
+    {
+      "window": 1101,
+      "transition_l2": 0.10567118445660456,
+      "observed_innovation": 0.007767501763328848,
+      "loo_expected_innovation": 0.005836939466179678,
+      "surprise_residual": 0.0019305622971491692,
+      "surprise_ratio": 1.330749069496987,
+      "sequence_rank": 13,
+      "conformal_p": 0.4
+    },
+    {
+      "window": 3701,
+      "transition_l2": 0.09357212081086014,
+      "observed_innovation": 0.004469062601239088,
+      "loo_expected_innovation": 0.003292123901878993,
+      "surprise_residual": 0.0011769386993600952,
+      "surprise_ratio": 1.3575013378713823,
+      "sequence_rank": 14,
+      "conformal_p": 0.42857142857142855
+    },
+    {
+      "window": 3401,
+      "transition_l2": 0.08763721755865247,
+      "observed_innovation": 0.003736321574588098,
+      "loo_expected_innovation": 0.0029086103456632765,
+      "surprise_residual": 0.0008277112289248214,
+      "surprise_ratio": 1.2845727445613109,
+      "sequence_rank": 15,
+      "conformal_p": 0.45714285714285713
+    },
+    {
+      "window": 2701,
+      "transition_l2": 0.07735204242039523,
+      "observed_innovation": 0.0027714058143546135,
+      "loo_expected_innovation": 0.0020209323238011973,
+      "surprise_residual": 0.0007504734905534162,
+      "surprise_ratio": 1.371350134645697,
+      "sequence_rank": 16,
+      "conformal_p": 0.4857142857142857
+    },
+    {
+      "window": 4001,
+      "transition_l2": 0.09601909202992105,
+      "observed_innovation": 0.004478383939043785,
+      "loo_expected_innovation": 0.003960181760089209,
+      "surprise_residual": 0.0005182021789545766,
+      "surprise_ratio": 1.1308531300701974,
+      "sequence_rank": 17,
+      "conformal_p": 0.5142857142857142
+    },
+    {
+      "window": 3201,
+      "transition_l2": 0.08261915423391127,
+      "observed_innovation": 0.0023429906604627753,
+      "loo_expected_innovation": 0.0020004682365513966,
+      "surprise_residual": 0.0003425224239113787,
+      "surprise_ratio": 1.1712211259609162,
+      "sequence_rank": 18,
+      "conformal_p": 0.5428571428571428
+    },
+    {
+      "window": 1601,
+      "transition_l2": 0.09274844027999633,
+      "observed_innovation": 0.0034513009189393296,
+      "loo_expected_innovation": 0.003801004743028872,
+      "surprise_residual": -0.0003497038240895425,
+      "surprise_ratio": 0.9079970040208691,
+      "sequence_rank": 19,
+      "conformal_p": 0.5714285714285714
+    },
+    {
+      "window": 3101,
+      "transition_l2": 0.07632839283719477,
+      "observed_innovation": 0.0018130664729256903,
+      "loo_expected_innovation": 0.0022858944175697398,
+      "surprise_residual": -0.0004728279446440495,
+      "surprise_ratio": 0.7931540752670725,
+      "sequence_rank": 20,
+      "conformal_p": 0.6
+    },
+    {
+      "window": 3901,
+      "transition_l2": 0.09015873825637102,
+      "observed_innovation": 0.003118007064463403,
+      "loo_expected_innovation": 0.0035938112467637138,
+      "surprise_residual": -0.00047580418230031094,
+      "surprise_ratio": 0.8676045708497405,
+      "sequence_rank": 21,
+      "conformal_p": 0.6285714285714286
+    },
+    {
+      "window": 2201,
+      "transition_l2": 0.07980479355419272,
+      "observed_innovation": 0.0017721382984260889,
+      "loo_expected_innovation": 0.0022858944175697398,
+      "surprise_residual": -0.0005137561191436509,
+      "surprise_ratio": 0.7752494099487529,
+      "sequence_rank": 22,
+      "conformal_p": 0.6571428571428571
+    },
+    {
+      "window": 1901,
+      "transition_l2": 0.08347423974249386,
+      "observed_innovation": 0.0022287981746767042,
+      "loo_expected_innovation": 0.0030396561175254364,
+      "surprise_residual": -0.0008108579428487321,
+      "surprise_ratio": 0.7332402378763667,
+      "sequence_rank": 23,
+      "conformal_p": 0.6857142857142857
+    },
+    {
+      "window": 1301,
+      "transition_l2": 0.08066260391840596,
+      "observed_innovation": 0.0015882651960403623,
+      "loo_expected_innovation": 0.0025571982374086944,
+      "surprise_residual": -0.0009689330413683321,
+      "surprise_ratio": 0.6210958434140841,
+      "sequence_rank": 24,
+      "conformal_p": 0.7142857142857143
+    },
+    {
+      "window": 2001,
+      "transition_l2": 0.07798134778261245,
+      "observed_innovation": 0.0011153339405571973,
+      "loo_expected_innovation": 0.0022858944175697398,
+      "surprise_residual": -0.0011705604770125425,
+      "surprise_ratio": 0.4879201471356539,
+      "sequence_rank": 25,
+      "conformal_p": 0.7428571428571429
+    },
+    {
+      "window": 3501,
+      "transition_l2": 0.09266478661445447,
+      "observed_innovation": 0.00269921362686315,
+      "loo_expected_innovation": 0.003960181760089209,
+      "surprise_residual": -0.0012609681332260586,
+      "surprise_ratio": 0.6815883185125187,
+      "sequence_rank": 26,
+      "conformal_p": 0.7714285714285715
+    },
+    {
+      "window": 1801,
+      "transition_l2": 0.09455378442302445,
+      "observed_innovation": 0.0026280326348627234,
+      "loo_expected_innovation": 0.003960181760089209,
+      "surprise_residual": -0.0013321491252264854,
+      "surprise_ratio": 0.663614145529402,
+      "sequence_rank": 27,
+      "conformal_p": 0.8
+    },
+    {
+      "window": 901,
+      "transition_l2": 0.09636937373495773,
+      "observed_innovation": 0.0031329468848186564,
+      "loo_expected_innovation": 0.004473723270141437,
+      "surprise_residual": -0.0013407763853227803,
+      "surprise_ratio": 0.7002996599563048,
+      "sequence_rank": 28,
+      "conformal_p": 0.8285714285714286
+    },
+    {
+      "window": 2301,
+      "transition_l2": 0.07986357067891686,
+      "observed_innovation": 0.0008893038967417739,
+      "loo_expected_innovation": 0.0022858944175697398,
+      "surprise_residual": -0.001396590520827966,
+      "surprise_ratio": 0.38903979549818485,
+      "sequence_rank": 29,
+      "conformal_p": 0.8571428571428571
+    },
+    {
+      "window": 3601,
+      "transition_l2": 0.09843386867964682,
+      "observed_innovation": 0.0029003884277419745,
+      "loo_expected_innovation": 0.004473723270141437,
+      "surprise_residual": -0.0015733348423994623,
+      "surprise_ratio": 0.6483164587089623,
+      "sequence_rank": 30,
+      "conformal_p": 0.8857142857142857
+    },
+    {
+      "window": 1201,
+      "transition_l2": 0.08553722646461191,
+      "observed_innovation": 0.001651810934717512,
+      "loo_expected_innovation": 0.0034271643195257504,
+      "surprise_residual": -0.0017753533848082384,
+      "surprise_ratio": 0.48197599552101106,
+      "sequence_rank": 31,
+      "conformal_p": 0.9142857142857143
+    },
+    {
+      "window": 2601,
+      "transition_l2": 0.08869273127668657,
+      "observed_innovation": 0.001250776563608965,
+      "loo_expected_innovation": 0.003987182519599884,
+      "surprise_residual": -0.0027364059559909187,
+      "surprise_ratio": 0.313699349718879,
+      "sequence_rank": 32,
+      "conformal_p": 0.9428571428571428
+    },
+    {
+      "window": 2501,
+      "transition_l2": 0.11544472018808169,
+      "observed_innovation": 0.0037266042703962407,
+      "loo_expected_innovation": 0.00748149837832221,
+      "surprise_residual": -0.0037548941079259693,
+      "surprise_ratio": 0.4981093468113487,
+      "sequence_rank": 33,
+      "conformal_p": 0.9714285714285714
+    },
+    {
+      "window": 1001,
+      "transition_l2": 0.1096442456302418,
+      "observed_innovation": 0.0024314995408716484,
+      "loo_expected_innovation": 0.00748149837832221,
+      "surprise_residual": -0.005049998837450562,
+      "surprise_ratio": 0.32500167986629075,
+      "sequence_rank": 34,
+      "conformal_p": 1.0
+    }
+  ],
+  "scientific_boundary": "This experiment measures predictive surprise relative to transitions of similar observable magnitude using leave-one-out empirical ranking. Statistical surprise does not identify physical cause, detector degradation, hardware failure, or causal mechanism."
+}

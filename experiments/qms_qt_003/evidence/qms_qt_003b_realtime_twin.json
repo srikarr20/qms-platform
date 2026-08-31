@@ -1,0 +1,377 @@
+{
+  "experiment": "QMS-QT-003B",
+  "title": "Causal real-time two-mode virtual quantum twin baseline",
+  "state": [
+    "x1",
+    "p1",
+    "x2",
+    "p2"
+  ],
+  "external_measurement": "x1(t) only",
+  "estimator": "Discrete linear Gaussian causal state estimator (Kalman-style computational baseline)",
+  "dt": 0.05,
+  "steps": 800,
+  "results": [
+    {
+      "coupling": 0.0,
+      "measurement_noise_sigma": 0.0001,
+      "process_noise_sigma": 0.0001,
+      "rank": 2,
+      "observability_condition_number": 17.876371708232753,
+      "mean_steady_state_error": 0.11892747563592927,
+      "mean_mode1_error": 0.0003391618096470156,
+      "mean_mode2_error": 0.11892655838975984,
+      "mean_abs_residual": 0.00013027323688804345,
+      "mean_posterior_covariance_trace": 0.06853758324886734,
+      "final_true_state": [
+        -0.02502891227777155,
+        -0.01764982468001361,
+        -0.06168709569125368,
+        0.008173656421365496
+      ],
+      "final_estimated_state": [
+        -0.024958859740226998,
+        -0.01689026522060747,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "coupling": 0.0,
+      "measurement_noise_sigma": 0.001,
+      "process_noise_sigma": 0.0001,
+      "rank": 2,
+      "observability_condition_number": 17.876371708232753,
+      "mean_steady_state_error": 0.1180504688049481,
+      "mean_mode1_error": 0.0004701304333527653,
+      "mean_mode2_error": 0.1180491450087354,
+      "mean_abs_residual": 0.0008285520722934864,
+      "mean_posterior_covariance_trace": 0.06853775163546802,
+      "final_true_state": [
+        -0.026997562489507094,
+        -0.015521978321278006,
+        -0.059652237059004354,
+        0.006787155192526597
+      ],
+      "final_estimated_state": [
+        -0.027288981867047528,
+        -0.015518783146483315,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "coupling": 0.0,
+      "measurement_noise_sigma": 0.01,
+      "process_noise_sigma": 0.0001,
+      "rank": 2,
+      "observability_condition_number": 17.876371708232753,
+      "mean_steady_state_error": 0.11596315541457787,
+      "mean_mode1_error": 0.001137232515601033,
+      "mean_mode2_error": 0.11595566064002032,
+      "mean_abs_residual": 0.007755775232857481,
+      "mean_posterior_covariance_trace": 0.06853904387390214,
+      "final_true_state": [
+        -0.025146218912014504,
+        -0.017979206739060886,
+        -0.059153297561699354,
+        0.00893979643873555
+      ],
+      "final_estimated_state": [
+        -0.024622659118309517,
+        -0.017136299243335536,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "coupling": 0.001,
+      "measurement_noise_sigma": 0.0001,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 59442263.76034986,
+      "mean_steady_state_error": 0.16924352203170837,
+      "mean_mode1_error": 0.000388858607792872,
+      "mean_mode2_error": 0.16924282639769606,
+      "mean_abs_residual": 0.00013370745347038147,
+      "mean_posterior_covariance_trace": 0.008039895426973616,
+      "final_true_state": [
+        -0.02452722527341753,
+        -0.016324100085884276,
+        -0.061663936532112475,
+        0.007254383670632213
+      ],
+      "final_estimated_state": [
+        -0.024473828222975478,
+        -0.01608647426575807,
+        -0.07260805353801571,
+        0.09408971669299815
+      ]
+    },
+    {
+      "coupling": 0.001,
+      "measurement_noise_sigma": 0.001,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 59442263.76034986,
+      "mean_steady_state_error": 0.053125632704085886,
+      "mean_mode1_error": 0.0005037260737786246,
+      "mean_mode2_error": 0.05312208986834781,
+      "mean_abs_residual": 0.0008617109397154157,
+      "mean_posterior_covariance_trace": 0.008660420244218871,
+      "final_true_state": [
+        -0.021857063200463236,
+        -0.014535858116100342,
+        -0.06121738326043741,
+        0.010570837273058235
+      ],
+      "final_estimated_state": [
+        -0.0222926080587243,
+        -0.014475333936827872,
+        -0.051387879765515926,
+        -0.022582229534324753
+      ]
+    },
+    {
+      "coupling": 0.001,
+      "measurement_noise_sigma": 0.01,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 59442263.76034986,
+      "mean_steady_state_error": 0.22438759923807772,
+      "mean_mode1_error": 0.0018551279368893368,
+      "mean_mode2_error": 0.22437880443374872,
+      "mean_abs_residual": 0.007902671377563281,
+      "mean_posterior_covariance_trace": 0.025180054501822872,
+      "final_true_state": [
+        -0.024053212183444375,
+        -0.014714944518315322,
+        -0.06003805966613391,
+        0.00810618734251609
+      ],
+      "final_estimated_state": [
+        -0.025983998833367737,
+        -0.014973070673370802,
+        0.056282332893828745,
+        0.029526211530247547
+      ]
+    },
+    {
+      "coupling": 0.01,
+      "measurement_noise_sigma": 0.0001,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 5944226.387036653,
+      "mean_steady_state_error": 0.00755929584987495,
+      "mean_mode1_error": 0.00034685415414085,
+      "mean_mode2_error": 0.007546723170288689,
+      "mean_abs_residual": 0.0001312465836766527,
+      "mean_posterior_covariance_trace": 9.393838370307868e-05,
+      "final_true_state": [
+        -0.024885903500702123,
+        -0.016472573833483627,
+        -0.06368611141961963,
+        0.00596109552070929
+      ],
+      "final_estimated_state": [
+        -0.024785142044336354,
+        -0.016335086021038794,
+        -0.06086651612937617,
+        0.010509166003006918
+      ]
+    },
+    {
+      "coupling": 0.01,
+      "measurement_noise_sigma": 0.001,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 5944226.387036653,
+      "mean_steady_state_error": 0.013547625487686317,
+      "mean_mode1_error": 0.0005004713324445288,
+      "mean_mode2_error": 0.0135338656543921,
+      "mean_abs_residual": 0.0009141191193340898,
+      "mean_posterior_covariance_trace": 0.00010212394595968347,
+      "final_true_state": [
+        -0.023742986678548125,
+        -0.017984005588528203,
+        -0.059710826912335174,
+        0.0068581612001827495
+      ],
+      "final_estimated_state": [
+        -0.024088050378905265,
+        -0.017160568568546166,
+        -0.06031646349758377,
+        -0.0009447107760628046
+      ]
+    },
+    {
+      "coupling": 0.01,
+      "measurement_noise_sigma": 0.01,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 5944226.387036653,
+      "mean_steady_state_error": 0.013942769935741142,
+      "mean_mode1_error": 0.0016791399353983513,
+      "mean_mode2_error": 0.013811677388482324,
+      "mean_abs_residual": 0.00828595944702765,
+      "mean_posterior_covariance_trace": 0.00040080700183011395,
+      "final_true_state": [
+        -0.02219730352189691,
+        -0.017461355139141124,
+        -0.059775885374596695,
+        0.004826548915151036
+      ],
+      "final_estimated_state": [
+        -0.023212518695173955,
+        -0.016930526484767585,
+        -0.05358763775205187,
+        0.0013766598131201425
+      ]
+    },
+    {
+      "coupling": 0.05,
+      "measurement_noise_sigma": 0.0001,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 1188845.3307487986,
+      "mean_steady_state_error": 0.0014415406083470425,
+      "mean_mode1_error": 0.00035726486479803157,
+      "mean_mode2_error": 0.0013733114901813665,
+      "mean_abs_residual": 0.00013519559752782153,
+      "mean_posterior_covariance_trace": 6.573014454416845e-06,
+      "final_true_state": [
+        -0.0163115764707301,
+        -0.021694132256637504,
+        -0.059643045799073396,
+        0.003104766321051616
+      ],
+      "final_estimated_state": [
+        -0.016301326597762407,
+        -0.021835503450895636,
+        -0.0581166905696393,
+        0.004403140255767917
+      ]
+    },
+    {
+      "coupling": 0.05,
+      "measurement_noise_sigma": 0.001,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 1188845.3307487986,
+      "mean_steady_state_error": 0.0019839283920513578,
+      "mean_mode1_error": 0.000556015893697925,
+      "mean_mode2_error": 0.0018783204632689685,
+      "mean_abs_residual": 0.0009125794561974926,
+      "mean_posterior_covariance_trace": 7.05638737069469e-06,
+      "final_true_state": [
+        -0.015506724053731633,
+        -0.021961175283633467,
+        -0.059407292230643595,
+        0.0022269189648207502
+      ],
+      "final_estimated_state": [
+        -0.015757868779387226,
+        -0.022069733667842015,
+        -0.0580578666532631,
+        0.0034347058765397255
+      ]
+    },
+    {
+      "coupling": 0.05,
+      "measurement_noise_sigma": 0.01,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 1188845.3307487986,
+      "mean_steady_state_error": 0.003679552170091115,
+      "mean_mode1_error": 0.0014635457157048215,
+      "mean_mode2_error": 0.003320511699494809,
+      "mean_abs_residual": 0.008250715839357136,
+      "mean_posterior_covariance_trace": 2.028578508215687e-05,
+      "final_true_state": [
+        -0.016131935502979936,
+        -0.02431217667578638,
+        -0.05658825862281642,
+        0.0038610330981802415
+      ],
+      "final_estimated_state": [
+        -0.016646091371688404,
+        -0.023687575083433297,
+        -0.05701483055745026,
+        0.005311038813886192
+      ]
+    },
+    {
+      "coupling": 0.18,
+      "measurement_noise_sigma": 0.0001,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 330234.99869306263,
+      "mean_steady_state_error": 0.001118932991172375,
+      "mean_mode1_error": 0.0003097422100119683,
+      "mean_mode2_error": 0.0010284878619293643,
+      "mean_abs_residual": 0.00013506867531645585,
+      "mean_posterior_covariance_trace": 2.812791783170797e-06,
+      "final_true_state": [
+        0.0318329266411036,
+        -0.03872447939144234,
+        -0.015643136261075958,
+        0.024995875498666772
+      ],
+      "final_estimated_state": [
+        0.03180229510076253,
+        -0.03821765209214414,
+        -0.014873707137894996,
+        0.023892426626056812
+      ]
+    },
+    {
+      "coupling": 0.18,
+      "measurement_noise_sigma": 0.001,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 330234.99869306263,
+      "mean_steady_state_error": 0.0014181272765412907,
+      "mean_mode1_error": 0.0005074421287800582,
+      "mean_mode2_error": 0.001284348824356527,
+      "mean_abs_residual": 0.0008658412287549874,
+      "mean_posterior_covariance_trace": 3.0527067975288717e-06,
+      "final_true_state": [
+        0.03394201506497546,
+        -0.038924096324165464,
+        -0.015881286229662242,
+        0.0218132958981728
+      ],
+      "final_estimated_state": [
+        0.03419742645992661,
+        -0.03876048817239634,
+        -0.015242482854123223,
+        0.02369039141517643
+      ]
+    },
+    {
+      "coupling": 0.18,
+      "measurement_noise_sigma": 0.01,
+      "process_noise_sigma": 0.0001,
+      "rank": 4,
+      "observability_condition_number": 330234.99869306263,
+      "mean_steady_state_error": 0.0017865548153175065,
+      "mean_mode1_error": 0.000882563828814497,
+      "mean_mode2_error": 0.0014978557201727701,
+      "mean_abs_residual": 0.007507089416083641,
+      "mean_posterior_covariance_trace": 5.6530615887576304e-06,
+      "final_true_state": [
+        0.033460287975167875,
+        -0.03789007725169517,
+        -0.016521133240241338,
+        0.02294652161548174
+      ],
+      "final_estimated_state": [
+        0.032260198081109547,
+        -0.0373598365630741,
+        -0.015520249788035278,
+        0.02416644888149778
+      ]
+    }
+  ],
+  "scientific_boundary": "Computational finite-mode Gaussian state-estimation baseline. This is not an experimental quantum filter and does not establish real-time reconstruction of a physical quantum electromagnetic field."
+}

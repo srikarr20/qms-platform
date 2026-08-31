@@ -1,0 +1,47 @@
+{
+  "experiment": "QMS-PYXEL-TWIN-006",
+  "title": "Predictive innovation and divergence-triggered adaptation",
+  "thresholds": {
+    "cti_relative_prediction_error": 0.2,
+    "noise_relative_prediction_error": 0.1
+  },
+  "results": [
+    {
+      "time": "t02",
+      "cti_prediction_relative_error": 0.10000012830928824,
+      "noise_prediction_relative_error": 0.001986551244325908,
+      "cti_alert": false,
+      "noise_alert": false,
+      "status": "EXPECTED_EVOLUTION",
+      "trigger_reestimate": false
+    },
+    {
+      "time": "t03",
+      "cti_prediction_relative_error": 0.6999999572989558,
+      "noise_prediction_relative_error": 0.20056143089345688,
+      "cti_alert": true,
+      "noise_alert": true,
+      "status": "MULTI_PARAMETER_CHANGE",
+      "trigger_reestimate": true
+    },
+    {
+      "time": "t04",
+      "cti_prediction_relative_error": 0.10000002958401676,
+      "noise_prediction_relative_error": 0.002614230137547824,
+      "cti_alert": false,
+      "noise_alert": false,
+      "status": "EXPECTED_EVOLUTION",
+      "trigger_reestimate": false
+    },
+    {
+      "time": "t05",
+      "cti_prediction_relative_error": 0.24999991548357195,
+      "noise_prediction_relative_error": 0.10011961889093118,
+      "cti_alert": true,
+      "noise_alert": true,
+      "status": "MULTI_PARAMETER_CHANGE",
+      "trigger_reestimate": true
+    }
+  ],
+  "scientific_boundary": "Thresholds are provisional and selected for this synthetic Pyxel trajectory. The experiment demonstrates predictive divergence logic and adaptation triggering, not validated hardware anomaly thresholds."
+}

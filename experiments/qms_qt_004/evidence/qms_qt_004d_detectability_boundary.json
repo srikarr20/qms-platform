@@ -1,0 +1,224 @@
+{
+  "experiment": "QMS-QT-004D",
+  "title": "Baseline-calibrated detectability boundary for quantum-twin divergence",
+  "calibration": {
+    "baseline_trials": 500,
+    "quantile": 0.99,
+    "rms_ratio_threshold": 1.1518822116654532,
+    "absolute_lag1_threshold": 0.14621905165840182
+  },
+  "test_trials_per_condition": 100,
+  "results": [
+    {
+      "type": "physical_change",
+      "value": 0.175,
+      "trials": 100,
+      "detection_rate": 0.01,
+      "rms_detection_rate": 0.0,
+      "lag_detection_rate": 0.01,
+      "mean_rms_ratio": 1.0043179481447786,
+      "mean_abs_lag1": 0.04638227272459499
+    },
+    {
+      "type": "physical_change",
+      "value": 0.17,
+      "trials": 100,
+      "detection_rate": 0.03,
+      "rms_detection_rate": 0.0,
+      "lag_detection_rate": 0.03,
+      "mean_rms_ratio": 1.006444339670465,
+      "mean_abs_lag1": 0.04910519704793923
+    },
+    {
+      "type": "physical_change",
+      "value": 0.165,
+      "trials": 100,
+      "detection_rate": 0.03,
+      "rms_detection_rate": 0.01,
+      "lag_detection_rate": 0.02,
+      "mean_rms_ratio": 1.0088311833615011,
+      "mean_abs_lag1": 0.044672918888012066
+    },
+    {
+      "type": "physical_change",
+      "value": 0.16,
+      "trials": 100,
+      "detection_rate": 0.01,
+      "rms_detection_rate": 0.0,
+      "lag_detection_rate": 0.01,
+      "mean_rms_ratio": 1.0126962457254478,
+      "mean_abs_lag1": 0.049805715493107694
+    },
+    {
+      "type": "physical_change",
+      "value": 0.15,
+      "trials": 100,
+      "detection_rate": 0.07,
+      "rms_detection_rate": 0.01,
+      "lag_detection_rate": 0.06,
+      "mean_rms_ratio": 1.034177057841031,
+      "mean_abs_lag1": 0.06726866524557619
+    },
+    {
+      "type": "physical_change",
+      "value": 0.14,
+      "trials": 100,
+      "detection_rate": 0.39,
+      "rms_detection_rate": 0.1,
+      "lag_detection_rate": 0.32,
+      "mean_rms_ratio": 1.0769299838726014,
+      "mean_abs_lag1": 0.12186165087000864
+    },
+    {
+      "type": "physical_change",
+      "value": 0.13,
+      "trials": 100,
+      "detection_rate": 0.72,
+      "rms_detection_rate": 0.2,
+      "lag_detection_rate": 0.69,
+      "mean_rms_ratio": 1.0952816990706133,
+      "mean_abs_lag1": 0.1727819710094152
+    },
+    {
+      "type": "physical_change",
+      "value": 0.12,
+      "trials": 100,
+      "detection_rate": 0.97,
+      "rms_detection_rate": 0.48,
+      "lag_detection_rate": 0.93,
+      "mean_rms_ratio": 1.1519033154695784,
+      "mean_abs_lag1": 0.22969433127132569
+    },
+    {
+      "type": "physical_change",
+      "value": 0.11,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 0.77,
+      "lag_detection_rate": 0.99,
+      "mean_rms_ratio": 1.1943469800847037,
+      "mean_abs_lag1": 0.2937105549416994
+    },
+    {
+      "type": "physical_change",
+      "value": 0.1,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 0.92,
+      "lag_detection_rate": 1.0,
+      "mean_rms_ratio": 1.2476317454171273,
+      "mean_abs_lag1": 0.34369488103988866
+    },
+    {
+      "type": "physical_change",
+      "value": 0.09,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 1.0,
+      "lag_detection_rate": 1.0,
+      "mean_rms_ratio": 1.322019310553486,
+      "mean_abs_lag1": 0.4009133928883497
+    },
+    {
+      "type": "physical_change",
+      "value": 0.08,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 1.0,
+      "lag_detection_rate": 1.0,
+      "mean_rms_ratio": 1.3692408051076448,
+      "mean_abs_lag1": 0.4465340474456508
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.0012,
+      "trials": 100,
+      "detection_rate": 0.74,
+      "rms_detection_rate": 0.74,
+      "lag_detection_rate": 0.0,
+      "mean_rms_ratio": 1.1979389674590366,
+      "mean_abs_lag1": 0.04669201822587929
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.0015,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 1.0,
+      "lag_detection_rate": 0.01,
+      "mean_rms_ratio": 1.4649480289664822,
+      "mean_abs_lag1": 0.05348674185514661
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.002,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 1.0,
+      "lag_detection_rate": 0.08,
+      "mean_rms_ratio": 1.9654780403463232,
+      "mean_abs_lag1": 0.06111045687652562
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.0025,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 1.0,
+      "lag_detection_rate": 0.03,
+      "mean_rms_ratio": 2.465196524670472,
+      "mean_abs_lag1": 0.06859008528958992
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.003,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 1.0,
+      "lag_detection_rate": 0.09,
+      "mean_rms_ratio": 2.9238738597504965,
+      "mean_abs_lag1": 0.06976209052505554
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.004,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 1.0,
+      "lag_detection_rate": 0.09,
+      "mean_rms_ratio": 3.8687540855170357,
+      "mean_abs_lag1": 0.07431508620765748
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.005,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 1.0,
+      "lag_detection_rate": 0.02,
+      "mean_rms_ratio": 4.866851502667749,
+      "mean_abs_lag1": 0.05975520056180827
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.0075,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 1.0,
+      "lag_detection_rate": 0.07,
+      "mean_rms_ratio": 7.292749271944724,
+      "mean_abs_lag1": 0.06243278283864072
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.01,
+      "trials": 100,
+      "detection_rate": 1.0,
+      "rms_detection_rate": 1.0,
+      "lag_detection_rate": 0.1,
+      "mean_rms_ratio": 9.713770618217078,
+      "mean_abs_lag1": 0.0761931360572049
+    }
+  ],
+  "scientific_boundary": "Detection thresholds are calibrated only to this finite computational model. Detection rates characterize this simulated test bench and are not universal quantum field or detector thresholds."
+}

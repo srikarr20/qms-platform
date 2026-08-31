@@ -1,0 +1,184 @@
+{
+  "experiment": "QMS-QT-006J",
+  "title": "Prospective validation of state-aware measurement recommendations",
+  "unknown_cases": {
+    "gamma1_change": {
+      "gamma1": 0.12
+    },
+    "omega1_change": {
+      "omega1": 0.9
+    },
+    "omega1_gamma1_change": {
+      "omega1": 0.92,
+      "gamma1": 0.11
+    }
+  },
+  "starting_channel": "x1",
+  "candidate_additions": [
+    "p1",
+    "x2",
+    "p2"
+  ],
+  "state_distribution_at_change": {
+    "mean": [
+      -0.054631860517259614,
+      0.009664793630442668,
+      -0.055338651344500264,
+      0.0873832854101738
+    ],
+    "mean_norm": 0.11737228514943555,
+    "covariance_trace": 5.7494107804882e-06
+  },
+  "results": {
+    "gamma1_change": {
+      "target_change": {
+        "gamma1": 0.12
+      },
+      "recommendation_scores": {
+        "p1": 0.5768310929869465,
+        "x2": 0.5463088282327949,
+        "p2": 0.47130258114488344
+      },
+      "predicted_ranking": [
+        "p1",
+        "x2",
+        "p2"
+      ],
+      "mc_results": {
+        "p1": {
+          "rejection_rate": 0.92,
+          "adequacy_threshold": 1.3547644610119293e-06,
+          "forced_winner_counts": {
+            "g_omega2": 54,
+            "omega2_gamma2": 46
+          }
+        },
+        "x2": {
+          "rejection_rate": 0.59,
+          "adequacy_threshold": 1.5765882478059863e-06,
+          "forced_winner_counts": {
+            "g_gamma2": 100
+          }
+        },
+        "p2": {
+          "rejection_rate": 0.39,
+          "adequacy_threshold": 1.6394082194803615e-06,
+          "forced_winner_counts": {
+            "g_gamma2": 100
+          }
+        }
+      },
+      "empirical_ranking": [
+        "p1",
+        "x2",
+        "p2"
+      ],
+      "top_recommendation_correct": true
+    },
+    "omega1_change": {
+      "target_change": {
+        "omega1": 0.9
+      },
+      "recommendation_scores": {
+        "p1": 6.487693846201313,
+        "x2": 30.149021924678635,
+        "p2": 29.277842288756336
+      },
+      "predicted_ranking": [
+        "x2",
+        "p2",
+        "p1"
+      ],
+      "mc_results": {
+        "p1": {
+          "rejection_rate": 1.0,
+          "adequacy_threshold": 1.367350790523308e-06,
+          "forced_winner_counts": {
+            "omega2_gamma2": 100
+          }
+        },
+        "x2": {
+          "rejection_rate": 1.0,
+          "adequacy_threshold": 1.7173573649417748e-06,
+          "forced_winner_counts": {
+            "omega2_only": 3,
+            "g_omega2": 59,
+            "g_only": 9,
+            "g_gamma2": 22,
+            "omega2_gamma2": 5,
+            "gamma2_only": 2
+          }
+        },
+        "p2": {
+          "rejection_rate": 1.0,
+          "adequacy_threshold": 1.694099152853912e-06,
+          "forced_winner_counts": {
+            "g_only": 7,
+            "g_gamma2": 83,
+            "g_omega2": 10
+          }
+        }
+      },
+      "empirical_ranking": [
+        "p1",
+        "x2",
+        "p2"
+      ],
+      "top_recommendation_correct": false
+    },
+    "omega1_gamma1_change": {
+      "target_change": {
+        "omega1": 0.92,
+        "gamma1": 0.11
+      },
+      "recommendation_scores": {
+        "p1": 5.049272171839405,
+        "x2": 14.892416753576535,
+        "p2": 15.045526050488794
+      },
+      "predicted_ranking": [
+        "p2",
+        "x2",
+        "p1"
+      ],
+      "mc_results": {
+        "p1": {
+          "rejection_rate": 1.0,
+          "adequacy_threshold": 1.3538860167081182e-06,
+          "forced_winner_counts": {
+            "omega2_gamma2": 74,
+            "g_gamma2": 26
+          }
+        },
+        "x2": {
+          "rejection_rate": 1.0,
+          "adequacy_threshold": 1.5808678624294055e-06,
+          "forced_winner_counts": {
+            "g_gamma2": 100
+          }
+        },
+        "p2": {
+          "rejection_rate": 1.0,
+          "adequacy_threshold": 1.6873731195450237e-06,
+          "forced_winner_counts": {
+            "g_gamma2": 90,
+            "g_only": 1,
+            "g_omega2": 9
+          }
+        }
+      },
+      "empirical_ranking": [
+        "p1",
+        "x2",
+        "p2"
+      ],
+      "top_recommendation_correct": false
+    }
+  },
+  "summary": {
+    "cases": 3,
+    "top_recommendations_correct": 1,
+    "top_recommendation_accuracy": 0.3333333333333333
+  },
+  "scientific_boundary": "Finite linear Gaussian computational prospective validation. Recommendations use known unresolved mechanisms, known candidate observable choices, a fixed candidate wrong-model library and the nominal reachable state distribution. Monte Carlo rejection rates provide independent computational validation only."
+}

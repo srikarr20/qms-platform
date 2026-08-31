@@ -1,0 +1,133 @@
+{
+  "experiment": "QMS-QT-004C",
+  "title": "Robustness of external-only twin failure attribution across perturbation magnitude",
+  "classifier": "Unchanged QT-004B residual RMS / lag-1 autocorrelation rule",
+  "results": [
+    {
+      "type": "baseline",
+      "value": null,
+      "trials": 100,
+      "mean_rms_ratio": 0.9967467201846466,
+      "std_rms_ratio": 0.05884992960853103,
+      "mean_post_lag1": -0.003454498215980783,
+      "std_post_lag1": 0.06241764625498994,
+      "classification_counts": {
+        "nominal": 100
+      }
+    },
+    {
+      "type": "physical_change",
+      "value": 0.16,
+      "trials": 100,
+      "mean_rms_ratio": 1.023629015626391,
+      "std_rms_ratio": 0.06148321293612637,
+      "mean_post_lag1": 0.03006446948586452,
+      "std_post_lag1": 0.05387371008990123,
+      "classification_counts": {
+        "nominal": 100
+      }
+    },
+    {
+      "type": "physical_change",
+      "value": 0.14,
+      "trials": 100,
+      "mean_rms_ratio": 1.0701351653945341,
+      "std_rms_ratio": 0.0639576516500232,
+      "mean_post_lag1": 0.11550392855387086,
+      "std_post_lag1": 0.06131144485710183,
+      "classification_counts": {
+        "nominal": 100
+      }
+    },
+    {
+      "type": "physical_change",
+      "value": 0.12,
+      "trials": 100,
+      "mean_rms_ratio": 1.1405393423433554,
+      "std_rms_ratio": 0.05686216043119917,
+      "mean_post_lag1": 0.22406585978603982,
+      "std_post_lag1": 0.06294424961338972,
+      "classification_counts": {
+        "ambiguous": 2,
+        "nominal": 84,
+        "physical_or_model_change": 14
+      }
+    },
+    {
+      "type": "physical_change",
+      "value": 0.1,
+      "trials": 100,
+      "mean_rms_ratio": 1.246524316146898,
+      "std_rms_ratio": 0.0662909835268733,
+      "mean_post_lag1": 0.3406086636523449,
+      "std_post_lag1": 0.05449157321964078,
+      "classification_counts": {
+        "nominal": 21,
+        "physical_or_model_change": 79
+      }
+    },
+    {
+      "type": "physical_change",
+      "value": 0.08,
+      "trials": 100,
+      "mean_rms_ratio": 1.3723760367469455,
+      "std_rms_ratio": 0.07428574429678934,
+      "mean_post_lag1": 0.44964408619251506,
+      "std_post_lag1": 0.053922227388152465,
+      "classification_counts": {
+        "physical_or_model_change": 100
+      }
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.002,
+      "trials": 100,
+      "mean_rms_ratio": 1.9412775682287045,
+      "std_rms_ratio": 0.09803879100675121,
+      "mean_post_lag1": -0.04698509223194099,
+      "std_post_lag1": 0.0505469266965248,
+      "classification_counts": {
+        "ambiguous": 100
+      }
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.003,
+      "trials": 100,
+      "mean_rms_ratio": 2.9238220003999715,
+      "std_rms_ratio": 0.1713645220810944,
+      "mean_post_lag1": -0.049024838558014566,
+      "std_post_lag1": 0.0555232328152622,
+      "classification_counts": {
+        "ambiguous": 66,
+        "measurement_system_change": 34
+      }
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.005,
+      "trials": 100,
+      "mean_rms_ratio": 4.882808935364034,
+      "std_rms_ratio": 0.31891136558648936,
+      "mean_post_lag1": -0.061294098368446404,
+      "std_post_lag1": 0.05882630578631721,
+      "classification_counts": {
+        "measurement_system_change": 98,
+        "physical_or_model_change": 2
+      }
+    },
+    {
+      "type": "measurement_change",
+      "value": 0.01,
+      "trials": 100,
+      "mean_rms_ratio": 9.630840866913845,
+      "std_rms_ratio": 0.5881725108540855,
+      "mean_post_lag1": -0.05383350329017289,
+      "std_post_lag1": 0.05145007777403497,
+      "classification_counts": {
+        "measurement_system_change": 100
+      }
+    }
+  ],
+  "scientific_boundary": "Finite computational robustness test only. Thresholds remain provisional and are not claimed to generalize across physical platforms."
+}

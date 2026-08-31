@@ -1,0 +1,26 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-006",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "selection": "prediction states separated by at least 100 acquisition increments",
+  "original_predictions": 3968,
+  "nonoverlapping_predictions": 40,
+  "original_mean_innovation": 0.00592392142932573,
+  "nonoverlap_mean_innovation": 0.009367060565381594,
+  "nonoverlap_p95": 0.016891795317300923,
+  "nonoverlap_p99": 0.09819561118317621,
+  "nonoverlap_max": 0.10427151220050039,
+  "lag1_innovation_correlation": 0.4565957477456559,
+  "p95_exceedances": [
+    {
+      "window_end_increment": 701,
+      "innovation_norm": 0.10427151220050039,
+      "measurement_state": "DIVERGING"
+    },
+    {
+      "window_end_increment": 801,
+      "innovation_norm": 0.0886922788227461,
+      "measurement_state": "CONVERGING"
+    }
+  ],
+  "scientific_boundary": "This analysis reduces dependence caused by the 100-increment sliding measurement window by retaining states separated by at least one full window. It tests whether unusually large measurement-space innovations remain visible without heavy window overlap. No physical failure or degradation mechanism is inferred."
+}

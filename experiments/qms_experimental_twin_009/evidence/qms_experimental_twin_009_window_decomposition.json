@@ -1,0 +1,68 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-009",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "window_size": 100,
+  "targets": [
+    701,
+    801
+  ],
+  "results": {
+    "701": {
+      "previous_window": {
+        "start": 502,
+        "end": 601,
+        "total_count": 956.0,
+        "changed_pixels": 945,
+        "centroid_x": 249.73535564853557,
+        "centroid_y": 238.5397489539749,
+        "radial_spread": 146.60494525542464
+      },
+      "current_window": {
+        "start": 602,
+        "end": 701,
+        "total_count": 1060.0,
+        "changed_pixels": 1047,
+        "centroid_x": 250.42075471698112,
+        "centroid_y": 249.73962264150944,
+        "radial_spread": 155.00833963944834
+      },
+      "comparison": {
+        "cosine_previous_to_current": 0.5687791624498546,
+        "js_previous_to_current": 0.28986976918899837,
+        "delta_total_count": 104.0,
+        "delta_centroid_x": 0.6853990684455482,
+        "delta_centroid_y": 11.199873687534534,
+        "delta_radial_spread": 8.403394384023699
+      }
+    },
+    "801": {
+      "previous_window": {
+        "start": 602,
+        "end": 701,
+        "total_count": 1060.0,
+        "changed_pixels": 1047,
+        "centroid_x": 250.42075471698112,
+        "centroid_y": 249.73962264150944,
+        "radial_spread": 155.00833963944834
+      },
+      "current_window": {
+        "start": 702,
+        "end": 801,
+        "total_count": 1008.0,
+        "changed_pixels": 992,
+        "centroid_x": 266.3065476190476,
+        "centroid_y": 251.72420634920636,
+        "radial_spread": 145.06180813951391
+      },
+      "comparison": {
+        "cosine_previous_to_current": 0.5534690594761733,
+        "js_previous_to_current": 0.30661854166898483,
+        "delta_total_count": -52.0,
+        "delta_centroid_x": 15.88579290206647,
+        "delta_centroid_y": 1.9845837076969133,
+        "delta_radial_spread": -9.946531499934423
+      }
+    }
+  },
+  "scientific_boundary": "This experiment characterizes large predictive innovations at the same 100-increment aggregation scale used by the experimental twin. Differences describe measurement-distribution changes only; no detector failure or physical degradation mechanism is inferred."
+}

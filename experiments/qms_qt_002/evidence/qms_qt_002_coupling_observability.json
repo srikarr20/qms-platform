@@ -1,0 +1,152 @@
+{
+  "experiment": "QMS-QT-002",
+  "title": "Field-mode observability under dynamical coupling",
+  "measurement": "single external x1 quadrature",
+  "state": [
+    "x1",
+    "p1",
+    "x2",
+    "p2"
+  ],
+  "results": [
+    {
+      "coupling": 0.0,
+      "rank": 2,
+      "nullity": 2,
+      "singular_values": [
+        1.4759364832901227,
+        1.3638825460563622,
+        0.0,
+        0.0
+      ],
+      "condition_number_nonzero": 1.0821580550009693,
+      "null_space_basis": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "coupling": 0.001,
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        1.4759367399545442,
+        1.3638827264261308,
+        0.0008874085430968148,
+        0.0006717580322117383
+      ],
+      "condition_number_nonzero": 2197.125555901546,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "coupling": 0.005,
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        1.4759428999464914,
+        1.3638870553172364,
+        0.004437023183197904,
+        0.0033587802679487916
+      ],
+      "condition_number_nonzero": 439.42823948047374,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "coupling": 0.01,
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        1.4759621504885108,
+        1.3639005833081166,
+        0.008873924288480259,
+        0.006717498703621991
+      ],
+      "condition_number_nonzero": 219.719007864146,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "coupling": 0.05,
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        1.4765786214431498,
+        1.3643336438322922,
+        0.044350084482471325,
+        0.033577599002072925
+      ],
+      "condition_number_nonzero": 43.97511035115979,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "coupling": 0.1,
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        1.478510756357145,
+        1.3656890121074887,
+        0.08857795206056754,
+        0.06709332379492831
+      ],
+      "condition_number_nonzero": 22.036630065850275,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "coupling": 0.18,
+      "rank": 4,
+      "nullity": 0,
+      "singular_values": [
+        1.4843322693280667,
+        1.3697553977628463,
+        0.15878155058391963,
+        0.12043482000278952
+      ],
+      "condition_number_nonzero": 12.324776748897756,
+      "null_space_basis": [
+        [],
+        [],
+        [],
+        []
+      ]
+    }
+  ],
+  "scientific_boundary": "Finite two-mode linear Gaussian computational model only."
+}

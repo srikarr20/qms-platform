@@ -1,0 +1,102 @@
+{
+  "experiment": "QMS-QT-005F",
+  "title": "Adaptive twin recovery across internal coupling perturbation magnitude",
+  "baseline_coupling": 0.18,
+  "measurement_channels": [
+    "x1",
+    "x2"
+  ],
+  "results": [
+    {
+      "true_g_after": 0.16,
+      "trials": 100,
+      "mean_estimated_g": 0.15988,
+      "std_estimated_g": 0.004541541588491736,
+      "mean_absolute_g_error": 0.003640000000000003,
+      "fraction_within_0.01": 0.97,
+      "mean_fixed_error": 0.0008343896317989304,
+      "mean_adaptive_error": 0.0007765664805774482,
+      "mean_error_improvement_fraction": 0.06827332100842813,
+      "fraction_trials_improved": 0.96,
+      "mean_fixed_mode2_error": 0.0005395312990315024,
+      "mean_adaptive_mode2_error": 0.0005092346193203549,
+      "mean_mode2_improvement_fraction": 0.05487457898859762
+    },
+    {
+      "true_g_after": 0.14,
+      "trials": 100,
+      "mean_estimated_g": 0.13920000000000002,
+      "std_estimated_g": 0.004156921938165307,
+      "mean_absolute_g_error": 0.0032400000000000016,
+      "fraction_within_0.01": 0.98,
+      "mean_fixed_error": 0.0009912790681997296,
+      "mean_adaptive_error": 0.0007887899546334985,
+      "mean_error_improvement_fraction": 0.20223132201749838,
+      "fraction_trials_improved": 1.0,
+      "mean_fixed_mode2_error": 0.0006144976340361995,
+      "mean_adaptive_mode2_error": 0.0005189898159733675,
+      "mean_mode2_improvement_fraction": 0.15254129376202372
+    },
+    {
+      "true_g_after": 0.12,
+      "trials": 100,
+      "mean_estimated_g": 0.12041999999999999,
+      "std_estimated_g": 0.004735356375184448,
+      "mean_absolute_g_error": 0.003540000000000001,
+      "fraction_within_0.01": 0.94,
+      "mean_fixed_error": 0.0012159676528973875,
+      "mean_adaptive_error": 0.0007965654677184482,
+      "mean_error_improvement_fraction": 0.34384411109431484,
+      "fraction_trials_improved": 1.0,
+      "mean_fixed_mode2_error": 0.000703209906905921,
+      "mean_adaptive_mode2_error": 0.0005207661855949563,
+      "mean_mode2_improvement_fraction": 0.2565076430564821
+    },
+    {
+      "true_g_after": 0.1,
+      "trials": 100,
+      "mean_estimated_g": 0.10026,
+      "std_estimated_g": 0.004304927409376381,
+      "mean_absolute_g_error": 0.003300000000000003,
+      "fraction_within_0.01": 0.96,
+      "mean_fixed_error": 0.0014619362329071014,
+      "mean_adaptive_error": 0.0007808593349837306,
+      "mean_error_improvement_fraction": 0.4644454296842542,
+      "fraction_trials_improved": 1.0,
+      "mean_fixed_mode2_error": 0.0007781474327133607,
+      "mean_adaptive_mode2_error": 0.0005065230036617355,
+      "mean_mode2_improvement_fraction": 0.3455209345052637
+    },
+    {
+      "true_g_after": 0.08,
+      "trials": 100,
+      "mean_estimated_g": 0.08049999999999999,
+      "std_estimated_g": 0.004339354790749423,
+      "mean_absolute_g_error": 0.003219999999999997,
+      "fraction_within_0.01": 0.99,
+      "mean_fixed_error": 0.0017119855115525042,
+      "mean_adaptive_error": 0.0007908102670907905,
+      "mean_error_improvement_fraction": 0.5369653987295959,
+      "fraction_trials_improved": 1.0,
+      "mean_fixed_mode2_error": 0.0008685681493454916,
+      "mean_adaptive_mode2_error": 0.0005206355799929488,
+      "mean_mode2_improvement_fraction": 0.39787752475518284
+    },
+    {
+      "true_g_after": 0.06,
+      "trials": 100,
+      "mean_estimated_g": 0.06012000000000002,
+      "std_estimated_g": 0.0043892596186600775,
+      "mean_absolute_g_error": 0.0036,
+      "fraction_within_0.01": 0.99,
+      "mean_fixed_error": 0.0020289932581940722,
+      "mean_adaptive_error": 0.0007817994978008032,
+      "mean_error_improvement_fraction": 0.6140364501325982,
+      "fraction_trials_improved": 1.0,
+      "mean_fixed_mode2_error": 0.0009507948483725848,
+      "mean_adaptive_mode2_error": 0.0005146052889072283,
+      "mean_mode2_improvement_fraction": 0.456086630828555
+    }
+  ],
+  "scientific_boundary": "Finite linear Gaussian computational robustness study using two abstract external observables, a known model family, and bounded grid-search parameter estimation. Results do not establish general physical quantum-field twin adaptation."
+}

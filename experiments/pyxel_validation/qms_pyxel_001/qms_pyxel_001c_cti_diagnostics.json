@@ -1,0 +1,91 @@
+{
+  "experiment": "QMS-PYXEL-001C",
+  "title": "QMS diagnostics of Pyxel CTI degradation",
+  "simulator": {
+    "framework": "Pyxel",
+    "version": "3.0.2",
+    "detector": "CCD"
+  },
+  "controlled_variable": "charge_transfer.cdm.trap_densities",
+  "cti_parameters": {
+    "direction": "parallel",
+    "trap_release_times": [
+      0.03
+    ],
+    "sigma": [
+      1e-10
+    ],
+    "beta": 0.3,
+    "max_electron_volume": 1.62e-10,
+    "transfer_period": 0.00094722,
+    "charge_injection": false
+  },
+  "output_node_noise": 0.0,
+  "results": [
+    {
+      "condition": "cti_000",
+      "trap_density": 0.0,
+      "image_cosine": 1.0,
+      "image_pearson": 1.0,
+      "image_rmse": 0.0,
+      "image_nrmse": 0.0,
+      "image_js": 0.0,
+      "image_difference_std": 0.0,
+      "pixel_cosine": 1.0,
+      "pixel_pearson": 0.9999999999999999,
+      "pixel_rmse": 0.0,
+      "pixel_difference_std": 0.0,
+      "pixel_mean": 727.7582913580247,
+      "pixel_std": 4051.684269935907
+    },
+    {
+      "condition": "cti_005",
+      "trap_density": 5.0,
+      "image_cosine": 1.0,
+      "image_pearson": 1.0,
+      "image_rmse": 0.0,
+      "image_nrmse": 0.0,
+      "image_js": 0.0,
+      "image_difference_std": 0.0,
+      "pixel_cosine": 0.9999999999999986,
+      "pixel_pearson": 0.9999999999999999,
+      "pixel_rmse": 1.4464211779299867e-09,
+      "pixel_difference_std": 1.4290413332012847e-09,
+      "pixel_mean": 727.7582913578013,
+      "pixel_std": 4051.684269935755
+    },
+    {
+      "condition": "cti_020",
+      "trap_density": 20.0,
+      "image_cosine": 1.0,
+      "image_pearson": 1.0,
+      "image_rmse": 0.0,
+      "image_nrmse": 0.0,
+      "image_js": 0.0,
+      "image_difference_std": 0.0,
+      "pixel_cosine": 0.999999999999999,
+      "pixel_pearson": 1.0,
+      "pixel_rmse": 5.785675383742926e-09,
+      "pixel_difference_std": 5.716151840989249e-09,
+      "pixel_mean": 727.7582913571305,
+      "pixel_std": 4051.6842699352965
+    },
+    {
+      "condition": "cti_060",
+      "trap_density": 60.0,
+      "image_cosine": 1.0,
+      "image_pearson": 1.0,
+      "image_rmse": 0.0,
+      "image_nrmse": 0.0,
+      "image_js": 0.0,
+      "image_difference_std": 0.0,
+      "pixel_cosine": 0.999999999999999,
+      "pixel_pearson": 1.0,
+      "pixel_rmse": 1.735702225403253e-08,
+      "pixel_difference_std": 1.7148451550859272e-08,
+      "pixel_mean": 727.7582913553421,
+      "pixel_std": 4051.6842699340746
+    }
+  ],
+  "scientific_boundary": "Controlled Pyxel CCD simulation using a synthetic fixed scene. CTI is introduced using Pyxel's Charge Distortion Model. This is not experimental detector validation."
+}

@@ -1,0 +1,129 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-014",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "samples": 34,
+  "conditioning_metric": "transition_l2",
+  "linear_model": {
+    "intercept": -0.05186274137894716,
+    "slope": 0.6834937625906964
+  },
+  "target_leave_one_out": {
+    "701": {
+      "window_end": 701,
+      "observed_innovation": 0.10427151220050039,
+      "loo_expected_innovation": 0.011254764059559004,
+      "loo_residual": 0.09301674814094138,
+      "loo_robust_surprise": 19.444017350285122
+    },
+    "801": {
+      "window_end": 801,
+      "observed_innovation": 0.0886922788227461,
+      "loo_expected_innovation": 0.013144064959096168,
+      "loo_residual": 0.07554821386364993,
+      "loo_robust_surprise": 23.823745148765227
+    }
+  },
+  "top_surprises": [
+    {
+      "rank": 1,
+      "window_end": 701,
+      "innovation_norm": 0.10427151220050039,
+      "transition_l2": 0.09944112893621752,
+      "expected_innovation_from_transition": 0.016104649993934732,
+      "innovation_residual": 0.08816686220656567,
+      "robust_surprise": 12.856996038441434,
+      "percentile": 100.0
+    },
+    {
+      "rank": 2,
+      "window_end": 801,
+      "innovation_norm": 0.0886922788227461,
+      "transition_l2": 0.10586634716012121,
+      "expected_innovation_from_transition": 0.020496246573256972,
+      "innovation_residual": 0.06819603224948914,
+      "robust_surprise": 10.046256396001137,
+      "percentile": 97.05882352941177
+    },
+    {
+      "rank": 3,
+      "window_end": 2101,
+      "innovation_norm": 0.010264044550672438,
+      "transition_l2": 0.07963630796549287,
+      "expected_innovation_from_transition": 0.002568178391219006,
+      "innovation_residual": 0.007695866159453432,
+      "robust_surprise": 1.531326592433836,
+      "percentile": 94.11764705882352
+    },
+    {
+      "rank": 4,
+      "window_end": 1401,
+      "innovation_norm": 0.008927003346996337,
+      "transition_l2": 0.07795332767103674,
+      "expected_innovation_from_transition": 0.0014178718573951907,
+      "innovation_residual": 0.007509131489601147,
+      "robust_surprise": 1.5050451339115858,
+      "percentile": 91.17647058823529
+    },
+    {
+      "rank": 5,
+      "window_end": 3001,
+      "innovation_norm": 0.008285239927338291,
+      "transition_l2": 0.081363908775845,
+      "expected_innovation_from_transition": 0.0037489827693413177,
+      "innovation_residual": 0.004536257157996973,
+      "robust_surprise": 1.0866360966410955,
+      "percentile": 88.23529411764706
+    },
+    {
+      "rank": 6,
+      "window_end": 1501,
+      "innovation_norm": 0.013112822501225085,
+      "transition_l2": 0.09230336536891687,
+      "expected_innovation_from_transition": 0.011226033116837612,
+      "innovation_residual": 0.001886789384387473,
+      "robust_surprise": 0.7137440276255324,
+      "percentile": 85.29411764705883
+    },
+    {
+      "rank": 7,
+      "window_end": 2701,
+      "innovation_norm": 0.0027714058143546135,
+      "transition_l2": 0.07735204242039523,
+      "expected_innovation_from_transition": 0.0010068971390439288,
+      "innovation_residual": 0.0017645086753106847,
+      "robust_surprise": 0.6965339648867,
+      "percentile": 82.35294117647058
+    },
+    {
+      "rank": 8,
+      "window_end": 3101,
+      "innovation_norm": 0.0018130664729256903,
+      "transition_l2": 0.07632839283719477,
+      "expected_innovation_from_transition": 0.00030723903384784895,
+      "innovation_residual": 0.0015058274390778413,
+      "robust_surprise": 0.6601265843723275,
+      "percentile": 79.41176470588235
+    },
+    {
+      "rank": 9,
+      "window_end": 2801,
+      "innovation_norm": 0.008060780153962587,
+      "transition_l2": 0.08790195365241266,
+      "expected_innovation_from_transition": 0.008217695662013372,
+      "innovation_residual": -0.00015691550805078426,
+      "robust_surprise": 0.4261083925031206,
+      "percentile": 76.47058823529412
+    },
+    {
+      "rank": 10,
+      "window_end": 2001,
+      "innovation_norm": 0.0011153339405571973,
+      "transition_l2": 0.07798134778261245,
+      "expected_innovation_from_transition": 0.0014370234288842848,
+      "innovation_residual": -0.00032168948832708754,
+      "robust_surprise": 0.4029177309532148,
+      "percentile": 73.52941176470588
+    }
+  ],
+  "scientific_boundary": "This analysis tests whether predictive innovation remains unusual after accounting for ordinary measurement-transition magnitude. Surprise means unexpected relative to this simple empirical model; it does not identify physical cause, detector failure, degradation, or causality."
+}

@@ -1,0 +1,177 @@
+{
+  "experiment": "QMS-EXPERIMENTAL-TWIN-005",
+  "dataset": "Glasgow Heralded Diffraction SM",
+  "event_definition": "P99-or-higher one-step innovation",
+  "high_event_count": 40,
+  "adjacent_pairs": 19,
+  "pairs_within_5_windows": 19,
+  "pairs_within_10_windows": 19,
+  "contiguous_clusters": [
+    [
+      701,
+      702
+    ],
+    [
+      724,
+      725
+    ],
+    [
+      801,
+      802
+    ],
+    [
+      824,
+      825
+    ],
+    [
+      950,
+      951
+    ],
+    [
+      1050,
+      1051
+    ],
+    [
+      1085,
+      1086
+    ],
+    [
+      1497,
+      1498
+    ],
+    [
+      1597,
+      1598
+    ],
+    [
+      1675,
+      1676
+    ],
+    [
+      2315,
+      2316
+    ],
+    [
+      2415,
+      2416
+    ],
+    [
+      2432,
+      2433
+    ],
+    [
+      2532,
+      2533
+    ],
+    [
+      2761,
+      2762
+    ],
+    [
+      2861,
+      2862
+    ],
+    [
+      3292
+    ],
+    [
+      3392
+    ],
+    [
+      3457,
+      3458
+    ],
+    [
+      3557,
+      3558
+    ],
+    [
+      3644,
+      3645
+    ]
+  ],
+  "multi_event_clusters": [
+    [
+      701,
+      702
+    ],
+    [
+      724,
+      725
+    ],
+    [
+      801,
+      802
+    ],
+    [
+      824,
+      825
+    ],
+    [
+      950,
+      951
+    ],
+    [
+      1050,
+      1051
+    ],
+    [
+      1085,
+      1086
+    ],
+    [
+      1497,
+      1498
+    ],
+    [
+      1597,
+      1598
+    ],
+    [
+      1675,
+      1676
+    ],
+    [
+      2315,
+      2316
+    ],
+    [
+      2415,
+      2416
+    ],
+    [
+      2432,
+      2433
+    ],
+    [
+      2532,
+      2533
+    ],
+    [
+      2761,
+      2762
+    ],
+    [
+      2861,
+      2862
+    ],
+    [
+      3457,
+      3458
+    ],
+    [
+      3557,
+      3558
+    ],
+    [
+      3644,
+      3645
+    ]
+  ],
+  "monte_carlo_trials": 10000,
+  "null_mean_adjacent_pairs": 0.3955,
+  "null_mean_pairs_within_5": 1.9118,
+  "p_adjacent": 0.0,
+  "p_within_5": 0.0,
+  "scientific_boundary": "This test evaluates temporal clustering of unusually large short-horizon measurement-distribution innovations in one real Glasgow detector sequence. Clustering does not establish detector failure, degradation mechanism, or causality."
+}

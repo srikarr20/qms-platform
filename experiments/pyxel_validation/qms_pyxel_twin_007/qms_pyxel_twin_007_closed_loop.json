@@ -1,0 +1,87 @@
+{
+  "experiment": "QMS-PYXEL-TWIN-007",
+  "title": "Autonomous predictive adaptive detector twin",
+  "controller": {
+    "prediction": "constant-velocity parameter extrapolation",
+    "cti_innovation_threshold": 0.2,
+    "noise_innovation_threshold": 0.1
+  },
+  "states": 6,
+  "reestimation_events": 2,
+  "measurement_assimilation_events": 2,
+  "history": [
+    {
+      "time": "t00",
+      "mode": "INITIALIZED_FROM_MEASUREMENT",
+      "cti": 100000001.75639752,
+      "noise": 0.0001001751228608572
+    },
+    {
+      "time": "t01",
+      "mode": "INITIALIZED_FROM_MEASUREMENT",
+      "cti": 499999962.5062581,
+      "noise": 0.0001997220572785066
+    },
+    {
+      "time": "t02",
+      "predicted_cti": 899999923.2561185,
+      "predicted_noise": 0.00029926899169615596,
+      "measured_cti": 1000000057.2949046,
+      "measured_noise": 0.0002998646882657597,
+      "cti_innovation_relative": 0.10000012830928824,
+      "noise_innovation_relative": 0.001986551244325908,
+      "cti_alert": false,
+      "noise_alert": false,
+      "trigger_reestimate": false,
+      "mode": "MEASUREMENT_ASSIMILATED",
+      "updated_cti": 1000000057.2949046,
+      "updated_noise": 0.0002998646882657597
+    },
+    {
+      "time": "t03",
+      "predicted_cti": 1500000152.0835512,
+      "predicted_noise": 0.00040000731925301283,
+      "measured_cti": 4999999795.26113,
+      "measured_noise": 0.000500360296226467,
+      "cti_innovation_relative": 0.6999999572989558,
+      "noise_innovation_relative": 0.20056143089345688,
+      "cti_alert": true,
+      "noise_alert": true,
+      "trigger_reestimate": true,
+      "mode": "REESTIMATED_AND_ADAPTED",
+      "updated_cti": 4999999795.26113,
+      "updated_noise": 0.000500360296226467
+    },
+    {
+      "time": "t04",
+      "predicted_cti": 8999999533.227356,
+      "predicted_noise": 0.0007008559041871744,
+      "measured_cti": 9999999810.07502,
+      "measured_noise": 0.0006990284828602767,
+      "cti_innovation_relative": 0.10000002958401676,
+      "noise_innovation_relative": 0.002614230137547824,
+      "cti_alert": false,
+      "noise_alert": false,
+      "trigger_reestimate": false,
+      "mode": "MEASUREMENT_ASSIMILATED",
+      "updated_cti": 9999999810.07502,
+      "updated_noise": 0.0006990284828602767
+    },
+    {
+      "time": "t05",
+      "predicted_cti": 14999999824.888908,
+      "predicted_noise": 0.0008976966694940864,
+      "measured_cti": 19999997512.74741,
+      "measured_noise": 0.0009975733312328789,
+      "cti_innovation_relative": 0.24999991548357195,
+      "noise_innovation_relative": 0.10011961889093118,
+      "cti_alert": true,
+      "noise_alert": true,
+      "trigger_reestimate": true,
+      "mode": "REESTIMATED_AND_ADAPTED",
+      "updated_cti": 19999997512.74741,
+      "updated_noise": 0.0009975733312328789
+    }
+  ],
+  "scientific_boundary": "Controller operates on parameter estimates obtained from controlled Pyxel simulations. Re-estimation outputs are previously validated estimators within known mechanism families. This demonstrates closed-loop computational twin logic, not autonomous real-hardware operation."
+}

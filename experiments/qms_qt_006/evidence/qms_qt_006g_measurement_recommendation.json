@@ -1,0 +1,203 @@
+{
+  "experiment": "QMS-QT-006G",
+  "title": "Geometry-based recommendation of an additional measurement observable",
+  "starting_measurement": [
+    "x1"
+  ],
+  "candidate_additions": [
+    "p1",
+    "x2",
+    "p2"
+  ],
+  "target_unresolved_mechanism": {
+    "gamma1": 0.12
+  },
+  "recommendation_metric": "Worst-case trajectory-subspace separation between the target dynamics and the closest model in the existing candidate library.",
+  "ranking": [
+    {
+      "addition": "p2",
+      "measurement_channels": [
+        "x1",
+        "p2"
+      ],
+      "worst_case_separation_score": 0.003111017521349268,
+      "closest_wrong_family": "g_only",
+      "closest_wrong_parameters": {
+        "g": 0.18
+      },
+      "mean_family_separation": 0.003111017521349268,
+      "median_family_separation": 0.003111017521349268,
+      "family_results": [
+        {
+          "family": "g_only",
+          "minimum_subspace_mismatch": 0.003111017521349268,
+          "closest_parameters": {
+            "g": 0.18
+          }
+        },
+        {
+          "family": "omega2_only",
+          "minimum_subspace_mismatch": 0.003111017521349268,
+          "closest_parameters": {
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "gamma2_only",
+          "minimum_subspace_mismatch": 0.003111017521349268,
+          "closest_parameters": {
+            "gamma2": 0.06
+          }
+        },
+        {
+          "family": "g_gamma2",
+          "minimum_subspace_mismatch": 0.003111017521349268,
+          "closest_parameters": {
+            "g": 0.18,
+            "gamma2": 0.06
+          }
+        },
+        {
+          "family": "g_omega2",
+          "minimum_subspace_mismatch": 0.003111017521349268,
+          "closest_parameters": {
+            "g": 0.18,
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "omega2_gamma2",
+          "minimum_subspace_mismatch": 0.003111017521349268,
+          "closest_parameters": {
+            "omega2": 1.2,
+            "gamma2": 0.06
+          }
+        }
+      ]
+    },
+    {
+      "addition": "x2",
+      "measurement_channels": [
+        "x1",
+        "x2"
+      ],
+      "worst_case_separation_score": 0.0031097553105958594,
+      "closest_wrong_family": "g_only",
+      "closest_wrong_parameters": {
+        "g": 0.18
+      },
+      "mean_family_separation": 0.00310975531059586,
+      "median_family_separation": 0.0031097553105958594,
+      "family_results": [
+        {
+          "family": "g_only",
+          "minimum_subspace_mismatch": 0.0031097553105958594,
+          "closest_parameters": {
+            "g": 0.18
+          }
+        },
+        {
+          "family": "omega2_only",
+          "minimum_subspace_mismatch": 0.0031097553105958594,
+          "closest_parameters": {
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "gamma2_only",
+          "minimum_subspace_mismatch": 0.0031097553105958594,
+          "closest_parameters": {
+            "gamma2": 0.06
+          }
+        },
+        {
+          "family": "g_gamma2",
+          "minimum_subspace_mismatch": 0.0031097553105958594,
+          "closest_parameters": {
+            "g": 0.18,
+            "gamma2": 0.06
+          }
+        },
+        {
+          "family": "g_omega2",
+          "minimum_subspace_mismatch": 0.0031097553105958594,
+          "closest_parameters": {
+            "g": 0.18,
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "omega2_gamma2",
+          "minimum_subspace_mismatch": 0.0031097553105958594,
+          "closest_parameters": {
+            "omega2": 1.2,
+            "gamma2": 0.06
+          }
+        }
+      ]
+    },
+    {
+      "addition": "p1",
+      "measurement_channels": [
+        "x1",
+        "p1"
+      ],
+      "worst_case_separation_score": 0.0004315502127290026,
+      "closest_wrong_family": "g_gamma2",
+      "closest_wrong_parameters": {
+        "g": 0.172,
+        "gamma2": 0.092
+      },
+      "mean_family_separation": 0.0006907539364210385,
+      "median_family_separation": 0.0006882855642430862,
+      "family_results": [
+        {
+          "family": "g_only",
+          "minimum_subspace_mismatch": 0.000944354888556361,
+          "closest_parameters": {
+            "g": 0.2
+          }
+        },
+        {
+          "family": "omega2_only",
+          "minimum_subspace_mismatch": 0.0009598311488248834,
+          "closest_parameters": {
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "gamma2_only",
+          "minimum_subspace_mismatch": 0.00043221623992981145,
+          "closest_parameters": {
+            "gamma2": 0.088
+          }
+        },
+        {
+          "family": "g_gamma2",
+          "minimum_subspace_mismatch": 0.0004315502127290026,
+          "closest_parameters": {
+            "g": 0.172,
+            "gamma2": 0.092
+          }
+        },
+        {
+          "family": "g_omega2",
+          "minimum_subspace_mismatch": 0.000944354888556361,
+          "closest_parameters": {
+            "g": 0.2,
+            "omega2": 1.2
+          }
+        },
+        {
+          "family": "omega2_gamma2",
+          "minimum_subspace_mismatch": 0.00043221623992981145,
+          "closest_parameters": {
+            "omega2": 1.2,
+            "gamma2": 0.088
+          }
+        }
+      ]
+    }
+  ],
+  "scientific_boundary": "Finite linear Gaussian computational measurement-design analysis. The target mechanism, candidate observable set and wrong-model library are specified in advance. The score is a geometric heuristic for this model and is not a universal measure of experimental information or quantum measurement value."
+}

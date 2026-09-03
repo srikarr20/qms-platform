@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "qms-platform"
-version = "0.1.0"
+version = "0.4.0"
 description = "Modality-aware measurement twin platform for reconstruction, observability, dynamics, and replay"
 requires-python = ">=3.9"
 dependencies = [

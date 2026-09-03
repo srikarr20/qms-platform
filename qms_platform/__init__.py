@@ -32,7 +32,7 @@ from adapters.mri_kspace_adapter import (
     MRIKSpaceReconstructionAdapter,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.4.0"
 
 __all__ = [
     "Measurement",

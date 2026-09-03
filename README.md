@@ -161,7 +161,7 @@ Zenodo, 2026.
 
 ### Current software release
 
-QMS Platform v0.3.2 — Representation Diagnostics and Real-Measurement Validation
+QMS Platform v0.4.0 — Three-Twin Architecture and External Validation Packages
 
 **Software DOI:** 10.5281/zenodo.22060410
 

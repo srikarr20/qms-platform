@@ -1,6 +1,6 @@
 {
-  "title": "QMS Platform: Representation Diagnostics and Real-Measurement Validation",
-  "description": "QMS Platform v0.3.1 extends the quantum measurement observability and reconstruction-assurance framework with representation diagnostics and expanded real-measurement validation. The release includes QMS-REP-001 through QMS-REP-004 and QMS-REAL-001 through QMS-REAL-025, with validation on superconducting-qubit IQ measurements and raw Glasgow single-photon detector acquisitions. Across four Glasgow conditions spanning heralded/ghost and diffraction/imaging experiments, unchanged distribution-level convergence and state-classification logic transfers without dataset-specific retuning. Negative causal-drift experiments are retained explicitly; prospective causal early-warning capability, universal detector-health calibration, universal drift timing, universal representation geometry, and cross-laboratory transfer are not established.",
+  "title": "QMS Platform: Three-Twin Architecture for Measurement Observability and Adaptive Inference",
+  "description": "QMS Platform v0.4.0 introduces the provider-independent Three-Twin Architecture of the Quantum Measurement Stack (QMS): a finite two-mode Gaussian Quantum Twin for observability, state reconstruction, estimation, physicality checks, parameter identification and adaptation; a Detector Twin for residual analysis, stage-wise divergence, inverse calibration, mechanism ranking and detector-state assessment; and a Measurement Twin for causal prediction, innovation analysis, frozen calibration and experimental measurement-state monitoring. The release also separates provider-specific integrations from the QMS core and adds focused external-validation packages for the ESA-developed Pyxel detector-simulation framework and a Glasgow single-photon experimental dataset. The Pyxel pathway currently demonstrates controlled same-forward-model CTI parameter recovery and should be interpreted as an internal consistency test rather than independent detector validation. The Glasgow pathway demonstrates causal-replay measurement-state analysis on real experimental detector measurements with frozen calibration and future-only alerting. This release does not establish quantum-field reconstruction, independently validated real-detector calibration, physical fault attribution, universal detector health monitoring, statistically independent physical events, or prospective experimental validation. The current research focus is blind external validation using independently configured simulations and held-out experimental measurements.",
   "creators": [
     {
       "name": "Srikar, R.",
@@ -8,24 +8,49 @@
       "affiliation": "Independent Research"
     }
   ],
-  "version": "0.3.2",
+  "version": "0.4.0",
   "access_right": "open",
   "upload_type": "software",
   "language": "eng",
   "keywords": [
     "quantum measurement",
     "measurement observability",
-    "reconstruction assurance",
-    "representation diagnostics",
+    "digital twins",
+    "quantum twin",
+    "detector twin",
+    "measurement twin",
+    "state estimation",
+    "system identification",
+    "adaptive measurement",
+    "detector modeling",
     "single-photon detection",
-    "superconducting qubits",
-    "quantum state tomography"
+    "scientific computing"
   ],
   "related_identifiers": [
     {
       "identifier": "https://doi.org/10.5281/zenodo.22057334",
       "relation": "isSupplementTo",
       "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://doi.org/10.5525/gla.researchdata.281",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://doi.org/10.1119/1.4955173",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://doi.org/10.1117/1.JATIS.8.4.048002",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://gitlab.com/esa/pyxel",
+      "relation": "references",
+      "resource_type": "software"
     }
   ],
   "license": "Apache-2.0"

@@ -197,3 +197,29 @@ Documentation:
 - `docs/pyxel_twin/EVIDENCE_MANIFEST.md`
 
 Scientific limits are documented explicitly in the report and evidence manifest. The current work does not claim calibrated real-detector CTI inference, detector-health scoring, physical degradation diagnosis, ESA hardware validation, or quantum-field reconstruction.
+
+## QMS v0.4.0 Companion Paper
+
+### Quantum Measurement Stack (QMS): A Three-Twin Architecture for Measurement Observability and Adaptive Inference
+
+This paper documents the QMS v0.4.0 Three-Twin Architecture:
+
+- **Quantum Twin** — finite two-mode Gaussian observability, reconstruction, estimation, physicality checks, parameter identification, and adaptation
+- **Detector Twin** — residual analysis, stage-wise divergence, inverse calibration, mechanism ranking, and detector-state assessment
+- **Measurement Twin** — causal prediction, innovation analysis, frozen calibration, and experimental measurement-state monitoring
+
+The paper also summarizes the current validation evidence from the Pyxel detector-simulation integration and the University of Glasgow archival single-photon experimental measurements, while explicitly stating the current scientific boundaries.
+
+Available formats:
+
+- [Manuscript (Markdown)](papers/qms_three_twin_architecture/MANUSCRIPT.md)
+- [Paper (PDF)](papers/qms_three_twin_architecture/QMS_Three_Twin_Architecture_v0.4.0.pdf)
+- [Paper (DOCX)](papers/qms_three_twin_architecture/QMS_Three_Twin_Architecture_v0.4.0.docx)
+
+Current validation status:
+
+- Computational Quantum Twin: validated in finite two-mode Gaussian test systems
+- Pyxel Detector Twin: controlled same-forward-model CTI parameter-recovery validation
+- Glasgow Measurement Twin: causal-replay analysis on real archival single-photon measurements
+- Blind external validation: current next milestone
+
